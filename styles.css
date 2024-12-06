@@ -12,9 +12,18 @@
     left: 10px;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    width: 400px;  /* Increased width */
+    width: 600px;  /* Increased width for a wider box */
     max-height: 500px; /* Optional limit for height */
     overflow-y: auto; /* Scroll if needed */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+/* Ensure image inside story box fits the container */
+#story img {
+    max-width: 100%;     /* Image will fit the width of the container */
+    height: auto;        /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensure the image is contained within the box */
 }
 
 /* Style the intro container (for the introductory content) */
