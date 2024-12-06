@@ -23,18 +23,19 @@
     z-index: 2; /* Ensure it sits above the map and below the story box */
     background: rgba(255, 255, 255, 0.8); /* Transparent background */
     background-image: url('https://radarmukomuko.disway.id/upload/62e613126e0d72afae40ef15b1440c69.jpg'); /* Background image */
-    background-size: cover;
+    background-size: cover; /* Ensures the image covers the container */
     background-position: center;
     background-attachment: fixed; /* Fix the background while scrolling */
-    padding: 20px;
+    padding: 40px;  /* Increased padding for more space */
     width: 100%;    /* Make the container stretch across the screen */
-    max-width: none; /* Remove max width constraint */
+    height: 80vh; /* Set height to 80% of the viewport height */
+    min-height: 400px; /* Ensure a minimum height */
+    box-sizing: border-box; /* Ensure padding is included in width and height */
     margin: 0 auto; /* Remove centering margins */
     top: 10%; /* Adjust top position if needed */
     left: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
     border-radius: 8px; /* Rounded corners */
-    box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 /* Style for h1 within the intro container */
