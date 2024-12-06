@@ -1,65 +1,25 @@
 /* Make the map take up full screen */
 #map {
-    height: 100vh;  /* Full viewport height */
-    width: 100%;    /* Full width of the container */
+  width: 100%;
+  height: 100vh;  /* Full viewport height */
 }
 
 /* Style the story box */
 #story {
-    position: absolute;
-    z-index: 1;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 400px;  /* Increased width */
-    max-height: 500px; /* Optional limit for height */
-    overflow-y: auto; /* Scroll if needed */
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 400px;  /* Increased width */
+  max-height: 500px; /* Optional limit for height */
+  overflow-y: auto; /* Scroll if needed */
 }
 
 /* Style the intro container (for the introductory content) */
-/* Style for the intro container */
 #introContainer {
-    position: absolute;
-    z-index: 2; /* Ensure it sits above the map and below the story box */
-    background: rgba(255, 255, 255, 0.8); /* Transparent background */
-    background-image: url('https://radarmukomuko.disway.id/upload/62e613126e0d72afae40ef15b1440c69.jpg'); /* Background image */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Fix the background while scrolling */
-    padding: 20px;
-    width: 100%;    /* Make the container stretch across the screen */
-    max-width: none; /* Remove max width constraint */
-    margin: 0 auto; /* Remove centering margins */
-    top: 10%; /* Adjust top position if needed */
-    left: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
-    border-radius: 8px; /* Rounded corners */
-    box-sizing: border-box; /* Ensure padding is included in width */
-}
-
-/* Style for h1 within the intro container */
-#introContainer h1 {
-    font-family: "Engravers' Old English BT", serif;
-    font-weight: bold;  /* Bold text */
-    font-size: 4em;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-/* Style for p (paragraph) within the intro container */
-#introContainer p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 30px;
-}
-
-/* Optional container for content inside intro if you need extra styling */
-#introContainer .container {
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
-}
-
+  position: absolute;
+  z-index: 2; /* Ensure it sits above the map and below the story box */
+  background: rgba(255, 255, 255, 0.8); /* Transparent background */
+  background-image: url('https://radarmukomuko.disway.id/upload/62e613126e0d72afae40ef15b1440c
