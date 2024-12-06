@@ -3,6 +3,34 @@
     width: 100%;
     height: 100vh;  /* Full viewport height */
 }
+/* Style for the start button to look like old papyrus */
+#startButton {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWSCua3Vdbj6xILZG9Lo6U899MOIARvrwe6Q&s'); /* Papyrus-like texture */
+    background-size: cover; /* Ensure the texture covers the button */
+    background-position: center; /* Center the texture */
+    color: #5b3e1f; /* Dark brown text color */
+    font-family: 'Papyrus', 'Caveat', cursive; /* Papyrus or similar font */
+    font-size: 1.5em; /* Slightly larger font size */
+    padding: 15px 30px; /* Add padding for a bigger button */
+    border: 2px solid #5b3e1f; /* Brown border */
+    border-radius: 8px; /* Subtle rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for a raised effect */
+    text-shadow: 1px 1px 2px #fff; /* Subtle text shadow for depth */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+/* Hover effect */
+#startButton:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
+}
+
+/* Active (clicked) effect */
+#startButton:active {
+    transform: scale(0.95); /* Slight shrink effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+}
 
 /* Style the story box */
 #story {
