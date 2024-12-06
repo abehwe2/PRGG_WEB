@@ -1,0 +1,11 @@
+Model Information:
+* title:	Benteng Batavia
+* source:	https://sketchfab.com/3d-models/benteng-batavia-fd32a7b6742a4704bf4c5244c1fc314d
+* author:	Izzuddin0804 (https://sketchfab.com/Izzuddin0804)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Benteng Batavia" (https://sketchfab.com/3d-models/benteng-batavia-fd32a7b6742a4704bf4c5244c1fc314d) by Izzuddin0804 (https://sketchfab.com/Izzuddin0804) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
