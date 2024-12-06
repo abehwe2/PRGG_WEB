@@ -1,7 +1,7 @@
 /* Make the map take up full screen */
 #map {
-    width: 100%;
-    height: 100vh;  /* Full viewport height */
+  width: 100%;
+  height: 100vh;  /* Full viewport height */
 }
 /* Style for the start button to look like old papyrus */
 #startButton {
@@ -32,61 +32,40 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
 }
 
-/* Style the story box */
-#story {
-    position: absolute;
-    z-index: 1;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 600px;  /* Increased width for a wider box */
-    max-height: 500px; /* Optional limit for height */
-    overflow-y: auto; /* Scroll if needed */
-    border-radius: 8px; /* Optional rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
-}
-
-/* Ensure image inside story box fits the container */
-#story img {
-    max-width: 100%;     /* Image will fit the width of the container */
-    height: auto;        /* Maintain the aspect ratio */
-    object-fit: contain; /* Ensure the image is contained within the box */
-}
-
-/* Style the intro container (for the introductory content) */
+/* Style for the full-screen intro container */
 #introContainer {
-    position: absolute;
-    z-index: 2; /* Ensure it sits above the map and below the story box */
-    background: rgba(255, 255, 255, 0.8); /* Transparent background */
-    background-image: url('https://radarmukomuko.disway.id/upload/62e613126e0d72afae40ef15b1440c69.jpg'); /* Background image */
-    background-size: cover; /* Ensures the image covers the container */
-    background-position: center;
-    background-attachment: fixed; /* Fix the background while scrolling */
-    padding: 40px;  /* Increased padding for more space */
-    width: 100%;    /* Make the container stretch across the screen */
-    height: 80vh; /* Set height to 80% of the viewport height */
-    min-height: 400px; /* Ensure a minimum height */
-    box-sizing: border-box; /* Ensure padding is included in width and height */
-    margin: 0 auto; /* Remove centering margins */
-    top: 10%; /* Adjust top position if needed */
-    left: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
-    border-radius: 8px; /* Rounded corners */
+  position: absolute;
+  z-index: 2; /* Ensure it sits above the map and story box */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  background-image: url('https://radarmukomuko.disway.id/upload/62e613126e0d72afae40ef15b1440c69.jpg'); /* Replace with your background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+  background-attachment: fixed; /* Fix the background while scrolling */
+  padding: 40px;
+  width: 100%; /* Full width */
+  height: 100vh; /* Full viewport height */
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  display: flex; /* Flex layout for centering content */
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+  color: white; /* Text color for visibility */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
 }
 
-/* Style for h1 within the intro container */
-#introContainer h1 {
-    font-family: "Engravers' Old English BT", serif;
-    font-weight: bold;  /* Bold text */
-    font-size: 4em;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-/* Style for p (paragraph) within the intro container */
-#introContainer p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 30px;
+/* Style for the story box */
+#story {
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  width: 400px; /* Fixed width */
+  max-height: 500px; /* Limit height */
+  overflow-y: auto; /* Enable scroll if content overflows */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+  border-radius: 8px; /* Rounded corners */
 }
