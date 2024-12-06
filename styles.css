@@ -1,0 +1,24 @@
+#map {
+    width: 100%;   /* Full width of the parent */
+    height: 600px; /* Increased height */
+}
+
+#introContainer {
+    position: absolute;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 80%;    /* Set a width for the intro container */
+    max-width: 600px; /* Maximum width for larger screens */
+    margin: 20px auto; /* Center the container */
+}
+
+#story {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 300px; /* Fixed width for story content */
+}
