@@ -37,7 +37,7 @@ const chapters = [
     hidden: false,
     title: "13 April 1628",
     image:
-      "https://drive.google.com/uc?export=view&id=1aQjo2us6W5Dhalp8Wqqw-7rofxTxcST_",
+      "SER 1/13 April 1628.png",
     description:
       "Kyai Rangga tiba dengan 14 kapal bermuatan beras ke Batavia atas perintah Tumenggung Tegal. Kyai Rangga memohon kepada Belanda untuk membantu Sultan Agung untuk melawan Banten dan mengirim utusan ke Mataram Islam. Permohonan pertama dipertimbangkan oleh Belanda, sedangkan untuk permohonan terakhir ditolak karena seluruh pelabuhan ditutup ketat.",
     location: {
