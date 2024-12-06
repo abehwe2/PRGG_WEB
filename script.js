@@ -132,6 +132,26 @@ const chapters = [
     onChapterEnter: [],
     onChapterExit: [],
   },
+    {
+    id: "batavia-26-agustus-1628",
+    alignment: "right",
+    hidden: false,
+    title: "26 Agustus 1628",
+    image: "/SER 1/26 Agustus 1628 B.png",
+    description:
+      "Pada pagi hari sebelumnya, Belanda mendengar kabar datangnya pasukan di bawah kepemimpinan Tumenggung Baureksa dari Kendal. Saat itu juga Belanda langsung mempersiapkan diri dengan melakukan pengosongan kota pada bagian barat dan selatan. Rumah serta bangunan - bangunan dibakar dan diratakan dengan tanah. Tujuannya adalah untuk mempermudah Belanda menghadapi pasukan Mataram Islam.",
+    location: {
+      center: [106.819563, -6.1416079],
+      zoom: 13,
+      pitch: 0,
+      bearing: 0,
+    },
+    mapAnimation: "flyTo",
+    rotateAnimation: false,
+    callback: "",
+    onChapterEnter: [],
+    onChapterExit: [],
+  },
   {
     id: "benteng-holland-27-agustus-1628",
     alignment: "left",
