@@ -196,7 +196,7 @@ const chapters = [
     id: "benteng-holland-7-september-1628",
     alignment: "right",
     hidden: false,
-    title: "3 September 1628",
+    title: "7 - 8 September 1628",
     image: "/SER 1/7 - 8 September 1628.png",
     description:
       "Penyerangan juga dilakukan pada Benteng Paarel dan Benteng Gelderland di tanggal yang sama. Pasukan Mataram Islam melakukan penyerangan tidak hanya di malam hari, melainkan juga di siang hari saat dimana VOC melakukan patroli. Karena permasalahan ini, VOC menawarkan imbalan 100 bagi siapa saja yang rela menangkap prajurit Mataram Islam. Namun, usaha yang dilakukan VOC ini terbilang sia - sia dan tidak membawa hasil. ",
