@@ -542,6 +542,28 @@ function goToChapter(index) {
     console.error("Chapter data is missing or incomplete:", chapter);
     return;
   }
+// Storytelling navigation
+let currentIndex = 0;
+
+// Function to update the story content and fly to the next chapter
+function goToChapter(index) {
+  const chapter = chapters[index];
+
+  // Check if the chapter exists and has the required properties
+  if (!chapter) {
+    console.error(`Chapter ${index} is missing.`);
+    return;
+  }
+
+  if (!chapter.location || !chapter.location.center || !chapter.location.zoom) {
+    console.error(`Chapter ${index} is missing location data.`);
+    return;
+  }
+
+  if (!chapter.title || !chapter.description) {
+    console.error(`Chapter ${index} is missing title or description.`);
+    return;
+  }
 
   // Fly to the chapter location
   map.flyTo({
@@ -549,34 +571,16 @@ function goToChapter(index) {
     zoom: chapter.location.zoom,
     pitch: chapter.location.pitch || 0, // Default pitch if not provided
     bearing: chapter.location.bearing || 0, // Default bearing if not provided
-    essential: true, // Ensures the transition is smooth
+    essential: true,
   });
 
-  // Update the content of the story dynamically
+  // Update the content dynamically
   document.getElementById("story").innerHTML = `
     <h2>${chapter.title}</h2>
     ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
     <p>${chapter.description}</p>
   `;
-
-  // Optionally handle callbacks or animations for this chapter
-  if (chapter.callback && typeof window[chapter.callback] === "function") {
-    window[chapter.callback]();
-  }
-
-  // Optionally execute onChapterEnter actions
-  if (chapter.onChapterEnter && Array.isArray(chapter.onChapterEnter)) {
-    chapter.onChapterEnter.forEach((action) => {
-      if (typeof action === "function") action();
-    });
-  }
-
-  // Log the chapter for debugging purposes
-  console.log("Navigated to chapter:", chapter.id, chapter);
 }
-
-// Initialize current index
-let currentIndex = 0;
 
 // Button click to start exploration
 document.getElementById("startButton").onclick = function () {
