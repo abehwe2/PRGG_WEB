@@ -252,7 +252,6 @@ const chapters = [
     onChapterEnter: [],
     onChapterExit: [],
   },
-  },
   {
     id: "batavia-september-1628",
     alignment: "right",
@@ -586,6 +585,7 @@ const chapters = [
       zoom: 13,
       pitch: 0,  
       bearing: 0,
+    },
     },
   {
     id: "batavia-14-15-september-1629",
