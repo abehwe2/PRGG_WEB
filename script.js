@@ -533,60 +533,38 @@ const chapters = [
 // Storytelling navigation
 let currentIndex = 0
 
-// Function to update the story content and fly to the chapter location
-function goToChapter(index) {
-  const chapter = chapters[index];
-
-  // Check if the chapter exists and has the required data
-  if (!chapter || !chapter.location || !chapter.title) {
-    console.error("Chapter data is missing or incomplete:", chapter);
-    return;
-  }
-let currentIndex = 0;
-
 // Function to update the story content and fly to the next chapter
 function goToChapter(index) {
-  const chapter = chapters[index];
-
-  // Ensure that the chapter has location data before calling flyTo
-  if (!chapter || !chapter.location || !chapter.location.center || !chapter.location.zoom) {
-    console.error(`Invalid chapter data at index ${index}. Skipping flyTo.`);
-    return;
-  }
+  const chapter = chapters[index]
 
   // Fly to the chapter location
   map.flyTo({
     center: chapter.location.center,
     zoom: chapter.location.zoom,
-    pitch: chapter.location.pitch || 0,  // Use default pitch if not provided
-    bearing: chapter.location.bearing || 0,  // Use default bearing if not provided
+    pitch: chapter.location.pitch,
+    bearing: chapter.location.bearing,
     essential: true,
-  });
+  })
 
   // Update the content dynamically
   document.getElementById("story").innerHTML = `
-    <h2>${chapter.title}</h2>
-    <img src="${chapter.image}" alt="${chapter.title}" />
-    <p>${chapter.description}</p>
-  `;
+        <h2>${chapter.title}</h2>
+        <img src="${chapter.image}" alt="${chapter.title}" />
+        <p>${chapter.description}</p>
+    `
 }
 
 // Button click to start exploration
 document.getElementById("startButton").onclick = function () {
   // Hide the introductory container
-  document.getElementById("introContainer").style.display = "none";
+  document.getElementById("introContainer").style.display = "none"
 
   // Show the first chapter content
-  goToChapter(currentIndex);
-};
+  goToChapter(currentIndex)
+}
 
 // Storytelling: Navigate to the next chapter
 document.getElementById("story").addEventListener("click", () => {
-  // Ensure we loop back to the first chapter after reaching the last one
-  currentIndex = (currentIndex + 1) % chapters.length;
-
-  // Ensure that flyTo completes before navigating to the next chapter
-  map.on('moveend', function() {
-    goToChapter(currentIndex);
-  });
-});
+  currentIndex = (currentIndex + 1) % chapters.length // Loop through chapters
+  goToChapter(currentIndex)
+})
