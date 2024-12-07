@@ -197,7 +197,7 @@ const chapters = [
     alignment: "right",
     hidden: false,
     title: "10 - 11 September 1628",
-    image: "/SER 1/10 - 11 September 1628.png",
+    image: "/SER 1/10-11 September 1628.png",
     description:
       "Pada situasi di sekitar benteng, Pasukan Mataram Islam memajukan garis pertahanan dengan mendekati benteng, tetapi masih berada di luar jangkauan tembakan dari benteng. Pasukan Mataram Islam mulai menyusun barikade kayu dan bambu sebagai tempat berlindung. Sementara itu, pada tanggal yang sama juga terjadi pertempuran di muara Sungai Marunda. Pertempuran ini menyebabkan pihak VOC terdesak dan terpaksa masuk ke kota. Dalam pertempuran ini VOC mengerahkan sekitar 1500 orang Cina, 400 orang Jepang, dan 70 orang Mardijker. Situasi dimana Pasukan Mataram Islam memajukan garis pertahanan berlangsung hingga hari selanjutnya.",
     location: {
