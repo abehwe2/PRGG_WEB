@@ -8,7 +8,6 @@
       href="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
     <style>
       /* Ensure the map takes up the full screen */
       #map {
@@ -42,8 +41,10 @@
 
     <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
     <script>
-      // Initialize the Mapbox map (make sure you've added your Mapbox token)
-      mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+      // Initialize the Mapbox map with the provided access token
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiYWJlaHdlMiIsImEiOiJjbHgzejIwbWcweWF0MmtxMXhzZ3JpdHRxIn0.QWRObYX_632YsxXJGMkv-w";
+
       const map = new mapboxgl.Map({
         container: 'map', // Map container ID
         style: 'mapbox://styles/mapbox/streets-v11', // Style URL
