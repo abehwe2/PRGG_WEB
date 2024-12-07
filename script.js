@@ -788,6 +788,7 @@ document.getElementById("story").addEventListener("click", () => {
   // Proceed to the next chapter
   goToChapter(currentIndex);
 });
+// Back button functionality to return to the homepage
 document.getElementById('backButton').addEventListener('click', function() {
-  window.history.back();  // This takes the user to the previous page
+  window.location.href = 'https://prggkel19.netlify.app';  // Redirects to the homepage
 });
