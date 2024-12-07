@@ -388,7 +388,7 @@ const chapters = [
     id: "batavia-14-15-september-1629",
     alignment: "left",
     hidden: false,
-    title: "14 - 15 September 1629",
+    title: "14-15 September 1629",
     image: "/SER 2/14 - 15 September 1629.png",
     description:
       "Muncul bantuan persenjataan yang diangkut dengan gerobak dan ditarik oleh 10 ekor kerbau. Setelah bantuan senjata datang, Pasukan Mataram Islam segera menyiapkan meriam-meriam tersebut ke garis penyerangan bagian depan. Meriam - meriam tersebut diantaranya Guntur Geni, Panca Wura, dan beberapa meriam kecil. ",
