@@ -1,36 +1,41 @@
-<!doctype html>
-<html lang="id">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Visualisasi Pergerakan Pasukan Mataram Islam ke Batavia Tahun 1628 dan 1629</title>
-
-    <!-- Link to EB Garamond font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
-
-    <!-- Link to the external CSS file -->
+    <title>Interactive Map</title>
+    <link
+      href="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Container for header and button -->
-    <div class="container" id="introContainer">
-      <h1>Storymap Pergerakan Pasukan Mataram Islam ke Batavia Tahun 1628 dan 1629</h1>
-      <p>Selamat datang di petualangan kita! Klik tombol di bawah ini untuk memulai eksplorasi.</p>
-      <button id="startButton">Mulai Eksplorasi</button>
-    </div>
+    <!-- Mapbox section where the map is displayed -->
+    <section id="mapboxSection" style="height: 100vh;">
+      <div id="map" style="height: 100%;"></div>
 
-    <!-- Mapbox map container -->
-    <div id="map"></div>
+      <!-- Back Button -->
+      <button id="backButton" style="position: absolute; top: 20px; left: 20px; padding: 10px 20px; background-color: #000; color: white; border: none; border-radius: 5px;">
+        Back to Homepage
+      </button>
+    </section>
 
-    <!-- Story content box -->
-    <div id="story">
-      <button id="backButton" onclick="goHome()">Kembali ke Halaman Utama</button>
-      <!-- Additional story content can be added here -->
-    </div>
+    <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
+    <script>
+      // Initialize the Mapbox map (make sure you've added your Mapbox token)
+      mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+      const map = new mapboxgl.Map({
+        container: 'map', // Map container ID
+        style: 'mapbox://styles/mapbox/streets-v11', // Style URL
+        center: [0, 0], // Initial map center coordinates [longitude, latitude]
+        zoom: 2, // Initial zoom level
+      });
 
-    <!-- Link to the external JavaScript file -->
-    <script src="script.js"></script>
+      // Back button functionality to return to the homepage
+      document.getElementById('backButton').addEventListener('click', function() {
+        window.location.href = '/';  // Redirects to the homepage (change path if needed)
+      });
+    </script>
   </body>
 </html>
