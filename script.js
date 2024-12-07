@@ -252,6 +252,7 @@ const chapters = [
     onChapterEnter: [],
     onChapterExit: [],
   },
+  },
   {
     id: "batavia-september-1628",
     alignment: "right",
