@@ -9,16 +9,35 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Ensure the map takes up the full screen */
+      #map {
+        height: 100vh;
+      }
+
+      /* Style for the back button in the top right corner */
+      #backButton {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 8px 16px;
+        background-color: #000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        z-index: 10; /* Ensures it stays on top of the map */
+      }
+    </style>
   </head>
   <body>
     <!-- Mapbox section where the map is displayed -->
     <section id="mapboxSection" style="height: 100vh;">
-      <div id="map" style="height: 100%;"></div>
+      <div id="map"></div>
 
       <!-- Back Button -->
-      <button id="backButton" style="position: absolute; top: 20px; left: 20px; padding: 10px 20px; background-color: #000; color: white; border: none; border-radius: 5px;">
-        Back to Homepage
-      </button>
+      <button id="backButton">Back to Homepage</button>
     </section>
 
     <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
