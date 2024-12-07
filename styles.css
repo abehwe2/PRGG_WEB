@@ -90,28 +90,32 @@ html, body {
 
 /* Mobile-specific styles */
 @media (max-width: 768px) {
+  /* Ensure the map takes up full screen height on mobile */
+  #map {
+    height: 100vh; /* Full height */
+  }
+
+  /* Adjust the intro container */
+  #introContainer {
+    font-size: 1.5em; /* Reduce font size for smaller screens */
+    padding: 20px; /* Less padding to fit smaller screens */
+  }
+
+  /* Adjust the start button */
   #startButton {
     padding: 10px 20px; /* Adjust padding for smaller buttons */
     font-size: 1em; /* Slightly smaller font size */
     border-radius: 6px; /* Slightly smaller rounded corners */
   }
 
-  #introContainer {
-    font-size: 1.5em; /* Reduce font size for smaller screens */
-    padding: 20px; /* Less padding to fit smaller screens */
-  }
-
+  /* Make the story box fit the screen */
   #story {
-    width: 90%; /* Make the story container fit most of the screen width */
-    bottom: 20px; /* Add more space from the bottom */
-    left: 5%; /* Center it horizontally */
-    max-height: 40%; /* Limit height for mobile screens */
+    width: 90%; /* Full width but with padding */
+    bottom: 20px; /* Space from bottom */
+    left: 5%; /* Center horizontally */
+    max-height: 40%; /* Limit height */
     font-size: 0.9em; /* Slightly smaller text */
-  }
-
-  /* Ensure the map height fills the screen on mobile */
-  #map {
-    height: 100vh; /* Full viewport height on mobile */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow */
   }
 }
 
