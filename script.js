@@ -748,7 +748,6 @@ const chapters = [
     onChapterExit: [],
   },
 ]
-
 let currentIndex = 0;
 
 // Function to update the story content and fly to the next chapter
@@ -788,4 +787,7 @@ document.getElementById("story").addEventListener("click", () => {
 
   // Proceed to the next chapter
   goToChapter(currentIndex);
+});
+document.getElementById('backButton').addEventListener('click', function() {
+  window.history.back();  // This takes the user to the previous page
 });
