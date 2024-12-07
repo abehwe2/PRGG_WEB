@@ -533,38 +533,62 @@ const chapters = [
 // Storytelling navigation
 let currentIndex = 0
 
-// Function to update the story content and fly to the next chapter
+// Function to update the story content and fly to the chapter location
 function goToChapter(index) {
-  const chapter = chapters[index]
+  const chapter = chapters[index];
+
+  // Check if the chapter exists and has the required data
+  if (!chapter || !chapter.location || !chapter.title) {
+    console.error("Chapter data is missing or incomplete:", chapter);
+    return;
+  }
 
   // Fly to the chapter location
   map.flyTo({
     center: chapter.location.center,
     zoom: chapter.location.zoom,
-    pitch: chapter.location.pitch,
-    bearing: chapter.location.bearing,
-    essential: true,
-  })
+    pitch: chapter.location.pitch || 0, // Default pitch if not provided
+    bearing: chapter.location.bearing || 0, // Default bearing if not provided
+    essential: true, // Ensures the transition is smooth
+  });
 
-  // Update the content dynamically
+  // Update the content of the story dynamically
   document.getElementById("story").innerHTML = `
-        <h2>${chapter.title}</h2>
-        <img src="${chapter.image}" alt="${chapter.title}" />
-        <p>${chapter.description}</p>
-    `
+    <h2>${chapter.title}</h2>
+    ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
+    <p>${chapter.description}</p>
+  `;
+
+  // Optionally handle callbacks or animations for this chapter
+  if (chapter.callback && typeof window[chapter.callback] === "function") {
+    window[chapter.callback]();
+  }
+
+  // Optionally execute onChapterEnter actions
+  if (chapter.onChapterEnter && Array.isArray(chapter.onChapterEnter)) {
+    chapter.onChapterEnter.forEach((action) => {
+      if (typeof action === "function") action();
+    });
+  }
+
+  // Log the chapter for debugging purposes
+  console.log("Navigated to chapter:", chapter.id, chapter);
 }
+
+// Initialize current index
+let currentIndex = 0;
 
 // Button click to start exploration
 document.getElementById("startButton").onclick = function () {
   // Hide the introductory container
-  document.getElementById("introContainer").style.display = "none"
+  document.getElementById("introContainer").style.display = "none";
 
   // Show the first chapter content
-  goToChapter(currentIndex)
-}
+  goToChapter(currentIndex);
+};
 
 // Storytelling: Navigate to the next chapter
 document.getElementById("story").addEventListener("click", () => {
-  currentIndex = (currentIndex + 1) % chapters.length // Loop through chapters
-  goToChapter(currentIndex)
-})
+  currentIndex = (currentIndex + 1) % chapters.length; // Loop through chapters
+  goToChapter(currentIndex);
+});
