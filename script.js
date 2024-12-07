@@ -515,7 +515,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "Oktober - Desember 1629",
-    image: "/SER 2/Oktober - Desember 1629.png",
+    image: "/SER 2/Oktober - Desember 1929.png",
     description:
       "Karena mulai memasuki musim penghujan, penyerangan terhadap Batavia dihentikan. Pasukan Mataran Islam ditarik karena perbekalan yang menipis dan berjangkitnya wabah penyakit menular. Serangan kedua yang dapat dikatakan gagal membuat Sultan Agung memerintahkan untuk menghukum semua orang yang pulang dengan kegagalan. Itu sebabnya seluruh jalan dan pintu gerbang dijaga agar tidak seorang pun dapat kembali kepada keluarganya. Tumenggung Singaranu mengetahui gelagat itu dan menahan sisa pasukan yang berjumlah sekitar 10.000 - 14.000 orang. Tumenggung Singaranu mengirimkan istri, selir, dan anak anaknya untuk mendapatkan pengampunan Sultan Agung. Pada akhirnya Sultan Agung mengampuni Singaranu dengan syarat selama 3 tahun tidak diperbolehkan berhadapan muka dengan raja dan kemungkinan tidak menempati posisinya lagi.",
     location: {
