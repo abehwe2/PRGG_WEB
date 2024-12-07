@@ -36,7 +36,7 @@
   position: absolute;
   z-index: 2; /* Ensure it sits above the map and story box */
   background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-  background-image: url('https://raw.githubusercontent.com/abehwe2/PRGG_WEB/a8623945cf1830cdcb205017b47d8402a624f23b/SER%201/Source%20%20BBC.png'); /* Raw GitHub image URL */
+ background-image: url('https://i.imgur.com/VMXVIqx.png'); /* Raw GitHub image URL */
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
