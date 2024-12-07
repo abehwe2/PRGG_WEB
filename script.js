@@ -335,7 +335,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "Pertengahan Mei 1629",
-    image: "/SER 2/Mei 1629.png",
+    image: "/SER 2/Mei 1629..png",
     description:
       "Penyerangan dibagi menjadi 2 gelombang, yaitu gelombang pertama dan gelombang kedua. Gelombang pertama terdiri atas arteleri beserta amonisinya. Gelombang pertama dipimpin oleh Adipati Ukur.",
     location: {
@@ -371,7 +371,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "22 Agustus 1629",
-    image: "/SER 2/22 Agustus 1929.png",
+    image: "/SER 2/22 Agustus 1629.png",
     description:
       "Pasukan Mataram Islam telah menempatkan diri dalam parit perlindungan untuk mempersiapkan penyerangan. Penyerangan dilakukan di Benteng Holland. Di tanggal yang sama, Pasukan Mataram Islam berjumlah 200 orang melakukan penyerbuan menuju Benteng Bommel. Bahkan terdapat 9 prajurit yang sudah menaiki benteng tersebut. Namun, usaha ini gagal karena Pasukan Mataram Islam dipukul mundur oleh VOC. ",
     location: {
@@ -389,7 +389,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "14 - 15 September 1629",
-    image: "/SER 2/14 - 15 September  1929.png",
+    image: "/SER 2/14 - 15 September 1629.png",
     description:
       "Muncul bantuan persenjataan yang diangkut dengan gerobak dan ditarik oleh 10 ekor kerbau. Setelah bantuan senjata datang, Pasukan Mataram Islam segera menyiapkan meriam-meriam tersebut ke garis penyerangan bagian depan. Meriam - meriam tersebut diantaranya Guntur Geni, Panca Wura, dan beberapa meriam kecil. ",
     location: {
@@ -407,7 +407,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "17 September 1629",
-    image: "/SER 2/17 September  1929.png",
+    image: "/SER 2/17 September 1629.png",
     description:
       "Bantuan yang diterima Pasukan Mataram Islam membuat perlawanan semakin genting. VOC menyiapkan serangan balasan di bawah kepemimpinan Antoni Van Diemen. Serangan balasan tersebut dilakukan dengan membakar pertahanan Pasukan Mataram Islam yang berujung pada kekalahan Pasukan Mataram Islam. Kebakaran ini tidak berlangsung lama karena adanya hujan yang memadamkan kebakaran saat itu.",
     location: {
@@ -425,7 +425,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "20 September 1629",
-    image: "/SER 2/20 September  1929.png",
+    image: "/SER 2/20 September 1629.png",
     description:
       "Meriam - meriam Mataram Islam berhasil membuat Benteng Holland rusak parah. Prajurit Mataram Islam tidak mendobrak ataupun menaiki benteng tersebut meskipun serdadu VOC sudah kehabisan peluru. Dalam pertempuran ini,  Gubernur Jenderal VOC yaitu Jan Pieterszoon Coen meninggal diakibatkan penyakit kolera. Karena gereja terbakar saat pengepungan 17 September, maka dari itu, Jan Pieterszoon Coen dimakamkan di Balaikota.",
     location: {
@@ -443,7 +443,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "21 September 1629",
-    image: "/SER 2/21 September  1929.png",
+    image: "/SER 2/21 September 1629.png",
     description:
       "Pertempuran masih berlangsung dengan Pasukan Mataram Islam yang meletakkan meriam berat pada bagian sisi barat, selatan, dan timur benteng. Pertempuran ini memakan banyak korban jiwa baik dari sisi Mataram Islam maupun VOC.",
     location: {
@@ -461,7 +461,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "29 September 1629",
-    image: "/SER 2/29 September  1929.png",
+    image: "/SER 2/29 September 1629.png",
     description:
       "Pasukan Mataram Islam selanjutnya menyerang benteng pertahanan Belanda lainnya yaitu, Benteng Weesp. Penyerangan ini menyebabkan kerugian yang cukup besar pada sisi Mataram Islam. Hal ini disebabkan karena Pasukan Mataram Islam gagal merebut benteng tersebut. ",
     location: {
@@ -479,7 +479,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "2 Oktober 1629",
-    image: "/SER 2/2 Oktober  1929.png",
+    image: "/SER 2/2 Oktober 1629.png",
     description:
       "Pasukan Mataram islam mulai mundur dari medan pertempuran di Batavia. Hal ini disebabkan karena kelaparan yang dialami oleh Pasukan Mataram Islam. Awalnya, Sultan Agung sudah menyiapkan lumbung - lumbung persediaan bahan makanan di sepanjang Cirebon dan Karawang. Namun, VOC mengetahui hal ini dan langsung membakar habis lumbung - lumbung tersebut dan berujung munculnya kelaparan.",
     location: {
@@ -497,7 +497,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "3 Oktober 1629",
-    image: "/SER 2/3 Oktober  1929.png",
+    image: "/SER 2/3 Oktober 1629.png",
     description:
       "Meskipun dengan perbekalan yang kian menipis mengancam Pasukan Mataram Islam. Serangan masih diluncurkan oleh Pasukan Mataram Islam dengan menghujani benteng - benteng VOC tembakan - tembakan gencar.",
     location: {
@@ -515,7 +515,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "Oktober - Desember 1629",
-    image: "/SER 2/Oktober - Desember  1929.png",
+    image: "/SER 2/Oktober - Desember 1629.png",
     description:
       "Karena mulai memasuki musim penghujan, penyerangan terhadap Batavia dihentikan. Pasukan Mataran Islam ditarik karena perbekalan yang menipis dan berjangkitnya wabah penyakit menular. Serangan kedua yang dapat dikatakan gagal membuat Sultan Agung memerintahkan untuk menghukum semua orang yang pulang dengan kegagalan. Itu sebabnya seluruh jalan dan pintu gerbang dijaga agar tidak seorang pun dapat kembali kepada keluarganya. Tumenggung Singaranu mengetahui gelagat itu dan menahan sisa pasukan yang berjumlah sekitar 10.000 - 14.000 orang. Tumenggung Singaranu mengirimkan istri, selir, dan anak anaknya untuk mendapatkan pengampunan Sultan Agung. Pada akhirnya Sultan Agung mengampuni Singaranu dengan syarat selama 3 tahun tidak diperbolehkan berhadapan muka dengan raja dan kemungkinan tidak menempati posisinya lagi.",
     location: {
