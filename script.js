@@ -323,6 +323,8 @@ const chapters = [
     location: {
       center: [106.808786, -6.114473],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -341,6 +343,8 @@ const chapters = [
     location: {
       center: [106.808786, -6.114473],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -359,6 +363,8 @@ const chapters = [
     location: {
       center: [110.3978453, -7.829855287],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -377,6 +383,8 @@ const chapters = [
     location: {
       center: [106.813058, -6.1288896],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -395,6 +403,8 @@ const chapters = [
     location: {
       center: [106.808786, -6.114473],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -413,6 +423,8 @@ const chapters = [
     location: {
       center: [106.808786, -6.114473],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -431,6 +443,8 @@ const chapters = [
     location: {
       center: [106.808786, -6.114473],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -449,6 +463,8 @@ const chapters = [
     location: {
       center: [106.813058, -6.1288896],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -467,6 +483,8 @@ const chapters = [
     location: {
       center: [106.812145, -6.1293208],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -485,6 +503,8 @@ const chapters = [
     location: {
       center: [106.808786, -6.114473],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -503,6 +523,8 @@ const chapters = [
     location: {
       center: [106.813058, -6.1288896],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
@@ -521,6 +543,8 @@ const chapters = [
     location: {
       center: [106.808786, -6.114473],
       zoom: 13,
+      pitch: 0,  
+      bearing: 0,
     },
     mapAnimation: "flyTo",
     rotateAnimation: false,
