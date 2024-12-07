@@ -530,41 +530,43 @@ const chapters = [
   },
 ]
 
-// Storytelling navigation
-let currentIndex = 0
+let currentIndex = 0;
 
 // Function to update the story content and fly to the next chapter
 function goToChapter(index) {
-  const chapter = chapters[index]
+  const chapter = chapters[index];
 
   // Fly to the chapter location
   map.flyTo({
-    center: chapter.location.center,
-    zoom: chapter.location.zoom,
-    pitch: chapter.location.pitch,
-    bearing: chapter.location.bearing,
+    center: chapter.location.center, // Assuming chapter location is always defined
+    zoom: chapter.location.zoom,     // Assuming chapter zoom is always defined
+    pitch: chapter.location.pitch,   // Assuming chapter pitch is always defined
+    bearing: chapter.location.bearing, // Assuming chapter bearing is always defined
     essential: true,
-  })
+  });
 
   // Update the content dynamically
   document.getElementById("story").innerHTML = `
-        <h2>${chapter.title}</h2>
-        <img src="${chapter.image}" alt="${chapter.title}" />
-        <p>${chapter.description}</p>
-    `
+    <h2>${chapter.title}</h2>
+    ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
+    <p>${chapter.description}</p>
+  `;
 }
 
 // Button click to start exploration
 document.getElementById("startButton").onclick = function () {
   // Hide the introductory container
-  document.getElementById("introContainer").style.display = "none"
+  document.getElementById("introContainer").style.display = "none";
 
   // Show the first chapter content
-  goToChapter(currentIndex)
-}
+  goToChapter(currentIndex);
+};
 
 // Storytelling: Navigate to the next chapter
 document.getElementById("story").addEventListener("click", () => {
-  currentIndex = (currentIndex + 1) % chapters.length // Loop through chapters
-  goToChapter(currentIndex)
-})
+  // Ensure we loop back to the first chapter after reaching the last one
+  currentIndex = (currentIndex + 1) % chapters.length;
+
+  // Proceed to the next chapter
+  goToChapter(currentIndex);
+});
