@@ -317,7 +317,7 @@ const chapters = [
     alignment: "left",
     hidden: false,
     title: "16 April 1629",
-    image: "",
+    image: "/SER 2/16 April 1629.png",
     description:
       "Sebelum melakukan serangan kedua ke Batavia, Sultan Agung telah lebih dahulu melakukan persiapan dengan teliti dan seksama. Sultan Agung mengirim seorang mata - mata Mataram Islam yang bernama Warga untuk mengawasi Benteng Batavia. Warga menyamar sebagai pedagang untuk mengamati pergerakan benteng dan melaporakannnya ke pihak Mataram Islam. Seluruh laporan sudah berhasil disampaikan ke pihak Mataram Islam. Namun, naasnya Warga ditangkap, disiksa, dan dipenjarakan oleh VOC.",
     location: {
