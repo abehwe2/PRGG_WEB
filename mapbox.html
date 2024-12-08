@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Interactive Map</title>
-    <link
-      href="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.css"
-      rel="stylesheet"
-    />
+    <title>
+      Visualisasi Pergerakan Pasukan Mataram Islam ke Batavia Tahun 1628 dan
+      1629
+    </title>
+
+    <!-- Link to EB Garamond font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+    <!-- Mapbox CSS -->
+    <link href="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.css" rel="stylesheet" />
+
     <style>
       /* Ensure the map takes up the full screen */
       #map {
@@ -28,23 +34,56 @@
         cursor: pointer;
         z-index: 10; /* Ensures it stays on top of the map */
       }
+
+      /* Intro container styling */
+      #introContainer {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        z-index: 20;
+      }
+
+      #story {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        max-width: 300px;
+        text-align: center;
+        border-radius: 10px;
+      }
     </style>
   </head>
   <body>
+    <!-- Intro Section with Start Button -->
+    <div id="introContainer">
+      <h1>
+        Storymap Pergerakan Pasukan Mataram Islam ke Batavia Tahun 1628 dan 1629
+      </h1>
+      <p>Selamat datang di petualangan kita! Klik tombol di bawah ini untuk memulai eksplorasi.</p>
+      <button id="startButton">Mulai Eksplorasi</button>
+    </div>
+
     <!-- Mapbox section where the map is displayed -->
     <section id="mapboxSection" style="height: 100vh;">
       <div id="map"></div>
-
-      <!-- Back Button -->
       <button id="backButton">Back to Homepage</button>
     </section>
 
+    <!-- Story content box -->
+    <div id="story"></div>
+
     <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
     <script>
-      // Initialize the Mapbox map with the provided access token
+      // Mapbox access token
       mapboxgl.accessToken =
         "pk.eyJ1IjoiYWJlaHdlMiIsImEiOiJjbHgzejIwbWcweWF0MmtxMXhzZ3JpdHRxIn0.QWRObYX_632YsxXJGMkv-w";
 
+      // Initialize the Mapbox map with the provided access token
       const map = new mapboxgl.Map({
         container: 'map', // Map container ID
         style: 'mapbox://styles/mapbox/streets-v11', // Style URL
@@ -52,9 +91,69 @@
         zoom: 2, // Initial zoom level
       });
 
+      // Chapters data (Example)
+      const chapters = [
+        {
+          title: "Chapter 1: Introduction",
+          description: "Welcome to the story! Click to continue.",
+          location: { center: [0, 0], zoom: 2, pitch: 0, bearing: 0 },
+          image: null,
+        },
+        {
+          title: "Chapter 2: The Beginning",
+          description: "The story begins in earnest.",
+          location: { center: [10, 10], zoom: 3, pitch: 0, bearing: 0 },
+          image: null,
+        },
+        {
+          title: "Chapter 3: Conclusion",
+          description: "Thank you for following along with the story.",
+          location: { center: [20, 20], zoom: 4, pitch: 0, bearing: 0 },
+          image: null,
+        },
+      ];
+
+      let currentIndex = 0;
+
+      // Function to update the story content and fly to the next chapter
+      function goToChapter(index) {
+        const chapter = chapters[index];
+
+        // Fly to the chapter location
+        map.flyTo({
+          center: chapter.location.center,
+          zoom: chapter.location.zoom,
+          pitch: chapter.location.pitch,
+          bearing: chapter.location.bearing,
+          essential: true,
+        });
+
+        // Update the content dynamically
+        document.getElementById("story").innerHTML = `
+          <h2>${chapter.title}</h2>
+          ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
+          <p>${chapter.description}</p>
+        `;
+      }
+
+      // Button click to start exploration
+      document.getElementById("startButton").onclick = function () {
+        // Hide the introductory container
+        document.getElementById("introContainer").style.display = "none";
+
+        // Show the first chapter content
+        goToChapter(currentIndex);
+      };
+
+      // Story navigation: Click anywhere in the story content to go to the next chapter
+      document.getElementById("story").addEventListener("click", () => {
+        currentIndex = (currentIndex + 1) % chapters.length;  // Loop to the first chapter after the last one
+        goToChapter(currentIndex);
+      });
+
       // Back button functionality to return to the homepage
       document.getElementById('backButton').addEventListener('click', function() {
-        window.location.href = 'https://prggkel19.netlify.app';  // Redirects to the homepage
+        window.location.href = 'https://prggkel19.netlify.app';  // Redirect to the homepage
       });
     </script>
   </body>
