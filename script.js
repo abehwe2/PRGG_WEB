@@ -9,6 +9,7 @@ const map = new mapboxgl.Map({
   center: [106.832, -6.983], // Initial map center
   zoom: 6, // Initial zoom level
 })
+
 // Chapters for storytelling
 const chapters = [
   {
