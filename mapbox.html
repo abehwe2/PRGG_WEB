@@ -1,60 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Overlapping Mapbox Maps</title>
+    <title>
+      Visualisasi Pergerakan Pasukan Mataram Islam ke Batavia Tahun 1628 dan
+      1629
+    </title>
 
-    <!-- Mapbox CSS -->
-    <link href="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.css" rel="stylesheet" />
+    <!-- Link to EB Garamond font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 
-    <style>
-        /* Fullscreen map styling */
-        .map-container {
-            position: absolute; /* Position both maps on top of each other */
-            height: 100vh;
-            width: 100%;
-        }
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Container for header and button -->
+    <div class="container" id="introContainer">
+      <h1>
+       Storymap Pergerakan Pasukan Mataram Islam ke Batavia Tahun 1628 dan
+        1629
+      </h1>
+      <p>
+        Selamat datang di petualangan kita! Klik tombol di bawah ini untuk
+        memulai eksplorasi.
+      </p>
+      <button id="startButton">Mulai Eksplorasi</button>
+    </div>
 
-        /* Optional: Add some opacity for the overlapping effect */
-        #map1 {
-            opacity: 0.7; /* Adjust this for desired transparency */
-        }
+    <!-- Mapbox map container -->
+    <div id="map"></div>
 
-        #map2 {
-            opacity: 0.5; /* Adjust this for desired transparency */
-        }
-
-        /* Back button styling */
-        #backButton {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            padding: 8px 16px;
-            background-color: #000;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 14px;
-            cursor: pointer;
-            z-index: 10; /* Keep above the maps */
-        }
-    </style>
-</head>
-<body>
-    <!-- Back Button -->
-    <button id="backButton" onclick="goBack()">Kembali ke Beranda</button>
-
-    <!-- Map Container 1 -->
-    <div id="map1" class="map-container"></div>
-
-    <!-- Map Container 2 -->
-    <div id="map2" class="map-container"></div>
-
-    <!-- Mapbox JavaScript -->
-    <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
+    <!-- Story content box -->
+    <div id="story"></div>
 
     <!-- Link to the external JavaScript file -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
