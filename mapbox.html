@@ -27,7 +27,7 @@
             border-radius: 5px;
             font-size: 14px;
             cursor: pointer;
-            z-index: 10;
+            z-index: 10; /* Keep above the map */
         }
     </style>
 </head>
@@ -53,7 +53,7 @@
 
         const map = new mapboxgl.Map({
             container: "map", // The ID of the map container
-            style: "mapbox://styles/mapbox/streets-v11", // Default Mapbox style for testing
+            style: "mapbox://styles/abehwe2/cm4i6p3kg00t701qt3ki4a4ip", // Your custom Mapbox style URL
             center: [106.832, -6.983], // Longitude and latitude for map center
             zoom: 6, // Initial zoom level
         });
