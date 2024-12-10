@@ -3,14 +3,10 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-family: 'EB Garamond', serif; /* Apply EB Garamond font */
 }
 
-/* Ensure full-height sections */
-#map {
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-}
+/* Intro Container Styling */
 #introContainer {
     position: absolute;
     z-index: 2;
@@ -34,93 +30,37 @@ html, body {
     font-weight: 900; /* Very bold */
     font-family: 'EB Garamond', serif; /* Apply EB Garamond font */
 }
-/* Navbar Styling */
-.navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px 15px;
-}
-.navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.1);
-}
-.nav-link {
-    color: white !important;
-    font-size: 1em;
-}
 
-/* Responsive Navbar Adjustments */
-@media (max-width: 768px) {
-    .navbar-brand img {
-        max-width: 80%; /* Scale logo for smaller screens */
-    }
-    .nav-item {
-        margin: 10px 0; /* Add space between menu items */
-    }
-    .navbar-collapse {
-        text-align: center; /* Center align navigation links */
-    }
-}
-
-/* Hero Section */
-#hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-#hero h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-#hero .btn {
-    padding: 10px 20px;
-    font-size: 1em;
-}
-
-/* Responsive Hero Adjustments */
-@media (max-width: 768px) {
-    #hero h1 {
-        font-size: 2em;
-    }
-    #hero .btn {
-        font-size: 0.9em;
-    }
+/* Fullscreen map styling */
+#map {
+    width: 100%;
+    height: 100vh;  /* Full viewport height */
+    display: none;  /* Initially hide the map */
 }
 
 /* Story Box */
 #story {
-    position: absolute;
-    z-index: 1;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 600px;
-    max-height: 500px;
-    overflow-y: auto;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-}
-
-/* Responsive Story Box */
-@media (max-width: 768px) {
-    #story {
-        width: 90%; /* Scale to fit mobile screens */
-        bottom: 20px;
-        left: 5%;
-        max-height: 40%; /* Adjust height for smaller screens */
-        font-size: 0.9em;
-    }
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  width: 600px; /* Expanded width */
+  max-height: 500px; /* Limit height */
+  overflow-y: auto; /* Enable scroll if content overflows */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+  border-radius: 8px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding is included in width/height */
 }
 
 /* Button Styling */
-#startButton, #backButton {
+#startButton {
     background-color: #5b3e1f;
     color: white;
     font-family: 'EB Garamond', serif;
     font-size: 1.1em;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border: 2px solid #5b3e1f;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -128,45 +68,14 @@ html, body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Button Hover Effect */
-#startButton:hover, #backButton:hover {
-    background-color: #4a2e14;
-    transform: scale(1.05);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+/* Hover effect */
+#startButton:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
 }
 
-/* Footer Styling */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    font-size: 0.9em;
-}
-footer .footer-top {
-    padding-bottom: 20px;
-}
-footer .social-icons a {
-    color: white;
-    margin-right: 10px;
-    font-size: 1.2em;
-}
-footer .footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-}
-footer p {
-    margin: 0;
-}
-
-/* Mobile Footer Adjustments */
-@media (max-width: 768px) {
-    footer .footer-bottom {
-        flex-direction: column;
-        text-align: center;
-    }
-    footer .footer-bottom p {
-        margin-bottom: 10px;
-    }
+/* Active (clicked) effect */
+#startButton:active {
+    transform: scale(0.95); /* Slight shrink effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
 }
