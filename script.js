@@ -1,33 +1,14 @@
-// Mapbox Token and Initialization
-mapboxgl.accessToken = "pk.eyJ1IjoiYWJlaHdlMiIsImEiOiJjbHgzejIwbWcweWF0MmtxMXhzZ3JpdHRxIn0.QWRObYX_632YsxXJGMkv-w";
+// Set up the Mapbox access token
+mapboxgl.accessToken =
+  "pk.eyJ1IjoiYWJlaHdlMiIsImEiOiJjbHgzejIwbWcweWF0MmtxMXhzZ3JpdHRxIn0.QWRObYX_632YsxXJGMkv-w"
 
-// Map 1: Initialize the first map (e.g., streets)
-const map1 = new mapboxgl.Map({
-    container: "map1", // The ID of the map container for the first map
-    style: "mapbox://styles/mapbox/streets-v11", // Style for the first map
-    center: [106.832, -6.983], // Longitude, Latitude for map center
-    zoom: 6, // Initial zoom level
-});
-
-// Map 2: Initialize the second map (e.g., satellite)
-const map2 = new mapboxgl.Map({
-    container: "map2", // The ID of the map container for the second map
-    style: "mapbox://styles/mapbox/satellite-streets-v11", // Style for the second map (satellite)
-    center: [106.832, -6.983], // Longitude, Latitude for map center (same as Map 1)
-    zoom: 6, // Initial zoom level (same as Map 1)
-});
-
-// Add Navigation Controls to both maps
-map1.addControl(new mapboxgl.NavigationControl());
-map2.addControl(new mapboxgl.NavigationControl());
-
-// Optional: Sync zoom and center for both maps
-map1.on('move', function() {
-    var center = map1.getCenter();
-    var zoom = map1.getZoom();
-    map2.setCenter(center);
-    map2.setZoom(zoom);
-});
+// Initialize the Mapbox map
+const map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/abehwe2/cm3ipo4bf00k901s75yqjecfr",
+  center: [106.832, -6.983], // Initial map center
+  zoom: 6, // Initial zoom level
+})
 
 // Chapters for storytelling
 const chapters = [
@@ -911,4 +892,3 @@ document.getElementById("story").addEventListener("click", () => {
 document.getElementById("backButton").addEventListener("click", () => {
     window.location.href = "https://prggkel19.netlify.app";
 });
-
