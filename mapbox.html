@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Peta Interaktif</title>
+    <title>Overlapping Mapbox Maps</title>
 
     <!-- Mapbox CSS -->
     <link href="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.css" rel="stylesheet" />
 
     <style>
         /* Fullscreen map styling */
-        #map {
+        .map-container {
+            position: absolute; /* Position both maps on top of each other */
             height: 100vh;
             width: 100%;
+        }
+
+        /* Optional: Add some opacity for the overlapping effect */
+        #map1 {
+            opacity: 0.7; /* Adjust this for desired transparency */
+        }
+
+        #map2 {
+            opacity: 0.5; /* Adjust this for desired transparency */
         }
 
         /* Back button styling */
@@ -20,18 +30,14 @@
             position: absolute;
             top: 20px;
             left: 20px;
-            padding: 10px 20px;
-            background-color: #0078ff;
+            padding: 8px 16px;
+            background-color: #000;
             color: white;
             border: none;
             border-radius: 5px;
-            font-size: 16px;
+            font-size: 14px;
             cursor: pointer;
-            z-index: 10; /* Keep above the map */
-        }
-
-        #backButton:hover {
-            background-color: #005bb5;
+            z-index: 10; /* Keep above the maps */
         }
     </style>
 </head>
@@ -39,37 +45,16 @@
     <!-- Back Button -->
     <button id="backButton" onclick="goBack()">Kembali ke Beranda</button>
 
-    <!-- Mapbox Map Container -->
-    <div id="map"></div>
+    <!-- Map Container 1 -->
+    <div id="map1" class="map-container"></div>
+
+    <!-- Map Container 2 -->
+    <div id="map2" class="map-container"></div>
 
     <!-- Mapbox JavaScript -->
     <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
 
-    <!-- Inline Script -->
-    <script>
-        // Back Button Function
-        function goBack() {
-            window.location.href = "https://prggkel19.netlify.app"; // Replace with your desired URL
-        }
-
-        // Mapbox Access Token
-        mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'; // Replace with a valid token
-
-        // Initialize the Map
-        try {
-            const map = new mapboxgl.Map({
-                container: 'map', // Container ID
-                style: 'mapbox://styles/mapbox/streets-v11', // Map style
-                center: [106.832, -6.983], // Initial center coordinates (Longitude, Latitude)
-                zoom: 6, // Initial zoom level
-            });
-
-            // Add zoom and rotation controls to the map
-            map.addControl(new mapboxgl.NavigationControl());
-        } catch (error) {
-            console.error("Error initializing the map:", error);
-            alert("Terjadi kesalahan saat memuat peta. Silakan periksa koneksi internet atau token Mapbox.");
-        }
-    </script>
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
