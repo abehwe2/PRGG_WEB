@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Visualisasi Pergerakan Pasukan Mataram Islam ke Batavia</title>
-
-    <!-- Link to EB Garamond font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <title>Peta Interaktif</title>
 
     <!-- Mapbox CSS -->
     <link href="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.css" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css">
+    <!-- Optional: Include your own CSS for custom styling -->
+    <link rel="stylesheet" href="styles.css" />
 
     <style>
-        /* Ensure the map takes up the full screen */
+        /* Fullscreen map styling */
         #map {
-            height: 100vh;
+            height: 100vh; /* Full viewport height */
+            width: 100%;   /* Full width */
         }
 
-        /* Style for the back button in the top right corner */
+        /* Back button styling */
         #backButton {
             position: absolute;
             top: 20px;
-            right: 20px;
+            left: 20px;
             padding: 8px 16px;
             background-color: #000;
             color: white;
@@ -30,82 +29,27 @@
             border-radius: 5px;
             font-size: 14px;
             cursor: pointer;
-            z-index: 10;
-        }
-
-        /* Intro container styling */
-        #introContainer {
-            position: absolute;
-            top: 10%;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-            z-index: 20;
-        }
-
-        #story {
-            position: absolute;
-            bottom: 50px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(255, 255, 255, 0.7);
-            padding: 20px;
-            max-width: 300px;
-            text-align: center;
-            border-radius: 10px;
+            z-index: 10; /* Keep above the map */
         }
     </style>
 </head>
 <body>
-    <!-- Intro Section with Start Button -->
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg sticky-top">
-      <div class="container">
-          <a class="navbar-brand" href="#">
-              <img src="./assets/images/logo-dark.svg" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                      <a class="nav-link" href="index.html">Beranda</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="latbel.html">Latar Belakang</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="visualisasi.html">Visualisasi</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="tentang.html">Tentang</a>
-                  </li>
-              </ul>
-              <a href="mapbox.html" class="btn btn-brand ms-lg-3">Peta Interaktif</a>
-          </div>
-      </div>
-  </nav>
-    <div id="introContainer">
-        <h1>Storymap Pergerakan Pasukan Mataram Islam ke Batavia</h1>
-        <p>Selamat datang di petualangan kita! Klik tombol di bawah ini untuk memulai eksplorasi.</p>
-        <button id="startButton">Mulai Eksplorasi</button>
-    </div>
+    <!-- Back Button -->
+    <button id="backButton" onclick="goBack()">Kembali ke Beranda</button>
 
-    <!-- Mapbox map container -->
+    <!-- Mapbox Map Container -->
     <div id="map"></div>
-
-    <!-- Story content box -->
-    <div id="story"></div>
-
-    <!-- Back button -->
-    <button id="backButton">Back to Homepage</button>
 
     <!-- Mapbox JavaScript -->
     <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
-
-    <!-- Link to the external JavaScript file -->
+    <!-- Link to your JavaScript file -->
     <script src="script.js"></script>
+
+    <script>
+        // Back button functionality
+        function goBack() {
+            window.location.href = "index.html"; // Redirect back to the homepage
+        }
+    </script>
 </body>
 </html>
