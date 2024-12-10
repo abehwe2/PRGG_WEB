@@ -196,7 +196,7 @@ const chapters = [
     id: "benteng-holland-7-september-1628",
     alignment: "right",
     hidden: false,
-    title: "7 - 8 September 1628",
+    title: "3 September 1628",
     image: "/SER 1/7 - 8 September 1628.png",
     description:
       "Penyerangan juga dilakukan pada Benteng Paarel dan Benteng Gelderland di tanggal yang sama. Pasukan Mataram Islam melakukan penyerangan tidak hanya di malam hari, melainkan juga di siang hari saat dimana VOC melakukan patroli. Karena permasalahan ini, VOC menawarkan imbalan 100 bagi siapa saja yang rela menangkap prajurit Mataram Islam. Namun, usaha yang dilakukan VOC ini terbilang sia - sia dan tidak membawa hasil. ",
@@ -422,6 +422,26 @@ const chapters = [
       "Penyerangan tahap dua dilakukan kembali oleh Pasukan Mataram Islam untuk merebut Benteng Holland. Penyerangan ini menyebabkan 100 - 300 prajurit tepergok serdadu VOC. Beberapa prajurit dapat melarikan diri, tetapi sisanya ditembak mati oleh VOC. ",
     location: {
       center: [106.819563, -6.1416079],
+      zoom: 13,
+      pitch: 0,
+      bearing: 0,
+    },
+    mapAnimation: "flyTo",
+    rotateAnimation: false,
+    callback: "",
+    onChapterEnter: [],
+    onChapterExit: [],
+  },
+    {
+    id: "kota-gede-3-desember-1628",
+    alignment: "right",
+    hidden: false,
+    title: "3 Desember 1628",
+    image: "/SER 1/3 Desember 1629.png",
+    description:
+      "Pasukan Mataram Islam meninggalkan Batavia dan membiarkan mayat - mayat prajurit berserakan di tanah. VOC menemukan sekitar 744 Prajurit Mataram Islam tidak dikuburkan dan beberapa ditemukan tanpa kepala. Atas tindakan yang telah dilakukan oleh Tumenggung Sura Agul - Agul karena membunuh Kyai Adipati Mandureja dan Kyai Adipati Upasanta, maka Tumenggung Sura Agul - Agul perlu menebus kesalahannnya. Tumenggung Sura Agul - Agul dieksekusi bersama banyak bangsawan atas kegagalannya merebut Batavia. ",
+    location: {
+      center: [110.3978453, -7.829855287],
       zoom: 13,
       pitch: 0,
       bearing: 0,
@@ -748,147 +768,44 @@ const chapters = [
     onChapterExit: [],
   },
 ]
-let currentIndex = 0;
-
-// Mapbox Access Token
-mapboxgl.accessToken = "your-mapbox-access-token";
-
-// Initialize Map
-const map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11',
-    center: [0, 0],
-    zoom: 2,
-});
-
-// Chapters Data
-const chapters = [
-    {
-        title: "Chapter 1: Introduction",
-        description: "Welcome to the story! Click to continue.",
-        location: { center: [0, 0], zoom: 2, pitch: 0, bearing: 0 },
-        image: "https://example.com/image1.jpg",
-    },
-    {
-        title: "Chapter 2: The Journey Begins",
-        description: "Discover the starting point of our journey.",
-        location: { center: [10, 10], zoom: 3, pitch: 0, bearing: 0 },
-        image: "https://example.com/image2.jpg",
-    },
-    {
-        title: "Chapter 3: The Destination",
-        description: "Thank you for following along.",
-        location: { center: [20, 20], zoom: 4, pitch: 0, bearing: 0 },
-        image: "https://example.com/image3.jpg",
-    },
-];
 
 let currentIndex = 0;
 
-// Function to Update Story Content and Fly to the Next Chapter
+// Function to update the story content and fly to the next chapter
 function goToChapter(index) {
-    const chapter = chapters[index];
+  const chapter = chapters[index];
 
-    // Fly to Chapter Location
-    map.flyTo({
-        center: chapter.location.center,
-        zoom: chapter.location.zoom,
-        pitch: chapter.location.pitch,
-        bearing: chapter.location.bearing,
-        essential: true,
-    });
+  // Fly to the chapter location
+  map.flyTo({
+    center: chapter.location.center, // Assuming chapter location is always defined
+    zoom: chapter.location.zoom,     // Assuming chapter zoom is always defined
+    pitch: chapter.location.pitch,   // Assuming chapter pitch is always defined
+    bearing: chapter.location.bearing, // Assuming chapter bearing is always defined
+    essential: true,
+  });
 
-    // Update Story Content
-    document.getElementById("story").innerHTML = `
-        <h2>${chapter.title}</h2>
-        ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
-        <p>${chapter.description}</p>
-    `;
+  // Update the content dynamically
+  document.getElementById("story").innerHTML = `
+    <h2>${chapter.title}</h2>
+    ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
+    <p>${chapter.description}</p>
+  `;
 }
 
-// Function to Style Intro Container
-function styleIntroContainer() {
-    const introContainer = document.getElementById("introContainer");
-
-    // Apply Dynamic Styles
-    introContainer.style.position = "absolute";
-    introContainer.style.zIndex = "2";
-    introContainer.style.background = "rgba(255, 255, 255, 0.8)";
-    introContainer.style.backgroundImage = "url('https://i.imgur.com/Y5mMHrG.png')";
-    introContainer.style.backgroundSize = "cover";
-    introContainer.style.backgroundPosition = "center";
-    introContainer.style.backgroundRepeat = "no-repeat";
-    introContainer.style.padding = "40px";
-    introContainer.style.width = "100%";
-    introContainer.style.height = "100vh";
-    introContainer.style.boxSizing = "border-box";
-    introContainer.style.top = "0";
-    introContainer.style.left = "0";
-    introContainer.style.display = "flex";
-    introContainer.style.flexDirection = "column";
-    introContainer.style.justifyContent = "center";
-    introContainer.style.alignItems = "center";
-    introContainer.style.color = "white";
-    introContainer.style.fontSize = "2em";
-    introContainer.style.fontWeight = "900";
-    introContainer.style.fontFamily = "'EB Garamond', serif";
-}
-function styleStartButton() {
-    const startButton = document.getElementById("startButton");
-
-    // Apply styles dynamically
-    startButton.style.padding = "15px 30px";
-    startButton.style.backgroundColor = "#5b3e1f";
-    startButton.style.color = "white";
-    startButton.style.fontSize = "1.2em";
-    startButton.style.fontFamily = "'EB Garamond', serif";
-    startButton.style.border = "none";
-    startButton.style.borderRadius = "5px";
-    startButton.style.cursor = "pointer";
-    startButton.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.3)";
-    startButton.style.transition = "transform 0.3s ease, box-shadow 0.3s ease";
-
-    // Hover effect
-    startButton.onmouseover = function () {
-        startButton.style.transform = "scale(1.1)";
-        startButton.style.boxShadow = "0 6px 8px rgba(0, 0, 0, 0.4)";
-    };
-
-    // Mouse out effect
-    startButton.onmouseout = function () {
-        startButton.style.transform = "scale(1)";
-        startButton.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.3)";
-    };
-
-    // Active (clicked) effect
-    startButton.onmousedown = function () {
-        startButton.style.transform = "scale(0.95)";
-        startButton.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.2)";
-    };
-
-    startButton.onmouseup = function () {
-        startButton.style.transform = "scale(1)";
-        startButton.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.3)";
-    };
-}
-// Apply Styles Dynamically
-document.addEventListener("DOMContentLoaded", () => {
-    styleIntroContainer();
-});
-
-// Start Button Click
+// Button click to start exploration
 document.getElementById("startButton").onclick = function () {
-    document.getElementById("introContainer").style.display = "none";
-    goToChapter(currentIndex);
+  // Hide the introductory container
+  document.getElementById("introContainer").style.display = "none";
+
+  // Show the first chapter content
+  goToChapter(currentIndex);
 };
 
-// Navigate to the Next Chapter
+// Storytelling: Navigate to the next chapter
 document.getElementById("story").addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % chapters.length;
-    goToChapter(currentIndex);
-});
+  // Ensure we loop back to the first chapter after reaching the last one
+  currentIndex = (currentIndex + 1) % chapters.length;
 
-// Back Button Functionality
-document.getElementById("backButton").addEventListener("click", () => {
-    window.location.href = "https://prggkel19.netlify.app";
+  // Proceed to the next chapter
+  goToChapter(currentIndex);
 });
