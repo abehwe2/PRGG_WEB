@@ -20,14 +20,18 @@
             position: absolute;
             top: 20px;
             left: 20px;
-            padding: 8px 16px;
-            background-color: #000;
+            padding: 10px 20px;
+            background-color: #0078ff;
             color: white;
             border: none;
             border-radius: 5px;
-            font-size: 14px;
+            font-size: 16px;
             cursor: pointer;
             z-index: 10; /* Keep above the map */
+        }
+
+        #backButton:hover {
+            background-color: #005bb5;
         }
     </style>
 </head>
@@ -41,7 +45,31 @@
     <!-- Mapbox JavaScript -->
     <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
 
-    <!-- Link to the external JavaScript file -->
-    <script src="script.js"></script>
+    <!-- Inline Script -->
+    <script>
+        // Back Button Function
+        function goBack() {
+            window.location.href = "https://prggkel19.netlify.app"; // Replace with your desired URL
+        }
+
+        // Mapbox Access Token
+        mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'; // Replace with a valid token
+
+        // Initialize the Map
+        try {
+            const map = new mapboxgl.Map({
+                container: 'map', // Container ID
+                style: 'mapbox://styles/mapbox/streets-v11', // Map style
+                center: [106.832, -6.983], // Initial center coordinates (Longitude, Latitude)
+                zoom: 6, // Initial zoom level
+            });
+
+            // Add zoom and rotation controls to the map
+            map.addControl(new mapboxgl.NavigationControl());
+        } catch (error) {
+            console.error("Error initializing the map:", error);
+            alert("Terjadi kesalahan saat memuat peta. Silakan periksa koneksi internet atau token Mapbox.");
+        }
+    </script>
 </body>
 </html>
