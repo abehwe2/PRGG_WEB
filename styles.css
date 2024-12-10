@@ -1,165 +1,175 @@
-/* Make the map take up full screen */
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Ensure full-height sections */
 #map {
-  width: 100%;
-  height: 100vh;  /* Full viewport height */
+    width: 100%;
+    height: 100vh; /* Full viewport height */
 }
 
-/* Style for the start button to look like old papyrus */
-#startButton {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWSCua3Vdbj6xILZG9Lo6U899MOIARvrwe6Q&s'); /* Papyrus-like texture */
-  background-size: cover; /* Ensure the texture covers the button */
-  background-position: center; /* Center the texture */
-  color: #5b3e1f; /* Dark brown text color */
-  font-family: 'Papyrus', 'Caveat', cursive; /* Papyrus or similar font */
-  font-size: 1.1em; /* Slightly larger font size */
-  padding: 15px 30px; /* Add padding for a bigger button */
-  border: 2px solid #5b3e1f; /* Brown border */
-  border-radius: 8px; /* Subtle rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for a raised effect */
-  text-shadow: 1px 1px 2px #fff; /* Subtle text shadow for depth */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
-}
-
-/* Hover effect */
-#startButton:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
-}
-
-/* Active (clicked) effect */
-#startButton:active {
-  transform: scale(0.95); /* Slight shrink effect */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
-}
-
-/* Basic styling for the page */
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-/* Intro container style */
+/* Responsive Intro Container */
 #introContainer {
-  position: absolute;
-  z-index: 2;
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-  background-image: url('https://i.imgur.com/Y5mMHrG.png'); /* Direct Imgur link */
-  background-size: cover; /* Cover the entire container */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  padding: 40px;
-  width: 100%; /* Full width */
-  height: 100vh; /* Full viewport height */
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
-  display: flex; /* Flex layout for centering content */
-  flex-direction: column;
-  justify-content: center; /* Vertically center content */
-  align-items: center; /* Horizontally center content */
-  color: white; /* Font color */
-  font-size: 2em; /* Adjust the font size */
-  font-weight: 900; /* Very bold */
-  font-family: 'EB Garamond', serif; /* Apply EB Garamond font */
+    position: absolute;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.8);
+    background-image: url('https://i.imgur.com/Y5mMHrG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'EB Garamond', serif;
 }
 
-/* Story box style */
-#story {
-  position: absolute;
-  z-index: 1;
-  bottom: 10px;
-  left: 10px;
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-  padding: 20px;
-  width: 600px; /* Expanded width */
-  max-height: 500px; /* Limit height */
-  overflow-y: auto; /* Enable scroll if content overflows */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
-  border-radius: 8px; /* Rounded corners */
-  box-sizing: border-box; /* Ensure padding is included in width/height */
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+.nav-link {
+    color: white !important;
+    font-size: 1em;
 }
 
-/* Ensure images inside story box fit the container */
-#story img {
-  max-width: 100%;     /* Image will fit the width of the container */
-  height: auto;        /* Maintain the aspect ratio */
-  object-fit: contain; /* Ensure the image is contained within the box */
-}
-
-/* Back to Home button style */
-#backButton {
-  background-color: #5b3e1f; /* Dark brown color */
-  color: white; /* White text */
-  font-family: 'EB Garamond', serif; /* EB Garamond font */
-  font-size: 1.1em; /* Slightly larger font size */
-  padding: 10px 20px; /* Padding for the button */
-  border: 2px solid #5b3e1f; /* Dark brown border */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for a raised effect */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
-  display: block; /* Block display */
-  margin-top: 20px; /* Add space above the button */
-  text-align: center; /* Center text */
-  width: 100%; /* Full width button */
-}
-
-/* Hover effect for back button */
-#backButton:hover {
-  background-color: #4a2e14; /* Slightly darker background */
-  transform: scale(1.05); /* Slight zoom on hover */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
-}
-
-/* Active (clicked) effect for back button */
-#backButton:active {
-  transform: scale(0.95); /* Slight shrink effect */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
-}
-
-/* Mobile-specific styles */
+/* Responsive Navbar Adjustments */
 @media (max-width: 768px) {
-  /* Ensure the map takes up full screen height on mobile */
-  #map {
-    height: 100vh; /* Full height */
-  }
-
-  /* Adjust the intro container */
-  #introContainer {
-    font-size: 1.5em; /* Reduce font size for smaller screens */
-    padding: 20px; /* Less padding to fit smaller screens */
-  }
-
-  /* Adjust the start button */
-  #startButton {
-    padding: 10px 20px; /* Adjust padding for smaller buttons */
-    font-size: 1em; /* Slightly smaller font size */
-    border-radius: 6px; /* Slightly smaller rounded corners */
-  }
-
-  /* Make the story box fit the screen */
-  #story {
-    width: 90%; /* Full width but with padding */
-    bottom: 20px; /* Space from bottom */
-    left: 5%; /* Center horizontally */
-    max-height: 40%; /* Limit height */
-    font-size: 0.9em; /* Slightly smaller text */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow */
-  }
+    .navbar-brand img {
+        max-width: 80%; /* Scale logo for smaller screens */
+    }
+    .nav-item {
+        margin: 10px 0; /* Add space between menu items */
+    }
+    .navbar-collapse {
+        text-align: center; /* Center align navigation links */
+    }
 }
 
-/* Tablet-specific styles */
-@media (min-width: 769px) and (max-width: 1024px) {
-  #story {
-    width: 80%; /* Adjust width for tablets */
-    left: 10%; /* Center it horizontally */
-    font-size: 1em; /* Moderate font size */
-  }
+/* Hero Section */
+#hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+#hero .btn {
+    padding: 10px 20px;
+    font-size: 1em;
 }
 
-/* Prevent horizontal scrolling */
-html, body {
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+/* Responsive Hero Adjustments */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2em;
+    }
+    #hero .btn {
+        font-size: 0.9em;
+    }
+}
+
+/* Story Box */
+#story {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 600px;
+    max-height: 500px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Responsive Story Box */
+@media (max-width: 768px) {
+    #story {
+        width: 90%; /* Scale to fit mobile screens */
+        bottom: 20px;
+        left: 5%;
+        max-height: 40%; /* Adjust height for smaller screens */
+        font-size: 0.9em;
+    }
+}
+
+/* Button Styling */
+#startButton, #backButton {
+    background-color: #5b3e1f;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: 2px solid #5b3e1f;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button Hover Effect */
+#startButton:hover, #backButton:hover {
+    background-color: #4a2e14;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+footer .footer-top {
+    padding-bottom: 20px;
+}
+footer .social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+footer p {
+    margin: 0;
+}
+
+/* Mobile Footer Adjustments */
+@media (max-width: 768px) {
+    footer .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .footer-bottom p {
+        margin-bottom: 10px;
+    }
 }
