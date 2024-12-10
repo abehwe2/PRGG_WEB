@@ -750,45 +750,146 @@ const chapters = [
 ]
 let currentIndex = 0;
 
-// Function to update the story content and fly to the next chapter
+// Mapbox Access Token
+mapboxgl.accessToken = "your-mapbox-access-token";
+
+// Initialize Map
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [0, 0],
+    zoom: 2,
+});
+
+// Chapters Data
+const chapters = [
+    {
+        title: "Chapter 1: Introduction",
+        description: "Welcome to the story! Click to continue.",
+        location: { center: [0, 0], zoom: 2, pitch: 0, bearing: 0 },
+        image: "https://example.com/image1.jpg",
+    },
+    {
+        title: "Chapter 2: The Journey Begins",
+        description: "Discover the starting point of our journey.",
+        location: { center: [10, 10], zoom: 3, pitch: 0, bearing: 0 },
+        image: "https://example.com/image2.jpg",
+    },
+    {
+        title: "Chapter 3: The Destination",
+        description: "Thank you for following along.",
+        location: { center: [20, 20], zoom: 4, pitch: 0, bearing: 0 },
+        image: "https://example.com/image3.jpg",
+    },
+];
+
+let currentIndex = 0;
+
+// Function to Update Story Content and Fly to the Next Chapter
 function goToChapter(index) {
-  const chapter = chapters[index];
+    const chapter = chapters[index];
 
-  // Fly to the chapter location
-  map.flyTo({
-    center: chapter.location.center, // Assuming chapter location is always defined
-    zoom: chapter.location.zoom,     // Assuming chapter zoom is always defined
-    pitch: chapter.location.pitch,   // Assuming chapter pitch is always defined
-    bearing: chapter.location.bearing, // Assuming chapter bearing is always defined
-    essential: true,
-  });
+    // Fly to Chapter Location
+    map.flyTo({
+        center: chapter.location.center,
+        zoom: chapter.location.zoom,
+        pitch: chapter.location.pitch,
+        bearing: chapter.location.bearing,
+        essential: true,
+    });
 
-  // Update the content dynamically
-  document.getElementById("story").innerHTML = `
-    <h2>${chapter.title}</h2>
-    ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
-    <p>${chapter.description}</p>
-  `;
+    // Update Story Content
+    document.getElementById("story").innerHTML = `
+        <h2>${chapter.title}</h2>
+        ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
+        <p>${chapter.description}</p>
+    `;
 }
 
-// Button click to start exploration
-document.getElementById("startButton").onclick = function () {
-  // Hide the introductory container
-  document.getElementById("introContainer").style.display = "none";
+// Function to Style Intro Container
+function styleIntroContainer() {
+    const introContainer = document.getElementById("introContainer");
 
-  // Show the first chapter content
-  goToChapter(currentIndex);
+    // Apply Dynamic Styles
+    introContainer.style.position = "absolute";
+    introContainer.style.zIndex = "2";
+    introContainer.style.background = "rgba(255, 255, 255, 0.8)";
+    introContainer.style.backgroundImage = "url('https://i.imgur.com/Y5mMHrG.png')";
+    introContainer.style.backgroundSize = "cover";
+    introContainer.style.backgroundPosition = "center";
+    introContainer.style.backgroundRepeat = "no-repeat";
+    introContainer.style.padding = "40px";
+    introContainer.style.width = "100%";
+    introContainer.style.height = "100vh";
+    introContainer.style.boxSizing = "border-box";
+    introContainer.style.top = "0";
+    introContainer.style.left = "0";
+    introContainer.style.display = "flex";
+    introContainer.style.flexDirection = "column";
+    introContainer.style.justifyContent = "center";
+    introContainer.style.alignItems = "center";
+    introContainer.style.color = "white";
+    introContainer.style.fontSize = "2em";
+    introContainer.style.fontWeight = "900";
+    introContainer.style.fontFamily = "'EB Garamond', serif";
+}
+function styleStartButton() {
+    const startButton = document.getElementById("startButton");
+
+    // Apply styles dynamically
+    startButton.style.padding = "15px 30px";
+    startButton.style.backgroundColor = "#5b3e1f";
+    startButton.style.color = "white";
+    startButton.style.fontSize = "1.2em";
+    startButton.style.fontFamily = "'EB Garamond', serif";
+    startButton.style.border = "none";
+    startButton.style.borderRadius = "5px";
+    startButton.style.cursor = "pointer";
+    startButton.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.3)";
+    startButton.style.transition = "transform 0.3s ease, box-shadow 0.3s ease";
+
+    // Hover effect
+    startButton.onmouseover = function () {
+        startButton.style.transform = "scale(1.1)";
+        startButton.style.boxShadow = "0 6px 8px rgba(0, 0, 0, 0.4)";
+    };
+
+    // Mouse out effect
+    startButton.onmouseout = function () {
+        startButton.style.transform = "scale(1)";
+        startButton.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.3)";
+    };
+
+    // Active (clicked) effect
+    startButton.onmousedown = function () {
+        startButton.style.transform = "scale(0.95)";
+        startButton.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.2)";
+    };
+
+    startButton.onmouseup = function () {
+        startButton.style.transform = "scale(1)";
+        startButton.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.3)";
+    };
+}
+// Apply Styles Dynamically
+document.addEventListener("DOMContentLoaded", () => {
+    styleIntroContainer();
+});
+
+// Start Button Click
+document.getElementById("startButton").onclick = function () {
+    document.getElementById("introContainer").style.display = "none";
+    goToChapter(currentIndex);
 };
 
-// Storytelling: Navigate to the next chapter
+// Navigate to the Next Chapter
 document.getElementById("story").addEventListener("click", () => {
-  // Ensure we loop back to the first chapter after reaching the last one
-  currentIndex = (currentIndex + 1) % chapters.length;
+    currentIndex = (currentIndex + 1) % chapters.length;
+    goToChapter(currentIndex);
+});
 
-  // Proceed to the next chapter
-  goToChapter(currentIndex);
+// Back Button Functionality
+document.getElementById("backButton").addEventListener("click", () => {
+    window.location.href = "https://prggkel19.netlify.app";
 });
-// Back button functionality to return to the homepage
-document.getElementById('backButton').addEventListener('click', function() {
-  window.location.href = 'https://prggkel19.netlify.app';  // Redirects to the homepage
-});
+
