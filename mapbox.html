@@ -7,14 +7,12 @@
 
     <!-- Mapbox CSS -->
     <link href="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.css" rel="stylesheet" />
-    <!-- Optional: Include your own CSS for custom styling -->
-    <link rel="stylesheet" href="styles.css" />
 
     <style>
         /* Fullscreen map styling */
         #map {
-            height: 100vh; /* Full viewport height */
-            width: 100%;   /* Full width */
+            height: 100vh;
+            width: 100%;
         }
 
         /* Back button styling */
@@ -42,14 +40,26 @@
 
     <!-- Mapbox JavaScript -->
     <script src="https://unpkg.com/mapbox-gl@2.11.0/dist/mapbox-gl.js"></script>
-    <!-- Link to your JavaScript file -->
-    <script src="script.js"></script>
 
+    <!-- Mapbox Inline JavaScript -->
     <script>
-        // Back button functionality
+        // Back Button Functionality
         function goBack() {
-            window.location.href = "index.html"; // Redirect back to the homepage
+            window.location.href = "index.html"; // Redirect to the homepage
         }
+
+        // Mapbox Token and Initialization
+        mapboxgl.accessToken = "pk.eyJ1IjoiYWJlaHdlMiIsImEiOiJjbHgzejIwbWcweWF0MmtxMXhzZ3JpdHRxIn0.QWRObYX_632YsxXJGMkv-w";
+
+        const map = new mapboxgl.Map({
+            container: "map", // The ID of the map container
+            style: "mapbox://styles/abehwe2/cm3ipo4bf00k901s75yqjecfr", // Map style URL
+            center: [106.832, -6.983], // Longitude and latitude for map center
+            zoom: 6, // Initial zoom level
+        });
+
+        // Add Navigation Controls
+        map.addControl(new mapboxgl.NavigationControl());
     </script>
 </body>
 </html>
