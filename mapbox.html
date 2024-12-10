@@ -51,12 +51,13 @@
         // Mapbox Token and Initialization
         mapboxgl.accessToken = "pk.eyJ1IjoiYWJlaHdlMiIsImEiOiJjbHgzejIwbWcweWF0MmtxMXhzZ3JpdHRxIn0.QWRObYX_632YsxXJGMkv-w";
 
-        const map = new mapboxgl.Map({
-            container: "map", // The ID of the map container
-            style: "mapbox://styles/abehwe2/cm3ipo4bf00k901s75yqjecfr", // Map style URL
-            center: [106.832, -6.983], // Longitude and latitude for map center
-            zoom: 6, // Initial zoom level
-        });
+      const map = new mapboxgl.Map({
+    container: "map",
+    style: "mapbox://styles/mapbox/streets-v11", // Default Mapbox Streets style
+    center: [106.832, -6.983],
+    zoom: 6,
+});
+
 
         // Add Navigation Controls
         map.addControl(new mapboxgl.NavigationControl());
