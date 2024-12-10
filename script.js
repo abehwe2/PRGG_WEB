@@ -9,7 +9,16 @@ const map = new mapboxgl.Map({
   center: [106.832, -6.983], // Initial map center
   zoom: 6, // Initial zoom level
 })
-
+// Add a default Mapbox background layer (if not part of your custom style)
+map.on('load', function() {
+  // Adding the Mapbox default background layer (if it isn't included in your style)
+  map.addLayer({
+    id: 'background',
+    type: 'background',
+    paint: {
+      'background-color': '#f0f0f0' // Light gray background color
+    }
+  });
 // Chapters for storytelling
 const chapters = [
   {
