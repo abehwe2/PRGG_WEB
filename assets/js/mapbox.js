@@ -18,7 +18,7 @@ const chapters = [
     hidden: false,
     title: "Serangan Pertama",
     description:
-      "Penyerangan pertama ke Batavia dimulai pada musim kemarau, saat musim panen sehingga memudahkan dalam persiapan bekal. Kabar penyerangan sudah terdengar sejak lama di Batavia, Mataram Islam mengerahkan pasukan sekitar 48.000 - 100.000.",
+      "Penyerangan pertama ke Batavia dimulai pada musim kemarau, saat musim panen sehingga memudahkan dalam persiapan bekal. Kabar penyerangan sudah terdengar sejak lama di Batavia, Mataram Islam mengerahkan pasukan sekitar 4.800 - 10.000.",
     location: {
       center: [107.6191, -6.9175], // Approximate center of Java
       zoom: 6, // Zoom level to show the island
@@ -539,7 +539,7 @@ const chapters = [
     title: "20 Juni 1629",
     image: "/SER 2/20 Juni 1629.png",
     description:
-      "Setelah 1 bulan gelombang pertama berangkat ke Batavia, gelombang kedua mulai menyusul ke Batavia. Gelombang kedua terdiri dari pasukan infanteri dengan jumlah 80.000 prajurit. Gelombang kedua dipimpin oleh Adipati Juminah.",
+      "Setelah 1 bulan gelombang pertama berangkat ke Batavia, gelombang kedua mulai menyusul ke Batavia. Gelombang kedua terdiri dari pasukan infanteri dengan jumlah 14.000 prajurit. Gelombang kedua dipimpin oleh Adipati Juminah.",
     location: {
       center: [110.3978453, -7.829855287],
       zoom: 16,
