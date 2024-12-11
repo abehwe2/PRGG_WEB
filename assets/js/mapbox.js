@@ -373,7 +373,7 @@ const chapters = [
     onChapterExit: [],
   },
     {
-    id: "benteng-holland-22-oktober-1628",
+    id: "sungai-marunda-22-oktober-1628",
     alignment: "right",
     hidden: false,
     title: "22 Oktober 1628",
@@ -381,7 +381,7 @@ const chapters = [
     description:
       "Satu hari setelahnya setelah Tumenggung Baureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung Sura Agul - Agul, Kyai Adipati Mandureja, dan Kyai Adipati Upasanta. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.",
     location: {
-      center: [106.819563, -6.1416079],
+      center: [106.958378, -6.087664],
       zoom: 16,
       pitch: 56,
       bearing: 265,
@@ -421,7 +421,7 @@ const chapters = [
     description:
       "Penyerangan tahap dua dilakukan kembali oleh Pasukan Mataram Islam untuk merebut Benteng Holland. Penyerangan ini menyebabkan 100 - 300 prajurit tepergok serdadu VOC. Beberapa prajurit dapat melarikan diri, tetapi sisanya ditembak mati oleh VOC. ",
     location: {
-      center: [106.819563, -6.1416079],
+      center: [106.812778, -6.138611],
       zoom: 16,
       pitch: 56,
       bearing: 10,
@@ -501,7 +501,7 @@ const chapters = [
     description:
       "Sebelum melakukan serangan kedua ke Batavia, Sultan Agung telah lebih dahulu melakukan persiapan dengan teliti dan seksama. Sultan Agung mengirim seorang mata - mata Mataram Islam yang bernama Warga untuk mengawasi Benteng Batavia. Warga menyamar sebagai pedagang untuk mengamati pergerakan benteng dan melaporakannnya ke pihak Mataram Islam. Seluruh laporan sudah berhasil disampaikan ke pihak Mataram Islam. Namun, naasnya Warga ditangkap, disiksa, dan dipenjarakan oleh VOC.",
     location: {
-      center: [106.808786, -6.114473],
+      center: [106.813058, -6.1288896],
       zoom: 16,
       pitch: 56,  
       bearing: 14,
@@ -521,7 +521,7 @@ const chapters = [
     description:
       "Penyerangan dibagi menjadi 2 gelombang, yaitu gelombang pertama dan gelombang kedua. Gelombang pertama terdiri atas arteleri beserta amonisinya. Gelombang pertama dipimpin oleh Adipati Ukur.",
     location: {
-      center: [106.808786, -6.114473],
+      center: [110.3978453, -7.829855287],
       zoom: 16,
       pitch: 56,  
       bearing: 105,
@@ -688,7 +688,7 @@ const chapters = [
     onChapterExit: [],
   },
   {
-    id: "batavia-2-oktober-1629",
+    id: "karawang-2-oktober-1629",
     alignment: "left",
     hidden: false,
     title: "2 Oktober 1629",
@@ -696,7 +696,7 @@ const chapters = [
     description:
       "Pasukan Mataram islam mulai mundur dari medan pertempuran di Batavia. Hal ini disebabkan karena kelaparan yang dialami oleh Pasukan Mataram Islam. Awalnya, Sultan Agung sudah menyiapkan lumbung - lumbung persediaan bahan makanan di sepanjang Cirebon dan Karawang. Namun, VOC mengetahui hal ini dan langsung membakar habis lumbung - lumbung tersebut dan berujung munculnya kelaparan.",
     location: {
-      center: [106.808786, -6.114473],
+      center: [107.3201599, -6.30389198],
       zoom: 16,
       pitch: 56,  
       bearing: 135,
@@ -756,7 +756,7 @@ const chapters = [
     description:
       "Karena mulai memasuki musim penghujan, penyerangan terhadap Batavia dihentikan. Pasukan Mataran Islam ditarik karena perbekalan yang menipis dan berjangkitnya wabah penyakit menular. Serangan kedua yang dapat dikatakan gagal membuat Sultan Agung memerintahkan untuk menghukum semua orang yang pulang dengan kegagalan. Itu sebabnya seluruh jalan dan pintu gerbang dijaga agar tidak seorang pun dapat kembali kepada keluarganya. Tumenggung Singaranu mengetahui gelagat itu dan menahan sisa pasukan yang berjumlah sekitar 10.000 - 14.000 orang. Tumenggung Singaranu mengirimkan istri, selir, dan anak anaknya untuk mendapatkan pengampunan Sultan Agung. Pada akhirnya Sultan Agung mengampuni Singaranu dengan syarat selama 3 tahun tidak diperbolehkan berhadapan muka dengan raja dan kemungkinan tidak menempati posisinya lagi.",
     location: {
-      center: [106.808786, -6.114473],
+      center: [110.3978453, 7.829855287],
       zoom: 16,
       pitch: 56,  
       bearing: 132,
