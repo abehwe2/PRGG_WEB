@@ -87,29 +87,31 @@ html, body {
 
 /* Style for the back button */
 #backButton {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    padding: 10px 20px;
-    background-color: #5b3e1f; /* Dark brown background */
-    color: white; /* White text */
-    font-family: 'EB Garamond', serif; /* Matching font */
-    font-size: 1em; /* Button font size */
-    border: none; /* No border */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #5b3e1f; /* Dark brown background */
+  color: white; /* White text */
+  font-family: 'EB Garamond', serif; /* Matching font */
+  font-size: 1em; /* Button font size */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  cursor: pointer; /* Pointer cursor on hover */
+  z-index: 10; /* Ensure it's on top of other elements */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
 }
 
 /* Hover effect for back button */
 #backButton:hover {
-    transform: scale(1.05); /* Slightly larger on hover */
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+  transform: scale(1.05); /* Slightly larger on hover */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4); /* Stronger shadow */
 }
 
 /* Active (clicked) effect for back button */
 #backButton:active {
-    transform: scale(0.95); /* Shrink slightly on click */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Weaker shadow */
+  transform: scale(0.95); /* Shrink slightly on click */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Weaker shadow */
 }
+
