@@ -452,26 +452,6 @@ const chapters = [
     onChapterEnter: [],
     onChapterExit: [],
   },
-    {
-    id: "Batavia-3-desember-1628",
-    alignment: "right",
-    hidden: false,
-    title: "3 Desember 1628",
-    image: "/SER 1/3 Desember 1629.png",
-    description:
-      "Pasukan Mataram Islam meninggalkan Batavia dan membiarkan mayat - mayat prajurit berserakan di tanah. VOC menemukan sekitar 744 Prajurit Mataram Islam tidak dikuburkan dan beberapa ditemukan tanpa kepala. Atas tindakan yang telah dilakukan oleh Tumenggung Sura Agul - Agul karena membunuh Kyai Adipati Mandureja dan Kyai Adipati Upasanta, maka Tumenggung Sura Agul - Agul perlu menebus kesalahannnya. Tumenggung Sura Agul - Agul dieksekusi bersama banyak bangsawan atas kegagalannya merebut Batavia. ",
-    location: {
-      center: [110.3978453, -7.829855287],
-      zoom: 16,
-      pitch: 56,
-      bearing: 120,
-    },
-    mapAnimation: "flyTo",
-    rotateAnimation: false,
-    callback: "",
-    onChapterEnter: [],
-    onChapterExit: [],
-  },
   {
     id: "serangan-kedua",
     alignment: "left",
