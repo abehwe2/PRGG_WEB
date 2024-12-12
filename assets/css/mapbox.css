@@ -82,3 +82,25 @@ html, body {
   height: auto;        /* Maintain the aspect ratio */
   object-fit: contain; /* Ensure the image is contained within the box */
 }
+
+/* Responsive design for mobile support */
+@media (max-width: 768px) {
+  #map {
+    height: 100%;
+  }
+
+  #startButton {
+    font-size: 1em; /* Adjust font size for smaller screens */
+    padding: 10px 20px; /* Adjust padding for smaller buttons */
+  }
+
+  #introContainer {
+    padding: 20px; /* Reduce padding on smaller screens */
+    font-size: 1.5em; /* Adjust font size for better readability */
+  }
+
+  #story {
+    width: 90%; /* Make the story box fit better on smaller screens */
+    max-height: 300px; /* Reduce max height for smaller screens */
+  }
+}
