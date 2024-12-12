@@ -561,7 +561,7 @@ const chapters = [
     description:
       "Serangan kedua difokuskan pada Benteng Paarel, Benteng Robijn, Benteng Safter, Benteng Diamant, dan Benteng Holland. Seluruh benteng tersebut dikepung berlapis - lapis dan semua persenjataan dan logistik diatur dengan tertib. Namun, sebelum serangan ini terjadi, VOC telah melakukan persiapan pertahanan dengan memfasilitasi benteng - benteng dengan meriam berkaliber besar, serta pintu - pintu untuk menyelamatkan diri.",
     location: {
-      center: [106.813058, -6.1288896],
+      center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
       pitch: 56,  
       bearing: 175,
@@ -596,7 +596,7 @@ const chapters = [
     description:
       "Muncul bantuan persenjataan yang diangkut dengan gerobak dan ditarik oleh 10 ekor kerbau. Setelah bantuan senjata datang, Pasukan Mataram Islam segera menyiapkan meriam-meriam tersebut ke garis penyerangan bagian depan. Meriam - meriam tersebut diantaranya Guntur Geni, Panca Wura, dan beberapa meriam kecil. ",
     location: {
-      center: [106.808786, -6.114473],
+      center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
       pitch: 56,  
       bearing: 20,
@@ -616,7 +616,7 @@ const chapters = [
     description:
       "Bantuan yang diterima Pasukan Mataram Islam membuat perlawanan semakin genting. VOC menyiapkan serangan balasan di bawah kepemimpinan Antoni Van Diemen. Serangan balasan tersebut dilakukan dengan membakar pertahanan Pasukan Mataram Islam yang berujung pada kekalahan Pasukan Mataram Islam. Kebakaran ini tidak berlangsung lama karena adanya hujan yang memadamkan kebakaran saat itu.",
     location: {
-      center: [106.808786, -6.114473],
+      center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
       pitch: 56,  
       bearing: 93,
@@ -636,7 +636,7 @@ const chapters = [
     description:
       "Meriam - meriam Mataram Islam berhasil membuat Benteng Holland rusak parah. Prajurit Mataram Islam tidak mendobrak ataupun menaiki benteng tersebut meskipun serdadu VOC sudah kehabisan peluru. Dalam pertempuran ini,  Gubernur Jenderal VOC yaitu Jan Pieterszoon Coen meninggal diakibatkan penyakit kolera. Karena gereja terbakar saat pengepungan 17 September, maka dari itu, Jan Pieterszoon Coen dimakamkan di Balaikota.",
     location: {
-      center: [106.808786, -6.114473],
+      center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
       pitch: 56,  
       bearing: 146,
