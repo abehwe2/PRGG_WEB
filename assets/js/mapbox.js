@@ -139,7 +139,7 @@ const chapters = [
     title: "26 Agustus 1628",
     image: "/SER 1/26 Agustus 1628 B.png",
     description:
-      "Pada pagi hari sebelumnya, Belanda mendengar kabar datangnya pasukan di bawah kepemimpinan Tumenggung Baureksa dari Kendal. Saat itu juga Belanda langsung mempersiapkan diri dengan melakukan pengosongan kota pada bagian barat dan selatan. Rumah serta bangunan - bangunan dibakar dan diratakan dengan tanah. Tujuannya adalah untuk mempermudah Belanda menghadapi pasukan Mataram Islam.(Yenni T., 2011)",
+      "Pada pagi hari sebelumnya, Belanda mendengar kabar datangnya pasukan di bawah kepemimpinan Tumenggung Baureksa dari Kendal. Saat itu juga Belanda langsung mempersiapkan diri dengan melakukan pengosongan kota pada bagian barat dan selatan. Rumah serta bangunan - bangunan dibakar dan diratakan dengan tanah. Tujuannya adalah untuk mempermudah Belanda menghadapi pasukan Mataram Islam.(Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -559,7 +559,7 @@ const chapters = [
     title: "12 September 1629",
     image: "/SER 2/12 September 1629.png",
     description:
-      "Pasukan Mataram Islam telah menempatkan diri dalam parit perlindungan untuk mempersiapkan penyerangan. Penyerangan dilakukan di Benteng Holland. Di tanggal yang sama, Pasukan Mataram Islam berjumlah 200 orang melakukan penyerbuan menuju Benteng Bommel. Bahkan terdapat 9 prajurit yang sudah menaiki benteng tersebut. Namun, usaha ini gagal karena Pasukan Mataram Islam dipukul mundur oleh VOC.",
+      "Pasukan Mataram Islam telah menempatkan diri dalam parit perlindungan untuk mempersiapkan penyerangan. Penyerangan dilakukan di Benteng Holland. Di tanggal yang sama, Pasukan Mataram Islam berjumlah 200 orang melakukan penyerbuan menuju Benteng Bommel. Bahkan terdapat 9 prajurit yang sudah menaiki benteng tersebut. Namun, usaha ini gagal karena Pasukan Mataram Islam dipukul mundur oleh VOC. (Triwihana dan Siswanta, 2024)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -574,7 +574,7 @@ const chapters = [
     title: "14 - 15 September 1629",
     image: "/SER 2/14-15 September 1629.png",
     description:
-      "Muncul bantuan persenjataan yang diangkut dengan gerobak dan ditarik oleh 10 ekor kerbau. Setelah bantuan senjata datang, Pasukan Mataram Islam segera menyiapkan meriam-meriam tersebut ke garis penyerangan bagian depan. Meriam - meriam tersebut diantaranya Guntur Geni, Panca Wura, dan beberapa meriam kecil. (Triwihana dan Siswanta., 2024)",
+      "Muncul bantuan persenjataan yang diangkut dengan gerobak dan ditarik oleh 10 ekor kerbau. Setelah bantuan senjata datang, Pasukan Mataram Islam segera menyiapkan meriam-meriam tersebut ke garis penyerangan bagian depan. Meriam - meriam tersebut diantaranya Guntur Geni, Panca Wura, dan beberapa meriam kecil. (Triwihana dan Siswanta, 2024)",
     location: {
       center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
@@ -634,7 +634,7 @@ const chapters = [
     title: "21 September 1629",
     image: "/SER 2/21 September 1629.png",
     description:
-      "Pertempuran masih berlangsung dengan Pasukan Mataram Islam yang meletakkan meriam berat pada bagian sisi barat, selatan, dan timur benteng. Pertempuran ini memakan banyak korban jiwa baik dari sisi Mataram Islam maupun VOC.",
+      "Pertempuran masih berlangsung dengan Pasukan Mataram Islam yang meletakkan meriam berat pada bagian sisi barat, selatan, dan timur benteng. Pertempuran ini memakan banyak korban jiwa baik dari sisi Mataram Islam maupun VOC.(Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.813058, -6.1288896],
       zoom: 16,
@@ -694,7 +694,7 @@ const chapters = [
     title: "3 Oktober 1629",
     image: "/SER 2/3 Oktober 1629.png",
     description:
-      "Meskipun dengan perbekalan yang kian menipis mengancam Pasukan Mataram Islam. Serangan masih diluncurkan oleh Pasukan Mataram Islam dengan menghujani benteng - benteng VOC tembakan - tembakan gencar.",
+      "Meskipun dengan perbekalan yang kian menipis mengancam Pasukan Mataram Islam. Serangan masih diluncurkan oleh Pasukan Mataram Islam dengan menghujani benteng - benteng VOC tembakan - tembakan gencar.(Suratmin, dkk., 1982)",
     location: {
       center: [106.813058, -6.1288896],
       zoom: 16,
@@ -714,7 +714,7 @@ const chapters = [
     title: "7 Oktober 1629",
     image: "/SER 2/7 Oktober 1629.png",
     description:
-      "Senopati Mataram yaitu Tumenggung Singaranu kembali bersama Pasukan Mataram yang masih tersisa kembali menuju Mataram Islam setelah dapat memberikan kesan dan tekanan terhadap VOC. Meskipun begitu, VOC tetap bertahan di Batavia.",
+      "Senopati Mataram yaitu Tumenggung Singaranu kembali bersama Pasukan Mataram yang masih tersisa kembali menuju Mataram Islam setelah dapat memberikan kesan dan tekanan terhadap VOC. Meskipun begitu, VOC tetap bertahan di Batavia. (Suratmin, dkk., 1982)",
     location: {
       center: [106.813058, -6.1288896],
       zoom: 16,
@@ -734,7 +734,7 @@ const chapters = [
     title: "Oktober - Desember 1629",
     image: "/SER 2/Oktober - Desember 1929.png",
     description:
-      "Karena mulai memasuki musim penghujan, penyerangan terhadap Batavia dihentikan. Pasukan Mataran Islam ditarik karena perbekalan yang menipis dan berjangkitnya wabah penyakit menular. Serangan kedua yang dapat dikatakan gagal membuat Sultan Agung memerintahkan untuk menghukum semua orang yang pulang dengan kegagalan. Itu sebabnya seluruh jalan dan pintu gerbang dijaga agar tidak seorang pun dapat kembali kepada keluarganya. Tumenggung Singaranu mengetahui gelagat itu dan menahan sisa pasukan yang berjumlah sekitar 10.000 - 14.000 orang. Tumenggung Singaranu mengirimkan istri, selir, dan anak anaknya untuk mendapatkan pengampunan Sultan Agung. Pada akhirnya Sultan Agung mengampuni Singaranu dengan syarat selama 3 tahun tidak diperbolehkan berhadapan muka dengan raja dan kemungkinan tidak menempati posisinya lagi.",
+      "Karena mulai memasuki musim penghujan, penyerangan terhadap Batavia dihentikan. Pasukan Mataran Islam ditarik karena perbekalan yang menipis dan berjangkitnya wabah penyakit menular. Serangan kedua yang dapat dikatakan gagal membuat Sultan Agung memerintahkan untuk menghukum semua orang yang pulang dengan kegagalan. Itu sebabnya seluruh jalan dan pintu gerbang dijaga agar tidak seorang pun dapat kembali kepada keluarganya. Tumenggung Singaranu mengetahui gelagat itu dan menahan sisa pasukan yang berjumlah sekitar 10.000 - 14.000 orang. Tumenggung Singaranu mengirimkan istri, selir, dan anak anaknya untuk mendapatkan pengampunan Sultan Agung. Pada akhirnya Sultan Agung mengampuni Singaranu dengan syarat selama 3 tahun tidak diperbolehkan berhadapan muka dengan raja dan kemungkinan tidak menempati posisinya lagi. (Historia., 2020)",
     location: {
       center: [110.3978453, -7.829855287],
       zoom: 16,
