@@ -18,7 +18,7 @@ const chapters = [
     hidden: false,
     title: "Serangan Pertama",
     description:
-      "Penyerangan pertama ke Batavia dimulai pada musim kemarau, saat musim panen sehingga memudahkan dalam persiapan bekal. Kabar penyerangan sudah terdengar sejak lama di Batavia, Mataram Islam mengerahkan pasukan sekitar 4.800 - 10.000.",
+      "Penyerangan pertama ke Batavia dimulai pada musim kemarau, saat musim panen sehingga memudahkan dalam persiapan bekal. Kabar penyerangan sudah terdengar sejak lama di Batavia, Mataram Islam mengerahkan pasukan sekitar 4.800 - 10.000. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [107.6191, -6.9175], // Approximate center of Java
       zoom: 6, // Zoom level to show the island
@@ -39,7 +39,7 @@ const chapters = [
     image:
       "/SER 1/13 April 1628.png",
     description:
-      "Kyai Rangga tiba dengan 14 kapal bermuatan beras ke Batavia atas perintah Tumenggung Tegal. Kyai Rangga memohon kepada Belanda untuk membantu Sultan Agung untuk melawan Banten dan mengirim utusan ke Mataram Islam. Permohonan pertama dipertimbangkan oleh Belanda, sedangkan untuk permohonan terakhir ditolak karena seluruh pelabuhan ditutup ketat.",
+      "Kyai Rangga tiba dengan 14 kapal bermuatan beras ke Batavia atas perintah Tumenggung Tegal. Kyai Rangga memohon kepada Belanda untuk membantu Sultan Agung untuk melawan Banten dan mengirim utusan ke Mataram Islam. Permohonan pertama dipertimbangkan oleh Belanda, sedangkan untuk permohonan terakhir ditolak karena seluruh pelabuhan ditutup ketat. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.808786, -6.114473],
       zoom: 16,
@@ -59,7 +59,7 @@ const chapters = [
     title: "22 Agustus 1628",
     image: "/SER 1/22 Agustus 1628.png",
     description:
-      "Tumenggung Baureksa, sebagai panglima tertinggi armada Jawa telah tiba ke Batavia dengan pasukan yang terdiri dari 50 kapal. Kapal ini memuat awak tidak kurang dari 900 awak kapal, 150 ekor ternak, 3.600 liter beras, 10.000 ikat padi, dan 26.000 kelapa.",
+      "Tumenggung Baureksa, sebagai panglima tertinggi armada Jawa telah tiba ke Batavia dengan pasukan yang terdiri dari 50 kapal. Kapal ini memuat awak tidak kurang dari 900 awak kapal, 150 ekor ternak, 3.600 liter beras, 10.000 ikat padi, dan 26.000 kelapa. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.808786, -6.114473],
       zoom: 16,
@@ -79,7 +79,7 @@ const chapters = [
     title: "24 Agustus 1628",
     image: "/SER 1/24 Agustus 1628.png",
     description:
-      "Tiba 7 kapal yang singgah ke Batavia untuk meminta izin perjalanan ke Malaka. Ternyata kapal-kapal ini merupakan pasukan yang sama - sama berada di bawah kepemimpinan Tumenggung Baureksa. Belanda mencoba menghadang agar kapal yang tiba lebih awal tidak bertemu dengan kapal ini supaya tidak dapat menyalurkan bantuan senjata. Tetapi usaha Belanda gagal karena akhirnya kapal - kapal tersebut dapat bertemu. VOC (Belanda) akhirnya pun melarikan diri ke Benteng Paarel yang baru saja dibangun setinggi 12 kaki.",
+      "Tiba 7 kapal yang singgah ke Batavia untuk meminta izin perjalanan ke Malaka. Ternyata kapal-kapal ini merupakan pasukan yang sama - sama berada di bawah kepemimpinan Tumenggung Baureksa. Belanda mencoba menghadang agar kapal yang tiba lebih awal tidak bertemu dengan kapal ini supaya tidak dapat menyalurkan bantuan senjata. Tetapi usaha Belanda gagal karena akhirnya kapal - kapal tersebut dapat bertemu. VOC (Belanda) akhirnya pun melarikan diri ke Benteng Paarel yang baru saja dibangun setinggi 12 kaki. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.808786, -6.114473],
       zoom: 16,
@@ -99,7 +99,7 @@ const chapters = [
     title: "25 Agustus 1628",
     image: "/SER 1/25 Agustus 1628.png",
     description:
-      "Pendaratan Pasukan Mataram Islam yang ketiga menggunakan 27 kapal perang. Kapal - kapal tersebut berpangkal di muara Sungai Marunda yang berada di 9 km sebelah Timur Tanjung Priok. Pasukan pendaratan ketiga melaporkan kedatangan mereka kepada pasukan yang lebih pertama tiba di Batavia.",
+      "Pendaratan Pasukan Mataram Islam yang ketiga menggunakan 27 kapal perang. Kapal - kapal tersebut berpangkal di muara Sungai Marunda yang berada di 9 km sebelah Timur Tanjung Priok. Pasukan pendaratan ketiga melaporkan kedatangan mereka kepada pasukan yang lebih pertama tiba di Batavia. (Suratmin, dkk., 1982)",
     location: {
       center: [106.958378, -6.087664],
       zoom: 16,
@@ -119,7 +119,7 @@ const chapters = [
     title: "26 Agustus 1628",
     image: "/SER 1/26 Agustus 1628.png",
     description:
-      "Pasukan Mataram di bawah kepemimpinan Tumenggung Baureksa dari Kendal tiba ke Batavia. Pasukan yang tiba berjumlah 10.000 orang. Karena kedatangan pasukan tersebut terlambat 2 hari, mereka hanya bertemu dengan angkatan laut yang gagal merebut benteng VOC.",
+      "Pasukan Mataram di bawah kepemimpinan Tumenggung Baureksa dari Kendal tiba ke Batavia. Pasukan yang tiba berjumlah 10.000 orang. Karena kedatangan pasukan tersebut terlambat 2 hari, mereka hanya bertemu dengan angkatan laut yang gagal merebut benteng VOC. (Yenni T., 2011)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -139,7 +139,7 @@ const chapters = [
     title: "26 Agustus 1628",
     image: "/SER 1/26 Agustus 1628 B.png",
     description:
-      "Pada pagi hari sebelumnya, Belanda mendengar kabar datangnya pasukan di bawah kepemimpinan Tumenggung Baureksa dari Kendal. Saat itu juga Belanda langsung mempersiapkan diri dengan melakukan pengosongan kota pada bagian barat dan selatan. Rumah serta bangunan - bangunan dibakar dan diratakan dengan tanah. Tujuannya adalah untuk mempermudah Belanda menghadapi pasukan Mataram Islam.",
+      "Pada pagi hari sebelumnya, Belanda mendengar kabar datangnya pasukan di bawah kepemimpinan Tumenggung Baureksa dari Kendal. Saat itu juga Belanda langsung mempersiapkan diri dengan melakukan pengosongan kota pada bagian barat dan selatan. Rumah serta bangunan - bangunan dibakar dan diratakan dengan tanah. Tujuannya adalah untuk mempermudah Belanda menghadapi pasukan Mataram Islam.(Yenni T., 2011)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -159,7 +159,7 @@ const chapters = [
     title: "27 Agustus 1628",
     image: "/SER 1/27 Agustus 1628.png",
     description:
-      "Penyerangan pertama oleh Pasukan Mataram Islam di bawah kepemimpinan Tumenggung Baureksa terjadi di Benteng Holland tepatnya pada malam hari. Akibat penyerangan yang dilancarkan semalam suntuk, menyebabkan VOC hampir kehabisan peluru dan banyak meriam yang rusak. Selain itu, penyerangan ini juga membuat sebagian besar orang Belanda juga panik dan berlari ketakutan menuju ke arah benteng.",
+      "Penyerangan pertama oleh Pasukan Mataram Islam di bawah kepemimpinan Tumenggung Baureksa terjadi di Benteng Holland tepatnya pada malam hari. Akibat penyerangan yang dilancarkan semalam suntuk, menyebabkan VOC hampir kehabisan peluru dan banyak meriam yang rusak. Selain itu, penyerangan ini juga membuat sebagian besar orang Belanda juga panik dan berlari ketakutan menuju ke arah benteng. (Yenni T., 2011) Belum ada cerita penyerangan ke orang cina (Suratmin, dkk., 1982)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -179,7 +179,7 @@ const chapters = [
     title: "3 September 1628",
     image: "/SER 1/3 September 1628.png",
     description:
-      "Pasukan Mataram Islam dikerahkan untuk membuat tanggul dan parit - parit perlindungan. Selain itu, juga disiapkan beberapa meriam yang menghadap ke Benteng Holland. Penyerangan ini menimbulkan kerusakan kecil pada benteng tersebut.",
+      "Pasukan Mataram Islam dikerahkan untuk membuat tanggul dan parit - parit perlindungan. Selain itu, juga disiapkan beberapa meriam yang menghadap ke Benteng Holland. Penyerangan ini menimbulkan kerusakan kecil pada benteng tersebut. (Suratmin, dkk., 1982)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -199,7 +199,7 @@ const chapters = [
     title: "3 September 1628",
     image: "/SER 1/7 - 8 September 1628.png",
     description:
-      "Penyerangan juga dilakukan pada Benteng Paarel dan Benteng Gelderland di tanggal yang sama. Pasukan Mataram Islam melakukan penyerangan tidak hanya di malam hari, melainkan juga di siang hari saat dimana VOC melakukan patroli. Karena permasalahan ini, VOC menawarkan imbalan 100 bagi siapa saja yang rela menangkap prajurit Mataram Islam. Namun, usaha yang dilakukan VOC ini terbilang sia - sia dan tidak membawa hasil. ",
+      "Penyerangan juga dilakukan pada Benteng Paarel dan Benteng Gelderland di tanggal yang sama. Pasukan Mataram Islam melakukan penyerangan tidak hanya di malam hari, melainkan juga di siang hari saat dimana VOC melakukan patroli. Karena permasalahan ini, VOC menawarkan imbalan 100 bagi siapa saja yang rela menangkap prajurit Mataram Islam. Namun, usaha yang dilakukan VOC ini terbilang sia - sia dan tidak membawa hasil. (Suratmin, dkk., 1982)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -219,7 +219,7 @@ const chapters = [
     title: "10 - 11 September 1628",
     image: "/SER 1/10-11 September 1628.png",
     description:
-      "Pada situasi di sekitar benteng, Pasukan Mataram Islam memajukan garis pertahanan dengan mendekati benteng, tetapi masih berada di luar jangkauan tembakan dari benteng. Pasukan Mataram Islam mulai menyusun barikade kayu dan bambu sebagai tempat berlindung. Sementara itu, pada tanggal yang sama juga terjadi pertempuran di muara Sungai Marunda. Pertempuran ini menyebabkan pihak VOC terdesak dan terpaksa masuk ke kota. Dalam pertempuran ini VOC mengerahkan sekitar 1500 orang Cina, 400 orang Jepang, dan 70 orang Mardijker. Situasi dimana Pasukan Mataram Islam memajukan garis pertahanan berlangsung hingga hari selanjutnya.",
+      "Pada situasi di sekitar benteng, Pasukan Mataram Islam memajukan garis pertahanan dengan mendekati benteng, tetapi masih berada di luar jangkauan tembakan dari benteng. Pasukan Mataram Islam mulai menyusun barikade kayu dan bambu sebagai tempat berlindung. Sementara itu, pada tanggal yang sama juga terjadi pertempuran di muara Sungai Marunda. Pertempuran ini menyebabkan pihak VOC terdesak dan terpaksa masuk ke kota. Dalam pertempuran ini VOC mengerahkan sekitar 1500 orang Cina, 400 orang Jepang, dan 70 orang Mardijker. Situasi dimana Pasukan Mataram Islam memajukan garis pertahanan berlangsung hingga hari selanjutnya.(Yenni T., 2011)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
