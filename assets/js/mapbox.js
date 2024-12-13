@@ -219,7 +219,7 @@ const chapters = [
     title: "10 - 11 September 1628",
     image: "/SER 1/10-11 September 1628.png",
     description:
-      "Pada situasi di sekitar benteng, Pasukan Mataram Islam memajukan garis pertahanan dengan mendekati benteng, tetapi masih berada di luar jangkauan tembakan dari benteng. Pasukan Mataram Islam mulai menyusun barikade kayu dan bambu sebagai tempat berlindung. Sementara itu, pada tanggal yang sama juga terjadi pertempuran di muara Sungai Marunda. Pertempuran ini menyebabkan pihak VOC terdesak dan terpaksa masuk ke kota. Dalam pertempuran ini VOC mengerahkan sekitar 1500 orang Cina, 400 orang Jepang, dan 70 orang Mardijker. Situasi dimana Pasukan Mataram Islam memajukan garis pertahanan berlangsung hingga hari selanjutnya.(Yenni T., 2011)",
+     "Pada situasi di sekitar benteng, Pasukan Mataram Islam memajukan garis pertahanan dengan mendekati benteng, tetapi masih berada di luar jangkauan tembakan dari benteng. Pasukan Mataram Islam mulai menyusun barikade kayu dan bambu sebagai tempat berlindung. Sementara itu, pada tanggal yang sama juga terjadi pertempuran di muara Sungai Marunda. Pertempuran ini menyebabkan pihak VOC terdesak dan terpaksa masuk ke kota. Dalam pertempuran ini, VOC mengerahkan sekitar 1500 orang Cina, 400 orang Jepang, dan 70 orang Mardijker. * Mardijker adalah sekelompok bekas tawanan perang yang diperoleh Belanda (VOC) dari hasil kemenangannya menduduki wilayah jajahan Portugis di Asia (India, Melaka), yang kemudian dibawa ke Batavia dan dimerdekakan setelah memenuhi syarat tertentu. Situasi di mana Pasukan Mataram Islam memajukan garis pertahanan berlangsung hingga hari selanjutnya (Suratmin, dkk., 1982).",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -239,7 +239,7 @@ const chapters = [
     title: "12 September 1628",
     image: "/SER 1/12 September 1628.png",
     description:
-      "VOC melancarkan serangan balasan mendadak terhadap Pasukan Mataram Islam. Serangan ini berhasil menghancurkan garis depan Pasukan Mataram Islam beserta parit - parit perlindungan mereka. Dalam penyerangan ini, VOC mengerahkan 65 serdadu yang dilindungi 150 penembang senapan kuno. Sebanyak 40 orang Prajurit Mataram Islam tewas dalam penyerangan ini.",
+      "VOC melancarkan serangan balasan mendadak terhadap Pasukan Mataram Islam. Serangan ini berhasil menghancurkan garis depan Pasukan Mataram Islam beserta parit - parit perlindungan mereka. Dalam penyerangan ini, VOC mengerahkan 65 serdadu yang dilindungi 150 penembang senapan kuno. Sebanyak 40 orang Prajurit Mataram Islam tewas dalam penyerangan ini.(Yenni T., 2011)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -259,7 +259,7 @@ const chapters = [
     title: "September 1628",
     image: "/SER 1/September 1628.png",
     description:
-      "Persediaan logistik Mataram Islam mulai menipis sehingga didatangkan bantuan makanan dari Banten dan Sumedang. Penyerangan selanjutnya,  VOC merencanakan untuk mengerahkan 700 orang pasukan inti ditambah pasukan milisi. Di sisi lainnya, Tumenggung Baureksa mengerahkan pasukan sebanyak 4.800 orang, 3.600 orang pelaut, dan 3.000 orang prajurit Sumedang. Ditambah dengan Pasukan Banten yang tetap berdiri sendiri.",
+      "Persediaan logistik Mataram Islam mulai menipis sehingga didatangkan bantuan makanan dari Banten dan Sumedang. Penyerangan selanjutnya,  VOC merencanakan untuk mengerahkan 700 orang pasukan inti ditambah pasukan milisi. Di sisi lainnya, Tumenggung Baureksa mengerahkan pasukan sebanyak 4.800 orang, 3.600 orang pelaut, dan 3.000 orang prajurit Sumedang. Ditambah dengan Pasukan Banten yang tetap berdiri sendiri. (Suratmin, dkk., 1982)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -279,7 +279,7 @@ const chapters = [
     title: "21 September 1628",
     image: "/SER 1/21 September 1628.png",
     description:
-      "Pasukan Mataram Islam kembali melakukan penyerangan terhadap Benteng Holland. Pasukan Mataram berusaha menghancurkan pertahanan VOC dengan menaiki benteng serta mendobrak benteng dengan balok - balok kayu. VOC menyerang balik dengan mengerahkan 300 serdadu dan 100 warga sipil (terdiri dari Mardjiker). Pertempuran ini memakan banyak korban pada sisi Pasukan Mataram Islam, sekitar 1.200 - 1.300 Pasukan Mataram Islam gugur, 2.000 - 3.000 pasukan ditawan VOC. Diperkirakan sebanyak 3.000 - 4.000 pasukan masih berkeliaran di hutan mencari makan. ",
+      "Pasukan Mataram Islam kembali melakukan penyerangan terhadap Benteng Holland. Pasukan Mataram berusaha menghancurkan pertahanan VOC dengan menaiki benteng serta mendobrak benteng dengan balok - balok kayu. VOC menyerang balik dengan mengerahkan 300 serdadu dan 100 warga sipil (terdiri dari Mardjiker). Pertempuran ini memakan banyak korban pada sisi Pasukan Mataram Islam, sekitar 1.200 - 1.300 Pasukan Mataram Islam gugur, 2.000 - 3.000 pasukan ditawan VOC. Diperkirakan sebanyak 3.000 - 4.000 pasukan masih berkeliaran di hutan mencari makan.  (Triwihana dan Siswanta., 2024) ",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -299,7 +299,7 @@ const chapters = [
     title: "22 September 1628",
     image: "/SER 1/22 September 1628.png",
     description:
-      "Tumenggung Baureksa memimpin serangan dengan sasaran utama adalah Benteng Bommer dan Benteng Friesland yang terletak di selatan benteng induk, serta Benteng Holland. Serangan ini menyebabkan Benteng Holland mengalami kerusakan cukup parah dan hampir jatuh ke tangan Pasukan Mataram Islam. Akan tetapi usaha ini tidak berhasil karena terdesak oleh pasukan bantuan kompeni (VOC) yang dipimpin oleh Van Gorcum ",
+      "Tumenggung Baureksa memimpin serangan dengan sasaran utama adalah Benteng Bommer dan Benteng Friesland yang terletak di selatan benteng induk, serta Benteng Holland. Serangan ini menyebabkan Benteng Holland mengalami kerusakan cukup parah dan hampir jatuh ke tangan Pasukan Mataram Islam. Akan tetapi usaha ini tidak berhasil karena terdesak oleh pasukan bantuan kompeni (VOC) yang dipimpin oleh Van Gorcum (Yenni T., 2011)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -319,7 +319,7 @@ const chapters = [
     title: "25 September 1628",
     image: "/SER 1/25 September 1628.png",
     description:
-      "Penyerangan oleh pasukan Tumenggung Baureksa terhadap Benteng Holland kembali terjadi. Penyerangan ini terjadi sangat tiba - tiba saat VOC sedang membongkar kubu - kubu pertahanan Pasukan Mataram Islam sehingga menyebabkan VOC kabur. VOC menjadi pihak yang memperoleh banyak kerugian akibat pertempuran ini, karena sebanyak 56 orang tewas, 24 orang luka - luka berat, 200 orang kehilangan senjata, dan 200 senjata tajam dirampas oleh pihak Mataram Islam. ",
+      "Penyerangan oleh pasukan Tumenggung Baureksa terhadap Benteng Holland kembali terjadi. Penyerangan ini terjadi sangat tiba - tiba saat VOC sedang membongkar kubu - kubu pertahanan Pasukan Mataram Islam sehingga menyebabkan VOC kabur. VOC menjadi pihak yang memperoleh banyak kerugian akibat pertempuran ini, karena sebanyak 56 orang tewas, 24 orang luka - luka berat, 200 orang kehilangan senjata, dan 200 senjata tajam dirampas oleh pihak Mataram Islam. (Suratmin, dkk., 1982)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -339,7 +339,7 @@ const chapters = [
     title: "8 - 11 Oktober 1628",
     image: "/SER 1/8 - 11 Oktober 1628.png",
     description:
-      "Beberapa sekutu VOC berasal dari tenaga sukarela dan pedagang - pedangan yang diundang ke Batavia, khususnya orang - orang Cina. Tumenggung Baureksa mengetahui hal ini dan segera mengirimkan surat kepada Sauw Beng Kong, yang merupakan kapten Cina di Batavia. Isi surat itu menyatakan agar orang - orang Cina tidak membantu VOC. Namun, surat permintaan tersebut ditolak oleh Sauw Beng Kong sehingga menyebabkan adanya penyerangan terhadap orang Cina yang dilakukan oleh Pasukan Mataram Islam. Pengeroyokan ini terjadi di Sungai Angke dan Sungai Ancol.",
+      "Beberapa sekutu VOC berasal dari tenaga sukarela dan pedagang - pedangan yang diundang ke Batavia, khususnya orang - orang Cina. Tumenggung Baureksa mengetahui hal ini dan segera mengirimkan surat kepada Sauw Beng Kong, yang merupakan kapten Cina di Batavia. Isi surat itu menyatakan agar orang - orang Cina tidak membantu VOC. Namun, surat permintaan tersebut ditolak oleh Sauw Beng Kong sehingga menyebabkan adanya penyerangan terhadap orang Cina yang dilakukan oleh Pasukan Mataram Islam. Pengeroyokan ini terjadi di Sungai Angke dan Sungai Ancol.(Suratmin, dkk., 1982)",
     location: {
       center: [106.830720,-6.122750],
       zoom: 16,
@@ -359,7 +359,7 @@ const chapters = [
     title: "21 Oktober 1628",
     image: "/SER 1/21 Oktober 1628.png",
     description:
-      "Akibat serangan yang bertubi - tubi yang diperoleh dari Pasukan Mataram Islam. Gubernur Jenderal VOC yaitu Jan Pieterszoon Coen merencanakan serangan balasan dengan mengerahkan pasukan sebanyak 2.866 pasukan yang terdiri dari 2 armada dan 7 sekoci. Beserta pasukan inti sebanyak 700 orang, 210 orang miliki Mardjiker, dan 700 orang Cina dan Jepang. Serangan balasan yang dipimpin oleh Jaques le Febre menyebabkan gugurnya Tumenggung Baureksa beserta 200 orang Prajurit Mataram Islam lainnya. Dengan gugurnya panglima Pasukan Mataram Islam, menyebabkan mental Pasukan Mataram Islam menjadi lemah. Sementara itu, Pasukan Sumedang dan Ukur  melarikan diri akibat tekanan dari VOC dan bersembunyi di Gunung Lambung, Banten.",
+      "Akibat serangan yang bertubi - tubi yang diperoleh dari Pasukan Mataram Islam. Gubernur Jenderal VOC yaitu Jan Pieterszoon Coen merencanakan serangan balasan dengan mengerahkan pasukan sebanyak 2.866 pasukan yang terdiri dari 2 armada dan 7 sekoci. Beserta pasukan inti sebanyak 700 orang, 210 orang miliki Mardjiker, dan 700 orang Cina dan Jepang. Serangan balasan yang dipimpin oleh Jaques le Febre menyebabkan gugurnya Tumenggung Baureksa beserta 200 orang Prajurit Mataram Islam lainnya. Dengan gugurnya panglima Pasukan Mataram Islam, menyebabkan mental Pasukan Mataram Islam menjadi lemah. Sementara itu, Pasukan Sumedang dan Ukur  melarikan diri akibat tekanan dari VOC dan bersembunyi di Gunung Lambung, Banten. (Suratmin, dkk., 1982) dan (Yenni T., 2011)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -379,7 +379,7 @@ const chapters = [
     title: "22 Oktober 1628",
     image: "/SER 1/22 Oktober 1628.png",
     description:
-      "Satu hari setelahnya setelah Tumenggung Baureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung Sura Agul - Agul, Kyai Adipati Mandureja, dan Kyai Adipati Upasanta. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.",
+      "Satu hari setelahnya setelah Tumenggung Baureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung Sura Agul - Agul, Kyai Adipati Mandureja, dan Kyai Adipati Upasanta. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.(Triwihana dan Siswanta., 2024) dan (Yenni T., 2011)",
     location: {
       center: [106.958378, -6.087664],
       zoom: 16,
@@ -399,7 +399,7 @@ const chapters = [
     title: "15 November 1628",
     image: "/SER 1/15 November 1628.png",
     description:
-      "Tumenggung Sura Agul - Agul memerintahkan Kyai Adipati Mandureja dan Kyai Adipati Upasanta untuk melayangkan serangan yang terakhir terhadap Benteng Holland. Pertempuran ini menyebabkan jatuhnya korban jiwa baik pada sisi Mataram Islam maupun VOC. Mataram Islam kehilangan sekitar 744 orang prajurit, sedangkan VOC kehilangan ratusan serdadu. Kekalahan ini menyebabkan para senopati takut menghadapi tanggung jawab yang dibebankan oleh Sultan Agung. Oleh karena itu, Tumenggung Sura Agul - Agul membunuh Kyai Adipati Mandureja dan Kyai Adipati Upasanta untuk mengurangi tanggung jawab dan kesan yang kurang baik. Namun, perbuatan ini akhirnya diketahui oleh Sultan Agung. Pembunuhan ini terjadi pada tanggal 1 Desember 1628. ",
+      "Tumenggung Sura Agul - Agul memerintahkan Kyai Adipati Mandureja dan Kyai Adipati Upasanta untuk melayangkan serangan yang terakhir terhadap Benteng Holland. Pertempuran ini menyebabkan jatuhnya korban jiwa baik pada sisi Mataram Islam maupun VOC. Mataram Islam kehilangan sekitar 744 orang prajurit, sedangkan VOC kehilangan ratusan serdadu. Kekalahan ini menyebabkan para senopati takut menghadapi tanggung jawab yang dibebankan oleh Sultan Agung. Oleh karena itu, Tumenggung Sura Agul - Agul membunuh Kyai Adipati Mandureja dan Kyai Adipati Upasanta untuk mengurangi tanggung jawab dan kesan yang kurang baik. Namun, perbuatan ini akhirnya diketahui oleh Sultan Agung. Pembunuhan ini terjadi pada tanggal 1 Desember 1628. (Suratmin, dkk., 1982)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -439,7 +439,7 @@ const chapters = [
     title: "3 Desember 1628",
     image: "/SER 1/3 Desember 1629.png",
     description:
-      "Pasukan Mataram Islam meninggalkan Batavia dan membiarkan mayat - mayat prajurit berserakan di tanah. VOC menemukan sekitar 744 Prajurit Mataram Islam tidak dikuburkan dan beberapa ditemukan tanpa kepala. Atas tindakan yang telah dilakukan oleh Tumenggung Sura Agul - Agul karena membunuh Kyai Adipati Mandureja dan Kyai Adipati Upasanta, maka Tumenggung Sura Agul - Agul perlu menebus kesalahannnya. Tumenggung Sura Agul - Agul dieksekusi bersama banyak bangsawan atas kegagalannya merebut Batavia. ",
+      "Pasukan Mataram Islam meninggalkan Batavia dan membiarkan mayat - mayat prajurit berserakan di tanah. VOC menemukan sekitar 744 Prajurit Mataram Islam tidak dikuburkan dan beberapa ditemukan tanpa kepala. Atas tindakan yang telah dilakukan oleh Tumenggung Sura Agul - Agul karena membunuh Kyai Adipati Mandureja dan Kyai Adipati Upasanta, maka Tumenggung Sura Agul - Agul perlu menebus kesalahannnya. Tumenggung Sura Agul - Agul dieksekusi bersama banyak bangsawan atas kegagalannya merebut Batavia. (Suratmin, dkk., 1982)",
     location: {
       center: [110.3978453, -7.829855287],
       zoom: 16,
@@ -479,7 +479,7 @@ const chapters = [
     title: "16 April 1629",
     image: "/SER 2/16 April 1629.png",
     description:
-      "Sebelum melakukan serangan kedua ke Batavia, Sultan Agung telah lebih dahulu melakukan persiapan dengan teliti dan seksama. Sultan Agung mengirim seorang mata - mata Mataram Islam yang bernama Warga untuk mengawasi Benteng Batavia. Warga menyamar sebagai pedagang untuk mengamati pergerakan benteng dan melaporakannnya ke pihak Mataram Islam. Seluruh laporan sudah berhasil disampaikan ke pihak Mataram Islam. Namun, naasnya Warga ditangkap, disiksa, dan dipenjarakan oleh VOC.",
+      "Sebelum melakukan serangan kedua ke Batavia, Sultan Agung telah lebih dahulu melakukan persiapan dengan teliti dan seksama. Sultan Agung mengirim seorang mata - mata Mataram Islam yang bernama Warga untuk mengawasi Benteng Batavia. Warga menyamar sebagai pedagang untuk mengamati pergerakan benteng dan melaporakannnya ke pihak Mataram Islam. Seluruh laporan sudah berhasil disampaikan ke pihak Mataram Islam. Namun, naasnya Warga ditangkap, disiksa, dan dipenjarakan oleh VOC. (Suratmin, dkk., 1982)",
     location: {
       center: [106.813058, -6.1288896],
       zoom: 16,
@@ -499,7 +499,7 @@ const chapters = [
     title: "Pertengahan Mei 1629",
     image: "/SER 2/Mei 1629..png",
     description:
-      "Penyerangan dibagi menjadi 2 gelombang, yaitu gelombang pertama dan gelombang kedua. Gelombang pertama terdiri atas arteleri beserta amonisinya. Gelombang pertama dipimpin oleh Adipati Ukur.",
+      "Penyerangan dibagi menjadi 2 gelombang, yaitu gelombang pertama dan gelombang kedua. Gelombang pertama terdiri atas arteleri beserta amonisinya. Gelombang pertama dipimpin oleh Adipati Ukur. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [110.3978453, -7.829855287],
       zoom: 16,
@@ -539,7 +539,7 @@ const chapters = [
     title: "22 Agustus 1629",
     image: "/SER 2/22 Agustus 1629.png",
     description:
-      "Serangan kedua difokuskan pada Benteng Paarel, Benteng Robijn, Benteng Safter, Benteng Diamant, dan Benteng Holland. Seluruh benteng tersebut dikepung berlapis - lapis dan semua persenjataan dan logistik diatur dengan tertib. Namun, sebelum serangan ini terjadi, VOC telah melakukan persiapan pertahanan dengan memfasilitasi benteng - benteng dengan meriam berkaliber besar, serta pintu - pintu untuk menyelamatkan diri.",
+      "Serangan kedua difokuskan pada Benteng Paarel, Benteng Robijn, Benteng Safter, Benteng Diamant, dan Benteng Holland. Seluruh benteng tersebut dikepung berlapis - lapis dan semua persenjataan dan logistik diatur dengan tertib. Namun, sebelum serangan ini terjadi, VOC telah melakukan persiapan pertahanan dengan memfasilitasi benteng - benteng dengan meriam berkaliber besar, serta pintu - pintu untuk menyelamatkan diri. (Suratmin, dkk., 1982) dan (Yenni T., 2011)",
     location: {
       center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
@@ -574,7 +574,7 @@ const chapters = [
     title: "14 - 15 September 1629",
     image: "/SER 2/14-15 September 1629.png",
     description:
-      "Muncul bantuan persenjataan yang diangkut dengan gerobak dan ditarik oleh 10 ekor kerbau. Setelah bantuan senjata datang, Pasukan Mataram Islam segera menyiapkan meriam-meriam tersebut ke garis penyerangan bagian depan. Meriam - meriam tersebut diantaranya Guntur Geni, Panca Wura, dan beberapa meriam kecil. ",
+      "Muncul bantuan persenjataan yang diangkut dengan gerobak dan ditarik oleh 10 ekor kerbau. Setelah bantuan senjata datang, Pasukan Mataram Islam segera menyiapkan meriam-meriam tersebut ke garis penyerangan bagian depan. Meriam - meriam tersebut diantaranya Guntur Geni, Panca Wura, dan beberapa meriam kecil. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
@@ -594,7 +594,7 @@ const chapters = [
     title: "17 September 1629",
     image: "/SER 2/17 September 1629.png",
     description:
-      "Bantuan yang diterima Pasukan Mataram Islam membuat perlawanan semakin genting. VOC menyiapkan serangan balasan di bawah kepemimpinan Antoni Van Diemen. Serangan balasan tersebut dilakukan dengan membakar pertahanan Pasukan Mataram Islam yang berujung pada kekalahan Pasukan Mataram Islam. Kebakaran ini tidak berlangsung lama karena adanya hujan yang memadamkan kebakaran saat itu.",
+      "Bantuan yang diterima Pasukan Mataram Islam membuat perlawanan semakin genting. VOC menyiapkan serangan balasan di bawah kepemimpinan Antoni Van Diemen. Serangan balasan tersebut dilakukan dengan membakar pertahanan Pasukan Mataram Islam yang berujung pada kekalahan Pasukan Mataram Islam. Kebakaran ini tidak berlangsung lama karena adanya hujan yang memadamkan kebakaran saat itu. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
@@ -614,7 +614,7 @@ const chapters = [
     title: "20 September 1629",
     image: "/SER 2/20 September 1629.png",
     description:
-      "Meriam - meriam Mataram Islam berhasil membuat Benteng Holland rusak parah. Prajurit Mataram Islam tidak mendobrak ataupun menaiki benteng tersebut meskipun serdadu VOC sudah kehabisan peluru. Dalam pertempuran ini,  Gubernur Jenderal VOC yaitu Jan Pieterszoon Coen meninggal diakibatkan penyakit kolera. Karena gereja terbakar saat pengepungan 17 September, maka dari itu, Jan Pieterszoon Coen dimakamkan di Balaikota.",
+      "Meriam - meriam Mataram Islam berhasil membuat Benteng Holland rusak parah. Prajurit Mataram Islam tidak mendobrak ataupun menaiki benteng tersebut meskipun serdadu VOC sudah kehabisan peluru. Dalam pertempuran ini,  Gubernur Jenderal VOC yaitu Jan Pieterszoon Coen meninggal diakibatkan penyakit kolera. Karena gereja terbakar saat pengepungan 17 September, maka dari itu, Jan Pieterszoon Coen dimakamkan di Balaikota.(Suratmin, dkk., 1982)",
     location: {
       center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
@@ -654,7 +654,7 @@ const chapters = [
     title: "29 September 1629",
     image: "/SER 2/29 September 1629.png",
     description:
-      "Pasukan Mataram Islam selanjutnya menyerang benteng pertahanan Belanda lainnya yaitu, Benteng Weesp. Penyerangan ini menyebabkan kerugian yang cukup besar pada sisi Mataram Islam. Hal ini disebabkan karena Pasukan Mataram Islam gagal merebut benteng tersebut. ",
+      "Pasukan Mataram Islam selanjutnya menyerang benteng pertahanan Belanda lainnya yaitu, Benteng Weesp. Penyerangan ini menyebabkan kerugian yang cukup besar pada sisi Mataram Islam. Hal ini disebabkan karena Pasukan Mataram Islam gagal merebut benteng tersebut. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.812145, -6.1293208],
       zoom: 16,
@@ -674,7 +674,7 @@ const chapters = [
     title: "2 Oktober 1629",
     image: "/SER 2/2 Oktober 1629.png",
     description:
-      "Pasukan Mataram islam mulai mundur dari medan pertempuran di Batavia. Hal ini disebabkan karena kelaparan yang dialami oleh Pasukan Mataram Islam. Awalnya, Sultan Agung sudah menyiapkan lumbung - lumbung persediaan bahan makanan di sepanjang Cirebon dan Karawang. Namun, VOC mengetahui hal ini dan langsung membakar habis lumbung - lumbung tersebut dan berujung munculnya kelaparan.",
+      "Pasukan Mataram islam mulai mundur dari medan pertempuran di Batavia. Hal ini disebabkan karena kelaparan yang dialami oleh Pasukan Mataram Islam. Awalnya, Sultan Agung sudah menyiapkan lumbung - lumbung persediaan bahan makanan di sepanjang Cirebon dan Karawang. Namun, VOC mengetahui hal ini dan langsung membakar habis lumbung - lumbung tersebut dan berujung munculnya kelaparan.(Triwihana dan Siswanta., 2024)",
     location: {
       center: [107.3201599, -6.30389198],
       zoom: 16,
