@@ -379,7 +379,7 @@ const chapters = [
     title: "22 Oktober 1628",
     image: "/SER 1/22 Oktober 1628.png",
     description:
-      "Satu hari setelahnya setelah Tumenggung Baureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung Sura Agul - Agul, Kyai Adipati Mandureja, dan Kyai Adipati Upasanta. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.(Triwihana dan Siswanta., 2024) dan (Yenni T., 2011)",
+      "Satu hari setelahnya setelah Tumenggung Baureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung TAN - Agul, Kyai Adipati Mandureja, dan Kyai Adipati Upasanta. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.  Begitu sampai di Batavia mereka langsung menghadap pasukan VOC yang akan menyerang dan menghancurkan pertahanan pasukan Mataram diluar kota den gan kekuatan yang tinggal 1.000 orang. (Triwihana dan Siswanta., 2024) dan (Yenni T., 2011)",
     location: {
       center: [106.958378, -6.087664],
       zoom: 16,
