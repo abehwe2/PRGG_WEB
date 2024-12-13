@@ -5,7 +5,7 @@ mapboxgl.accessToken =
 // Initialize the Mapbox map
 const map = new mapboxgl.Map({
   container: "map",
-  style: "mapbox://styles/abehwe2/cm4l41yfp00ff01sf8ux5e8h4",
+  style: "mapbox://styles/abehwe2/cm4i6p3kg00t701qt3ki4a4ip/draft",
   center: [106.832, -6.983], // Initial map center
   zoom: 6, // Initial zoom level
 })
