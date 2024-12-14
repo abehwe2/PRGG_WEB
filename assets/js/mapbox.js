@@ -121,7 +121,7 @@ const chapters = [
     description:
       "Pasukan Mataram di bawah kepemimpinan Tumenggung Bahureksa dari Kendal tiba ke Batavia. Pasukan yang tiba berjumlah 10.000 orang. Karena kedatangan pasukan tersebut terlambat 2 hari, mereka hanya bertemu dengan angkatan laut yang gagal merebut benteng VOC. (Yenni T., 2011)",
     location: {
-      center: [106.819563, -6.1416079],
+      center: [106.817257,	-6.151955514],
       zoom: 16,
       pitch: 56,
       bearing: -13,
@@ -141,7 +141,7 @@ const chapters = [
     description:
       "Pada pagi hari sebelumnya, Belanda mendengar kabar datangnya pasukan di bawah kepemimpinan Tumenggung Bahureksa dari Kendal. Saat itu juga Belanda langsung mempersiapkan diri dengan melakukan pengosongan kota pada bagian barat dan selatan. Rumah serta bangunan - bangunan dibakar dan diratakan dengan tanah. Tujuannya adalah untuk mempermudah Belanda menghadapi pasukan Mataram Islam.(Triwihana dan Siswanta., 2024)",
     location: {
-      center: [106.819563, -6.1416079],
+      center: [106.8123874,-6.129195],
       zoom: 16,
       pitch: 56,
       bearing: 17,
@@ -261,7 +261,7 @@ const chapters = [
     description:
       "Persediaan logistik Mataram Islam mulai menipis sehingga didatangkan bantuan makanan dari Banten dan Sumedang. Penyerangan selanjutnya,  VOC merencanakan untuk mengerahkan 700 orang pasukan inti ditambah pasukan milisi. Di sisi lainnya, Tumenggung Bahureksa mengerahkan pasukan sebanyak 4.800 orang, 3.600 orang pelaut, dan 3.000 orang prajurit Sumedang. Ditambah dengan Pasukan Banten yang tetap berdiri sendiri. (Suratmin, dkk., 1982)",
     location: {
-      center: [106.819563, -6.1416079],
+      center: [106.817257,	-6.151955514],
       zoom: 16,
       pitch: 56,
       bearing: 214,
@@ -341,7 +341,7 @@ const chapters = [
     description:
       "Beberapa sekutu VOC berasal dari tenaga sukarela dan pedagang - pedangan yang diundang ke Batavia, khususnya orang - orang Cina. Tumenggung Bahureksa mengetahui hal ini dan segera mengirimkan surat kepada Sauw Beng Kong, yang merupakan kapten Cina di Batavia. Isi surat itu menyatakan agar orang - orang Cina tidak membantu VOC. Namun, surat permintaan tersebut ditolak oleh Sauw Beng Kong sehingga menyebabkan adanya penyerangan terhadap orang Cina yang dilakukan oleh Pasukan Mataram Islam. Pengeroyokan ini terjadi di Sungai Angke dan Sungai Ancol.(Suratmin, dkk., 1982)",
     location: {
-      center: [106.830720,-6.122750],
+      center: [106.8290867,	-6.121241475],
       zoom: 16,
       pitch: 56,
       bearing: 68,
