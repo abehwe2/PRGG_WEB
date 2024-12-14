@@ -33,8 +33,8 @@ body {
     opacity: 1; /* Transparansi jika dibutuhkan */
     }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, 
+.h1, .h2, .h3 {
     z-index: 2;
     position: relative;
     color: var(--c-dark);
@@ -48,8 +48,48 @@ h7, h8, h9, h10,
     font-family: 'Merriweather';
     color: var(--c-dark);
     font-weight: 600;
+    display: block;
 }
 
+h4, h5, h6, 
+.h4, .h5, .h6 {
+    z-index: 2;
+    position: relative;
+    font-family: 'Merriweather';
+    color:rgb(192, 192, 192);
+    font-size: smaller;
+}
+
+h11,
+.h11{
+    z-index: 2;
+    position: relative;
+    font-family: 'IM FELL English SC';
+    color:var(--c-brand-light);
+    -webkit-text-stroke: #3b2f2f;
+    -webkit-text-stroke-width: 1px;
+    font-size:x-large;
+    font-style:oblique;
+    
+}
+h12,
+.h12{
+    z-index: 2;
+    position: relative;
+    font-family: 'IM FELL English SC';
+    color:var(--c-accent);
+    font-size: large;
+    display:block
+}
+h12,
+.h12{
+    z-index: 2;
+    position: relative;
+    font-family: 'IM FELL English SC';
+    color:var(--c-dark);
+    font-size: xx-large;
+    display:block
+}
 a {
     text-decoration: none;
     color: var(--c-brand);
@@ -67,6 +107,11 @@ a:hover {
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .section-padding {
@@ -74,11 +119,37 @@ img {
 
 }
 
-.section-padding {
+.text-justify {
+    text-align: justify;
+}
+
+.section-padding-bottom {
+    padding-bottom: 140px;
+
+}
+
+.section-padding-double {
     padding-top: 140px;
     padding-bottom: 140px;
-}
 
+}
+.section-bg-up {
+    background-image: url('../image/sect-up.png'); /* Ganti URL dengan gambar Anda */
+    background-size: cover; /* Menutupi seluruh area section */
+    background-position: center; /* Posisi tengah gambar */
+    background-attachment: fixed; /* Membuat efek parallax */
+    position: relative;
+    z-index: 1;
+  }
+
+  .section-bg-up {
+    background-image: url('../image/sect-down.png'); /* Ganti URL dengan gambar Anda */
+    background-size: cover; /* Menutupi seluruh area section */
+    background-position: center; /* Posisi tengah gambar */
+    background-attachment: fixed; /* Membuat efek parallax */
+    position: relative;
+    z-index: 1;
+  }
 .theme-shadow {
     box-shadow: var(--box-shadow);
 }
@@ -194,6 +265,13 @@ img {
     margin: 16px auto 24px auto;
 }
 
+.section-title .line2 {
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 8px auto 8px auto;
+}
+
 .section-title p {
     max-width: 500px;
     margin-left: auto;
@@ -298,15 +376,31 @@ img {
 
 /* TEAM */
 .team-member-content {
-    background-color: var(--c-brand);
+    background-color: var(--c-bg);
     position: absolute;
     bottom: -24px;
     left: 50%;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
     width: calc(100% - 50px);
+    height: 100px;
     transform: translateX(-50%);
-    padding: 24px;
+    padding: 10px;
     transition: var(--transition);
     opacity: 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 
 .team-member:hover .team-member-content {
