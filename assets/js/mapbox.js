@@ -379,7 +379,7 @@ const chapters = [
     title: "22 Oktober 1628",
     image: "/SER 1/22 Oktober 1628.png",
     description:
-      "Satu hari setelahnya setelah Tumenggung Baureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung Sura Agul-agul, Kyai Adipati Mandureja, dan Kyai Adipati Upasanta. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.  Begitu sampai di Batavia mereka langsung menghadap pasukan VOC yang akan menyerang dan menghancurkan pertahanan pasukan Mataram diluar kota den gan kekuatan yang tinggal 1.000 orang. (Triwihana dan Siswanta., 2024) dan (Yenni T., 2011)",
+      "Satu hari setelahnya setelah Tumenggung Baureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung Sura Agul-agul, Kyai Adipati Mandureja, dan Kyai Adipati Mandurareja. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.  Begitu sampai di Batavia mereka langsung menghadap pasukan VOC yang akan menyerang dan menghancurkan pertahanan pasukan Mataram diluar kota den gan kekuatan yang tinggal 1.000 orang. (Triwihana dan Siswanta., 2024) dan (Yenni T., 2011)",
     location: {
       center: [106.958378, -6.087664],
       zoom: 16,
@@ -399,7 +399,7 @@ const chapters = [
     title: "15 November 1628",
     image: "/SER 1/15 November 1628.png",
     description:
-      "Tumenggung Sura Agul - Agul memerintahkan Kyai Adipati Mandureja dan Kyai Adipati Upasanta untuk melayangkan serangan yang terakhir terhadap Benteng Holland. Pertempuran ini menyebabkan jatuhnya korban jiwa baik pada sisi Mataram Islam maupun VOC. Mataram Islam kehilangan sekitar 744 orang prajurit, sedangkan VOC kehilangan ratusan serdadu. Kekalahan ini menyebabkan para senopati takut menghadapi tanggung jawab yang dibebankan oleh Sultan Agung. Oleh karena itu, Tumenggung Sura Agul - Agul membunuh Kyai Adipati Mandureja dan Kyai Adipati Upasanta untuk mengurangi tanggung jawab dan kesan yang kurang baik. Namun, perbuatan ini akhirnya diketahui oleh Sultan Agung. Pembunuhan ini terjadi pada tanggal 1 Desember 1628. (Suratmin, dkk., 1982)",
+      "Tumenggung Sura Agul - Agul memerintahkan Kyai Adipati Mandureja dan Kyai Adipati Upasanta untuk melayangkan serangan yang terakhir terhadap Benteng Holland. Pertempuran ini menyebabkan jatuhnya korban jiwa baik pada sisi Mataram Islam maupun VOC. Mataram Islam kehilangan sekitar 744 orang prajurit, sedangkan VOC kehilangan ratusan serdadu. Kekalahan ini menyebabkan para senopati takut menghadapi tanggung jawab yang dibebankan oleh Sultan Agung. Oleh karena itu, Tumenggung Sura Agul-agul membunuh Kyai Adipati Mandurareja dan Kyai Adipati Mandurareja untuk mengurangi tanggung jawab dan kesan yang kurang baik. Namun, perbuatan ini akhirnya diketahui oleh Sultan Agung. Pembunuhan ini terjadi pada tanggal 1 Desember 1628. (Suratmin, dkk., 1982)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -439,7 +439,7 @@ const chapters = [
     title: "3 Desember 1628",
     image: "/SER 1/3 Desember 1629.png",
     description:
-      "Pasukan Mataram Islam meninggalkan Batavia dan membiarkan mayat - mayat prajurit berserakan di tanah. VOC menemukan sekitar 744 Prajurit Mataram Islam tidak dikuburkan dan beberapa ditemukan tanpa kepala. Atas tindakan yang telah dilakukan oleh Tumenggung Sura Agul - Agul karena membunuh Kyai Adipati Mandureja dan Kyai Adipati Upasanta, maka Tumenggung Sura Agul - Agul perlu menebus kesalahannnya. Tumenggung Sura Agul - Agul dieksekusi bersama banyak bangsawan atas kegagalannya merebut Batavia. (Suratmin, dkk., 1982)",
+      "Pasukan Mataram Islam meninggalkan Batavia dan membiarkan mayat - mayat prajurit berserakan di tanah. VOC menemukan sekitar 744 Prajurit Mataram Islam tidak dikuburkan dan beberapa ditemukan tanpa kepala. Atas tindakan yang telah dilakukan oleh Tumenggung Sura Agul-agul karena membunuh Kyai Adipati Mandurareja dan Kyai Adipati Mandurareja, maka Tumenggung Sura Agul-agul perlu menebus kesalahannnya. Tumenggung Sura Agul-agul dieksekusi bersama banyak bangsawan atas kegagalannya merebut Batavia. (Suratmin, dkk., 1982)",
     location: {
       center: [110.3978453, -7.829855287],
       zoom: 16,
