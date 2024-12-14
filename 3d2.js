@@ -44,8 +44,8 @@ scene.add(groundMesh);
 const light = new THREE.AmbientLight( 0xffffff ); // soft white light
 scene.add( light );
 
-const loader = new GLTFLoader().setPath('model/istana_mataram2/');
-loader.load('ISTANA_MATARAM.gltf', (gltf) => {
+const loader = new GLTFLoader().setPath('model/ISTANA_MATARAM/');
+loader.load('scene.gltf', (gltf) => {
   console.log('loading model');
   const mesh = gltf.scene;
 
