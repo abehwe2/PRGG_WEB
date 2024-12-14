@@ -6,103 +6,113 @@
     <title>Babad Palagan</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
+  
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-          <a class="navbar-brand" href="javascript:void(0);">
-              <img src="./assets/images/logo-dark.svg" alt="Logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                      <a class="nav-link" href="#hero">Beranda</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="latbel.html">Latar Belakang</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="visualisasi.html">Visualisasi</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="tentang.html">Tentang</a>
-                  </li>
-              </ul>
-              <a href="mapbox.html" class="btn btn-brand ms-lg-3">Peta Interaktif</a>
-          </div>
+        <a class="navbar-brand" href="javascript:void(0);">
+          <img src="./assets/image/logo.svg" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="latbel.html">Latar Belakang</a></li>
+            <li class="nav-item"><a class="nav-link" href="visualisasi.html">Visualisasi</a></li>
+            <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+          </ul>
+          <a href="mapbox.html" class="btn btn-brand ms-lg-3">Peta Interaktif</a>
+        </div>
       </div>
     </nav>
 
-    <!-- LATAR BELAKANG -->
-    <section id="latbel" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
-                    <div class="section-title">
-                        <h1 class="display-4 fw-semibold">Latar Belakang</h1>
-                        <div class="line"></div>
-                    </div>
-                </div>
+    <!-- LATBEL SECTION 1 -->
+    <section id="latbel" style="padding: 40px" class="text-justify">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Latar Belakang</h1>
+              <div class="line"></div>
             </div>
-            <div class="row justify-content-between">
-                <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
-                    <img src="./assets/image/about.jpg" alt="">
-                </div>
-                <div data-aos="fade-down" data-aos-delay="150" class="col-lg-5">
-                    <h8 class="mt-3 mb-4 text-center">Latar belakang penyerangan Mataram Islam terhadap VOC di Batavia pada tahun 1628 dan 1629 ketika dipimpin oleh Sultan Agung didorong oleh kekhawatiran terhadap ancaman yang ditimbulkan oleh keberadaan VOC di Pulau Jawa. Sultan Agung memandang kehadiran VOC sebagai bahaya bagi kekuasaan Mataram Islam dan memiliki prinsip untuk tidak berkompromi dengan penjajah. VOC, melalui kongsi dagangnya, berpotensi menguasai jalur perdagangan strategis dan melemahkan kedaulatan Mataram. Oleh karena itu, Sultan Agung melancarkan dua kali serangan besar-besaran ke Batavia, meskipun akhirnya harus menghadapi kegagalan akibat strategi VOC yang kuat dan wabah penyakit yang melemahkan pasukan Mataram.</h8>
-                    <div class="d-flex pt-4 mb-3">
-                        <div class="iconbox me-4">
-                            <img src="./assets/image/sultanagung.jpg" alt=""></img>
-                        </div>
-                        <div>
-                            <h5>We are Awesome</h5>
-                            <p>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <div class="iconbox me-4">
-                            <img src="./assets/image/jpcoen.jpeg" alt=""></img>
-                        </div>
-                        <div>
-                            <h5>We are Awesome</h5>
-                            <p>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-3" data-aos="fade-down" data-aos-delay="50">
+            <img src="./assets/image/voc.png" alt="">
+          </div>
+          <div class="col-lg-6" data-aos="fade-down" data-aos-delay="150">
+            <h8 class="mt-3 mb-4 text-center">
+              Latar belakang penyerangan Mataram Islam terhadap VOC di Batavia pada tahun 1628 dan 1629 ketika dipimpin oleh Sultan Agung didorong oleh kekhawatiran terhadap ancaman yang ditimbulkan oleh keberadaan VOC di Pulau Jawa. Sultan Agung memandang kehadiran VOC sebagai bahaya bagi kekuasaan Mataram Islam dan memiliki prinsip untuk tidak berkompromi dengan penjajah. VOC, melalui kongsi dagangnya, berpotensi menguasai jalur perdagangan strategis dan melemahkan kedaulatan Mataram. Oleh karena itu, Sultan Agung melancarkan dua kali serangan besar-besaran ke Batavia, meskipun akhirnya harus menghadapi kegagalan akibat strategi VOC yang kuat dan wabah penyakit yang melemahkan pasukan Mataram.
+            </h8>
+          </div>
+          <div class="col-lg-3" data-aos="fade-down" data-aos-delay="50">
+            <img src="./assets/image/voc.png" alt="">
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- LATBEL SECTION 2 -->
+    <section id="latbel" class="text-justify section-padding-bottom" >
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+              <div class="section-title">
+                <h1 class="display-4 fw-semibold">Pemimpin Mataram & VOC</h1>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-lg-2 order-1 order-lg-2" data-aos="fade-down" data-aos-delay="50">
+              <img src="./assets/image/sultanagung.jpg" alt="JP Coen" class="img-fluid">
+            </div>
+            <div class="col-lg-4 order-2 order-lg-1" data-aos="fade-down" data-aos-delay="150">
+              <h7 class="mt-3 mb-4 text-start">
+                Raden Mas Rangsang, dikenal sebagai Sultan Agung Hanyokrokusumo, adalah raja terbesar Kesultanan Mataram yang memerintah dari 1613 hingga 1645. Di bawah kepemimpinannya, Mataram Islam memperluas kekuasaan hingga Jawa Tengah, Timur, dan sebagian Jawa Barat. Kehadiran VOC di Batavia memicu perlawanan besar Sultan Agung karena dianggap mengancam kekuasaan Mataram.
+              </h7>
+            </div>
+            <div class="col-lg-2 order-4 order-lg-3" data-aos="fade-down" data-aos-delay="50">
+                <img src="./assets/image/jpcoen.jpg" alt="JP Coen" class="img-fluid">
+              </div>
+              <div class="col-lg-4 order-3 order-lg-4" data-aos="fade-down" data-aos-delay="150">
+                <h7 class="mt-3 mb-4 text-start">
+                    Jan Pieterszoon Coen adalah Gubernur Jenderal VOC yang menjabat dua kali, pada 1619–1623 dan 1627–1629. Selama jabatan keduanya, ia menghadapi serangan Kesultanan Banten dan Mataram di bawah Sultan Agung, yang menyerang Batavia dua kali pada 1628 dan 1629. Serangan tersebut gagal, tetapi Coen meninggal mendadak pada September 1629.              </div>
+          </div>
+        </div>
+      </section>
 
     <!-- FOOTER -->
     <footer class="bg-dark text-light">
       <div class="footer-top">
-          <div class="container">
-              <div class="row gy-5">
-                  <div class="col-lg-3 col-sm-6">
-                      <a href="#"><img src="....." alt="Footer Logo"></a>
-                      <div class="line"></div>
-                      <p>...............................................................................................</p>
-                      <div class="social-icons">
-                          <a href="#"><i class="ri-github-fill"></i></a>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                      <h5 class="mb-0 text-white">CONTACT</h5>
-                      <div class="line"></div>
-                      <ul>
-                          <li>Susuhbango, Kabupaten Kediri</li>
-                          <li>(123) 456 - 789</li>
-                      </ul>
-                  </div>
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3 col-sm-6">
+              <a href="#"><img src="./assets/image/logo-footer.svg" alt="Footer Logo"></a>
+              <div class="line"></div>
+              <h4>Memvisualisasikan penyerangan pasukan Mataram Islam ke markas VOC di Batavia pada tahun 1628-1629</h4>
+              <div class="social-icons">
+                <a href="#"><i class="ri-github-fill"></i></a>
               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h3 class="mb-0 text-white">Hubungi Kami</h3>
+              <div class="line"></div>
+              <ul style="font: smaller Merriweather;">
+                <li>Jl. Grafika No. 2 Kampus UGM, Yogyakarta</li>
+                <li>+62 823-3410-1284</li>
+                <li>kelompok19prgg@gmail.com</li>
+              </ul>
+            </div>
           </div>
+        </div>
       </div>
       <div class="footer-bottom">
           <div class="container">
@@ -120,5 +130,9 @@
 
     <!-- Bootstrap Bundle JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
 </html>
