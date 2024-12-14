@@ -594,7 +594,7 @@ const chapters = [
     title: "17 September 1629",
     image: "/SER 2/17 September 1629.png",
     description:
-      "Bantuan yang diterima Pasukan Mataram Islam membuat perlawanan semakin genting. VOC menyiapkan serangan balasan di bawah kepemimpinan Antoni Van Diemen. Serangan balasan tersebut dilakukan dengan membakar pertahanan Pasukan Mataram Islam yang berujung pada kekalahan Pasukan Mataram Islam. Kebakaran ini tidak berlangsung lama karena adanya hujan yang memadamkan kebakaran saat itu. (Triwihana dan Siswanta., 2024)",
+      "Bantuan yang diterima Pasukan Mataram Islam membuat perlawanan semakin genting. VOC menyiapkan serangan balasan di bawah kepemimpinan Antonio Van Diemen. Serangan balasan tersebut dilakukan dengan membakar pertahanan Pasukan Mataram Islam yang berujung pada kekalahan Pasukan Mataram Islam. Kebakaran ini tidak berlangsung lama karena adanya hujan yang memadamkan kebakaran saat itu. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.81342484297303, -6.128726318508597],
       zoom: 16,
