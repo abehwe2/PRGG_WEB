@@ -499,7 +499,7 @@ const chapters = [
     title: "Pertengahan Mei 1629",
     image: "/SER 2/Mei 1629..png",
     description:
-      "Penyerangan dibagi menjadi 2 gelombang, yaitu gelombang pertama dan gelombang kedua. Gelombang pertama terdiri atas arteleri beserta amonisinya. Gelombang pertama dipimpin oleh Adipati Ukur. (Triwihana dan Siswanta., 2024)",
+      "Penyerangan dibagi menjadi 2 gelombang, yaitu gelombang pertama dan gelombang kedua. Gelombang pertama terdiri atas arteleri beserta amonisinya. Gelombang pertama dipimpin oleh Dipati Ukur . (Triwihana dan Siswanta., 2024)",
     location: {
       center: [110.3978453, -7.829855287],
       zoom: 16,
