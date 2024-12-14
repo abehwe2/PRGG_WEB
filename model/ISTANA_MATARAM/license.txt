@@ -1,0 +1,11 @@
+Model Information:
+* title:	ISTANA_MATARAM2
+* source:	https://sketchfab.com/3d-models/istana-mataram2-03f3709baf844755806f0bd457adb969
+* author:	Izzuddin0804 (https://sketchfab.com/Izzuddin0804)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "ISTANA_MATARAM2" (https://sketchfab.com/3d-models/istana-mataram2-03f3709baf844755806f0bd457adb969) by Izzuddin0804 (https://sketchfab.com/Izzuddin0804) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
