@@ -59,7 +59,7 @@ const chapters = [
     title: "22 Agustus 1628",
     image: "/SER 1/22 Agustus 1628.png",
     description:
-      "Tumenggung Baureksa, sebagai panglima tertinggi armada Jawa telah tiba ke Batavia dengan pasukan yang terdiri dari 50 kapal. Kapal ini memuat awak tidak kurang dari 900 awak kapal, 150 ekor ternak, 3.600 liter beras, 10.000 ikat padi, dan 26.000 kelapa. (Triwihana dan Siswanta., 2024)",
+      "Tumenggung Bahureksa, sebagai panglima tertinggi armada Jawa telah tiba ke Batavia dengan pasukan yang terdiri dari 50 kapal. Kapal ini memuat awak tidak kurang dari 900 awak kapal, 150 ekor ternak, 3.600 liter beras, 10.000 ikat padi, dan 26.000 kelapa. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.808786, -6.114473],
       zoom: 16,
@@ -79,7 +79,7 @@ const chapters = [
     title: "24 Agustus 1628",
     image: "/SER 1/24 Agustus 1628.png",
     description:
-      "Tiba 7 kapal yang singgah ke Batavia untuk meminta izin perjalanan ke Malaka. Ternyata kapal-kapal ini merupakan pasukan yang sama - sama berada di bawah kepemimpinan Tumenggung Baureksa. Belanda mencoba menghadang agar kapal yang tiba lebih awal tidak bertemu dengan kapal ini supaya tidak dapat menyalurkan bantuan senjata. Tetapi usaha Belanda gagal karena akhirnya kapal - kapal tersebut dapat bertemu. VOC (Belanda) akhirnya pun melarikan diri ke Benteng Paarel yang baru saja dibangun setinggi 12 kaki. (Triwihana dan Siswanta., 2024)",
+      "Tiba 7 kapal yang singgah ke Batavia untuk meminta izin perjalanan ke Malaka. Ternyata kapal-kapal ini merupakan pasukan yang sama - sama berada di bawah kepemimpinan Tumenggung Bahureksa. Belanda mencoba menghadang agar kapal yang tiba lebih awal tidak bertemu dengan kapal ini supaya tidak dapat menyalurkan bantuan senjata. Tetapi usaha Belanda gagal karena akhirnya kapal - kapal tersebut dapat bertemu. VOC (Belanda) akhirnya pun melarikan diri ke Benteng Paarel yang baru saja dibangun setinggi 12 kaki. (Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.808786, -6.114473],
       zoom: 16,
@@ -119,7 +119,7 @@ const chapters = [
     title: "26 Agustus 1628",
     image: "/SER 1/26 Agustus 1628.png",
     description:
-      "Pasukan Mataram di bawah kepemimpinan Tumenggung Baureksa dari Kendal tiba ke Batavia. Pasukan yang tiba berjumlah 10.000 orang. Karena kedatangan pasukan tersebut terlambat 2 hari, mereka hanya bertemu dengan angkatan laut yang gagal merebut benteng VOC. (Yenni T., 2011)",
+      "Pasukan Mataram di bawah kepemimpinan Tumenggung Bahureksa dari Kendal tiba ke Batavia. Pasukan yang tiba berjumlah 10.000 orang. Karena kedatangan pasukan tersebut terlambat 2 hari, mereka hanya bertemu dengan angkatan laut yang gagal merebut benteng VOC. (Yenni T., 2011)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -139,7 +139,7 @@ const chapters = [
     title: "26 Agustus 1628",
     image: "/SER 1/26 Agustus 1628 B.png",
     description:
-      "Pada pagi hari sebelumnya, Belanda mendengar kabar datangnya pasukan di bawah kepemimpinan Tumenggung Baureksa dari Kendal. Saat itu juga Belanda langsung mempersiapkan diri dengan melakukan pengosongan kota pada bagian barat dan selatan. Rumah serta bangunan - bangunan dibakar dan diratakan dengan tanah. Tujuannya adalah untuk mempermudah Belanda menghadapi pasukan Mataram Islam.(Triwihana dan Siswanta., 2024)",
+      "Pada pagi hari sebelumnya, Belanda mendengar kabar datangnya pasukan di bawah kepemimpinan Tumenggung Bahureksa dari Kendal. Saat itu juga Belanda langsung mempersiapkan diri dengan melakukan pengosongan kota pada bagian barat dan selatan. Rumah serta bangunan - bangunan dibakar dan diratakan dengan tanah. Tujuannya adalah untuk mempermudah Belanda menghadapi pasukan Mataram Islam.(Triwihana dan Siswanta., 2024)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -159,7 +159,7 @@ const chapters = [
     title: "27 Agustus 1628",
     image: "/SER 1/27 Agustus 1628.png",
     description:
-      "Penyerangan pertama oleh Pasukan Mataram Islam di bawah kepemimpinan Tumenggung Baureksa terjadi di Benteng Holland tepatnya pada malam hari. Akibat penyerangan yang dilancarkan semalam suntuk, menyebabkan VOC hampir kehabisan peluru dan banyak meriam yang rusak. Selain itu, penyerangan ini juga membuat sebagian besar orang Belanda juga panik dan berlari ketakutan menuju ke arah benteng. (Yenni T., 2011) Belum ada cerita penyerangan ke orang cina (Suratmin, dkk., 1982)",
+      "Penyerangan pertama oleh Pasukan Mataram Islam di bawah kepemimpinan Tumenggung Bahureksa terjadi di Benteng Holland tepatnya pada malam hari. Akibat penyerangan yang dilancarkan semalam suntuk, menyebabkan VOC hampir kehabisan peluru dan banyak meriam yang rusak. Selain itu, penyerangan ini juga membuat sebagian besar orang Belanda juga panik dan berlari ketakutan menuju ke arah benteng. (Yenni T., 2011) Belum ada cerita penyerangan ke orang cina (Suratmin, dkk., 1982)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -259,7 +259,7 @@ const chapters = [
     title: "September 1628",
     image: "/SER 1/September 1628.png",
     description:
-      "Persediaan logistik Mataram Islam mulai menipis sehingga didatangkan bantuan makanan dari Banten dan Sumedang. Penyerangan selanjutnya,  VOC merencanakan untuk mengerahkan 700 orang pasukan inti ditambah pasukan milisi. Di sisi lainnya, Tumenggung Baureksa mengerahkan pasukan sebanyak 4.800 orang, 3.600 orang pelaut, dan 3.000 orang prajurit Sumedang. Ditambah dengan Pasukan Banten yang tetap berdiri sendiri. (Suratmin, dkk., 1982)",
+      "Persediaan logistik Mataram Islam mulai menipis sehingga didatangkan bantuan makanan dari Banten dan Sumedang. Penyerangan selanjutnya,  VOC merencanakan untuk mengerahkan 700 orang pasukan inti ditambah pasukan milisi. Di sisi lainnya, Tumenggung Bahureksa mengerahkan pasukan sebanyak 4.800 orang, 3.600 orang pelaut, dan 3.000 orang prajurit Sumedang. Ditambah dengan Pasukan Banten yang tetap berdiri sendiri. (Suratmin, dkk., 1982)",
     location: {
       center: [106.819563, -6.1416079],
       zoom: 16,
@@ -299,7 +299,7 @@ const chapters = [
     title: "22 September 1628",
     image: "/SER 1/22 September 1628.png",
     description:
-      "Tumenggung Baureksa memimpin serangan dengan sasaran utama adalah Benteng Bommer dan Benteng Friesland yang terletak di selatan benteng induk, serta Benteng Holland. Serangan ini menyebabkan Benteng Holland mengalami kerusakan cukup parah dan hampir jatuh ke tangan Pasukan Mataram Islam. Akan tetapi usaha ini tidak berhasil karena terdesak oleh pasukan bantuan kompeni (VOC) yang dipimpin oleh Van Gorcum (Yenni T., 2011)",
+      "Tumenggung Bahureksa memimpin serangan dengan sasaran utama adalah Benteng Bommer dan Benteng Friesland yang terletak di selatan benteng induk, serta Benteng Holland. Serangan ini menyebabkan Benteng Holland mengalami kerusakan cukup parah dan hampir jatuh ke tangan Pasukan Mataram Islam. Akan tetapi usaha ini tidak berhasil karena terdesak oleh pasukan bantuan kompeni (VOC) yang dipimpin oleh Van Gorcum (Yenni T., 2011)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -319,7 +319,7 @@ const chapters = [
     title: "25 September 1628",
     image: "/SER 1/25 September 1628.png",
     description:
-      "Penyerangan oleh pasukan Tumenggung Baureksa terhadap Benteng Holland kembali terjadi. Penyerangan ini terjadi sangat tiba - tiba saat VOC sedang membongkar kubu - kubu pertahanan Pasukan Mataram Islam sehingga menyebabkan VOC kabur. VOC menjadi pihak yang memperoleh banyak kerugian akibat pertempuran ini, karena sebanyak 56 orang tewas, 24 orang luka - luka berat, 200 orang kehilangan senjata, dan 200 senjata tajam dirampas oleh pihak Mataram Islam. (Suratmin, dkk., 1982)",
+      "Penyerangan oleh pasukan Tumenggung Bahureksa terhadap Benteng Holland kembali terjadi. Penyerangan ini terjadi sangat tiba - tiba saat VOC sedang membongkar kubu - kubu pertahanan Pasukan Mataram Islam sehingga menyebabkan VOC kabur. VOC menjadi pihak yang memperoleh banyak kerugian akibat pertempuran ini, karena sebanyak 56 orang tewas, 24 orang luka - luka berat, 200 orang kehilangan senjata, dan 200 senjata tajam dirampas oleh pihak Mataram Islam. (Suratmin, dkk., 1982)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -339,7 +339,7 @@ const chapters = [
     title: "8 - 11 Oktober 1628",
     image: "/SER 1/8 - 11 Oktober 1628.png",
     description:
-      "Beberapa sekutu VOC berasal dari tenaga sukarela dan pedagang - pedangan yang diundang ke Batavia, khususnya orang - orang Cina. Tumenggung Baureksa mengetahui hal ini dan segera mengirimkan surat kepada Sauw Beng Kong, yang merupakan kapten Cina di Batavia. Isi surat itu menyatakan agar orang - orang Cina tidak membantu VOC. Namun, surat permintaan tersebut ditolak oleh Sauw Beng Kong sehingga menyebabkan adanya penyerangan terhadap orang Cina yang dilakukan oleh Pasukan Mataram Islam. Pengeroyokan ini terjadi di Sungai Angke dan Sungai Ancol.(Suratmin, dkk., 1982)",
+      "Beberapa sekutu VOC berasal dari tenaga sukarela dan pedagang - pedangan yang diundang ke Batavia, khususnya orang - orang Cina. Tumenggung Bahureksa mengetahui hal ini dan segera mengirimkan surat kepada Sauw Beng Kong, yang merupakan kapten Cina di Batavia. Isi surat itu menyatakan agar orang - orang Cina tidak membantu VOC. Namun, surat permintaan tersebut ditolak oleh Sauw Beng Kong sehingga menyebabkan adanya penyerangan terhadap orang Cina yang dilakukan oleh Pasukan Mataram Islam. Pengeroyokan ini terjadi di Sungai Angke dan Sungai Ancol.(Suratmin, dkk., 1982)",
     location: {
       center: [106.830720,-6.122750],
       zoom: 16,
@@ -359,7 +359,7 @@ const chapters = [
     title: "21 Oktober 1628",
     image: "/SER 1/21 Oktober 1628.png",
     description:
-      "Akibat serangan yang bertubi - tubi yang diperoleh dari Pasukan Mataram Islam. Gubernur Jenderal VOC yaitu Jan Pieterszoon Coen merencanakan serangan balasan dengan mengerahkan pasukan sebanyak 2.866 pasukan yang terdiri dari 2 armada dan 7 sekoci. Beserta pasukan inti sebanyak 700 orang, 210 orang miliki Mardjiker, dan 700 orang Cina dan Jepang. Serangan balasan yang dipimpin oleh Jaques le Febre menyebabkan gugurnya Tumenggung Baureksa beserta 200 orang Prajurit Mataram Islam lainnya. Dengan gugurnya panglima Pasukan Mataram Islam, menyebabkan mental Pasukan Mataram Islam menjadi lemah. Sementara itu, Pasukan Sumedang dan Ukur  melarikan diri akibat tekanan dari VOC dan bersembunyi di Gunung Lambung, Banten. (Suratmin, dkk., 1982) dan (Yenni T., 2011)",
+      "Akibat serangan yang bertubi - tubi yang diperoleh dari Pasukan Mataram Islam. Gubernur Jenderal VOC yaitu Jan Pieterszoon Coen merencanakan serangan balasan dengan mengerahkan pasukan sebanyak 2.866 pasukan yang terdiri dari 2 armada dan 7 sekoci. Beserta pasukan inti sebanyak 700 orang, 210 orang miliki Mardjiker, dan 700 orang Cina dan Jepang. Serangan balasan yang dipimpin oleh Jaques le Febre menyebabkan gugurnya Tumenggung Bahureksa beserta 200 orang Prajurit Mataram Islam lainnya. Dengan gugurnya panglima Pasukan Mataram Islam, menyebabkan mental Pasukan Mataram Islam menjadi lemah. Sementara itu, Pasukan Sumedang dan Ukur  melarikan diri akibat tekanan dari VOC dan bersembunyi di Gunung Lambung, Banten. (Suratmin, dkk., 1982) dan (Yenni T., 2011)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -379,7 +379,7 @@ const chapters = [
     title: "22 Oktober 1628",
     image: "/SER 1/22 Oktober 1628.png",
     description:
-      "Satu hari setelahnya setelah Tumenggung Baureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung Sura Agul-agul, Kyai Adipati Mandureja, dan Kyai Adipati Mandurareja. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.  Begitu sampai di Batavia mereka langsung menghadap pasukan VOC yang akan menyerang dan menghancurkan pertahanan pasukan Mataram diluar kota den gan kekuatan yang tinggal 1.000 orang. (Triwihana dan Siswanta., 2024) dan (Yenni T., 2011)",
+      "Satu hari setelahnya setelah Tumenggung Bahureksa gugur, datangnya pasukan bantuan dari Mataram Islam yang dipimpin oleh Tumenggung Sura Agul-agul, Kyai Adipati Mandureja, dan Kyai Adipati Mandurareja. Datangnya pasukan bantuan membuat semangat Pasukan Mataram Islam yang pertama kembali. Pasukan ini terdiri dari dua kesatuan, yaitu angkatan darat dan angkatan laut. Pada malam harinya, terjadi penyerangan kembali terhadap Pasukan Mataram Islam yang berpangkalan di Marunda.  Begitu sampai di Batavia mereka langsung menghadap pasukan VOC yang akan menyerang dan menghancurkan pertahanan pasukan Mataram diluar kota den gan kekuatan yang tinggal 1.000 orang. (Triwihana dan Siswanta., 2024) dan (Yenni T., 2011)",
     location: {
       center: [106.958378, -6.087664],
       zoom: 16,
