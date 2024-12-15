@@ -16,6 +16,28 @@
     --transition: all 0.5s ease;
 }
 
+/* Desktop Specific Canvas Styling */
+@media (min-width: 768px) {
+    canvas {
+        width: 100vw;
+        height: 100vh;
+        box-shadow: var(--box-shadow);
+        border: 2px solid var(--c-dark);
+        border-radius: 10px;
+    }
+}
+
+/* Mobile Specific Canvas Styling */
+@media (max-width: 767px) {
+    canvas {
+        width: 100%;
+        height: auto;
+        box-shadow: var(--box-shadow);
+        border: 1px solid var(--c-dark);
+        border-radius: 5px;
+    }
+}
+
 body {
     font-family: var(--font-base);
     line-height: 1.7;
