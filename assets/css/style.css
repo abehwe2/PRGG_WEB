@@ -32,9 +32,15 @@ body {
     z-index: 0; /* Membuatnya berada di belakang konten */
     opacity: 1; /* Transparansi jika dibutuhkan */
     }
-
-h1, h2, h3, 
-.h1, .h2, .h3 {
+h1,
+.h1{
+    z-index: 2;
+    position: relative;
+    color: var(--c-dark);
+    font-weight: 400;
+}
+h2, h3, 
+.h2, .h3 {
     z-index: 2;
     position: relative;
     color: var(--c-dark);
