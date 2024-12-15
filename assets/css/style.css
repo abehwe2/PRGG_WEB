@@ -176,7 +176,7 @@ img {
 .text-box {
     position: absolute;
     width: 800px;
-    height: 160px;
+    height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -39%);
@@ -195,7 +195,7 @@ img {
 .text-box3d {
     position: absolute;
     width: 400px;
-    height: 160px;
+    height: auto;
     top: 30%;
     left: 20%;
     transform: translate(-50%, -39%);
