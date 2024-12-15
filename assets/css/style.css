@@ -176,7 +176,7 @@ img {
 .text-box {
     position: absolute;
     width: 800px;
-    height: auto;
+    height: 160px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -39%);
@@ -195,7 +195,7 @@ img {
 .text-box3d {
     position: absolute;
     width: 400px;
-    height: auto;
+    height: 160px;
     top: 30%;
     left: 20%;
     transform: translate(-50%, -39%);
@@ -636,3 +636,130 @@ footer .line {
 		font-size: 22px;
 	}
 }
+
+.gallery-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  .gallery-item:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  }
+  .gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Lightbox Modal Styles */
+  .lightbox-modal .modal-dialog {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .lightbox-modal .modal-content {
+    background-color: rgba(0,0,0,0.9);
+    border: none;
+    height: 100%;
+    border-radius: 0;
+  }
+  .lightbox-modal .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .lightbox-modal .modal-body .zoomable-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+  }
+  .lightbox-modal .modal-body .zoomable-image.zoomed {
+    transform: scale(2);
+    cursor: zoom-out;
+  }
+  
+  .lightbox-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1050;
+    transition: background-color 0.3s ease;
+  }
+  .lightbox-close-btn:hover {
+    background-color: rgba(255,255,255,0.3);
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 992px) {
+    .gallery-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 576px) {
+    .gallery-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+/* Image Label Styles */
+.gallery-item .image-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .gallery-item:hover .image-label {
+    opacity: 1;
+  }
+
+  .lightbox-image-label {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    max-width: 800px;
+    margin-top: 10px;
+  }
