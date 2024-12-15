@@ -68,8 +68,8 @@ html, body {
   left: 10px;
   background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
   padding: 20px;
-  width: 800px; /* Expanded width */
-  max-height: 10000px; /* Limit height */
+  width: 600px; /* Expanded width */
+  max-height: 800px; /* Limit height */
   overflow-y: auto; /* Enable scroll if content overflows */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
   border-radius: 8px; /* Rounded corners */
