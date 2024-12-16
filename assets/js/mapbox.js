@@ -751,26 +751,53 @@ const chapters = [
 
 let currentIndex = 0;
 
-// Function to update the story content and fly to the next chapter
+// Tambahkan aturan CSS ke dalam file atau gaya tambahan di HTML Anda
+const style = document.createElement('style');
+style.textContent = `
+  #story {
+    padding: 20px; /* Tambahkan jarak dalam dari tepi */
+    margin: 0 auto; /* Pusatkan elemen di tengah */
+    max-width: 800px; /* Batas maksimum lebar cerita */
+    background-color: #f9f9f9; /* Warna latar belakang cerita */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan ringan */
+  }
+
+  #story img {
+    max-width: 100%; /* Gambar tidak lebih besar dari kontainer */
+    height: auto; /* Pertahankan rasio aspek gambar */
+    display: block;
+    margin: 10px auto; /* Tambahkan margin untuk gambar */
+  }
+
+  @media (max-width: 768px) {
+    #story {
+      padding: 15px; /* Kurangi padding untuk perangkat kecil */
+    }
+  }
+`;
+
+document.head.appendChild(style);
+
+// Fungsi untuk memperbarui cerita tetap sama
 function goToChapter(index) {
   const chapter = chapters[index];
 
-  // Fly to the chapter location
   map.flyTo({
-    center: chapter.location.center, // Assuming chapter location is always defined
-    zoom: chapter.location.zoom,     // Assuming chapter zoom is always defined
-    pitch: chapter.location.pitch,   // Assuming chapter pitch is always defined
-    bearing: chapter.location.bearing, // Assuming chapter bearing is always defined
+    center: chapter.location.center, // Lokasi tengah peta
+    zoom: chapter.location.zoom, // Tingkat zoom
+    pitch: chapter.location.pitch, // Sudut kemiringan
+    bearing: chapter.location.bearing, // Arah
     essential: true,
   });
 
-  // Update the content dynamically
   document.getElementById("story").innerHTML = `
     <h2>${chapter.title}</h2>
     ${chapter.image ? `<img src="${chapter.image}" alt="${chapter.title}" />` : ""}
     <p>${chapter.description}</p>
   `;
 }
+
 
 // Button click to start exploration
 document.getElementById("startButton").onclick = function () {
