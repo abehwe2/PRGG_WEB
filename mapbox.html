@@ -17,20 +17,56 @@
     <!-- Mapbox GL JS -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
-  <body>
-    <!-- Container for header and button -->
-    <div class="container" id="introContainer">
-      <h1>
-       Storymap Pergerakan Pasukan Mataram Islam ke Batavia Tahun 1628 dan
+
+  <body>    <!-- Container for header and button -->
+    <div id="introContainer">
+      <h13 class="text-start">
+        Storymap Pergerakan Pasukan Mataram Islam ke Batavia Tahun 1628 dan
         1629
-      </h1>
+      </h13>
       <p>
         Selamat datang di petualangan kita! Klik tombol di bawah ini untuk
         memulai eksplorasi.
       </p>
       <button id="startButton">Mulai Eksplorasi</button>
-    </div>
+    </div></body>
+  <body>
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html;">
+              <img src="./assets/image/logo.svg" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Beranda</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="latbel.html">Latar Belakang</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="visualisasi.html">Visualisasi</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="tentang.html">Tentang</a>
+                  </li>
+              </ul>
+              <a href="mapbox.html" class="btn btn-brand ms-lg-3">Peta Interaktif</a>
+          </div>
+      </div>
+    </nav>
 
     <!-- Mapbox map container -->
     <div id="map"></div>
@@ -39,6 +75,7 @@
     <div id="story"></div>
 
     <!-- Link to the external JavaScript file (corrected path) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/mapbox.js"></script>
   </body>
 </html>
