@@ -1,4 +1,3 @@
-/* Make the map take up full screen */
 #map {
   width: 100%;
   height: 100vh;  /* Full viewport height */
@@ -41,8 +40,7 @@ html, body {
 #introContainer {
     position: absolute;
     z-index: 2;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    background-image: url('https://i.imgur.com/Y5mMHrG.png'); /* Direct Imgur link */
+    background: linear-gradient(rgba(12, 12, 12, 0.507),rgba(24, 24, 24, 0.438)), url('../image/bg3.jpeg');  
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -69,7 +67,7 @@ html, body {
   background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
   padding: 20px;
   width: 600px; /* Expanded width */
-  max-height: 800px; /* Limit height */
+  max-height: 650px; /* Limit height */
   overflow-y: auto; /* Enable scroll if content overflows */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
   border-radius: 8px; /* Rounded corners */
@@ -104,3 +102,5 @@ html, body {
     max-height: 300px; /* Reduce max height for smaller screens */
   }
 }
+
+
