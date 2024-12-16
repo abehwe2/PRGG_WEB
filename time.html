@@ -143,6 +143,117 @@
           }
         });
       });
+
+                document.querySelectorAll('.lightbox-modal .zoomable-image').forEach(image => {
+      let isZoomed = false;
+      let isDragging = false;
+      let startX, startY, translateX = 0, translateY = 0;
+          
+      const container = image.closest('.modal-body');
+          
+      function resetZoom() {
+        image.style.transform = 'translate(0,0) scale(1)';
+        translateX = 0;
+        translateY = 0;
+        isZoomed = false;
+      }
+    
+      function constrainMovement(newTranslateX, newTranslateY) {
+        const imageRect = image.getBoundingClientRect();
+        const containerRect = container.getBoundingClientRect();
+      
+        // Calculate max movement based on image and container sizes
+        const maxMoveX = (imageRect.width - containerRect.width) / 2;
+        const maxMoveY = (imageRect.height - containerRect.height) / 2;
+      
+        // Constrain movement within reasonable bounds
+        const constrainedX = Math.max(Math.min(newTranslateX, maxMoveX), -maxMoveX);
+        const constrainedY = Math.max(Math.min(newTranslateY, maxMoveY), -maxMoveY);
+      
+        return [constrainedX, constrainedY];
+      }
+    
+      image.addEventListener('click', function(e) {
+        if (!isZoomed) {
+          // Zoom in
+          const rect = image.getBoundingClientRect();
+          const offsetX = e.clientX - rect.left;
+          const offsetY = e.clientY - rect.top;
+        
+          image.style.transformOrigin = `${offsetX}px ${offsetY}px`;
+          image.style.transform = 'translate(0,0) scale(2)';
+          isZoomed = true;
+        } else {
+          // Reset zoom
+          resetZoom();
+        }
+      });
+    
+      image.addEventListener('mousedown', function(e) {
+        if (isZoomed) {
+          isDragging = true;
+          startX = e.clientX - translateX;
+          startY = e.clientY - translateY;
+          image.style.cursor = 'grabbing';
+          e.preventDefault();
+        }
+      });
+    
+      document.addEventListener('mousemove', function(e) {
+        if (isDragging && isZoomed) {
+          const newTranslateX = e.clientX - startX;
+          const newTranslateY = e.clientY - startY;
+        
+          const [constrainedX, constrainedY] = constrainMovement(newTranslateX, newTranslateY);
+        
+          translateX = constrainedX;
+          translateY = constrainedY;
+        
+          image.style.transform = `translate(${translateX}px, ${translateY}px) scale(2)`;
+          e.preventDefault();
+        }
+      });
+    
+      document.addEventListener('mouseup', function() {
+        if (isDragging) {
+          isDragging = false;
+          image.style.cursor = 'grab';
+        }
+      });
+    
+      // Ensure grab cursor only when zoomed
+      image.addEventListener('mouseenter', function() {
+        if (isZoomed) {
+          this.style.cursor = 'grab';
+        }
+      });
+    
+      image.addEventListener('mouseleave', function() {
+        isDragging = false;
+        this.style.cursor = 'default';
+      });
+    
+      // Wheel zoom with incremental steps
+      image.addEventListener('wheel', function(e) {
+        if (isZoomed) {
+          e.preventDefault();
+          const currentScale = isZoomed ? 2 : 1;
+          const delta = e.deltaY > 0 ? 0.5 : -0.5;
+          const newScale = Math.max(1, Math.min(currentScale + delta, 3));
+        
+          if (newScale === 1) {
+            resetZoom();
+          } else {
+            const rect = image.getBoundingClientRect();
+            const offsetX = e.clientX - rect.left;
+            const offsetY = e.clientY - rect.top;
+          
+            image.style.transformOrigin = `${offsetX}px ${offsetY}px`;
+            image.style.transform = `translate(${translateX}px, ${translateY}px) scale(${newScale})`;
+          }
+        }
+      });
+    });
     </script>
   </body>
 </html>
