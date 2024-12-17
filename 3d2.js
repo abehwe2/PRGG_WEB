@@ -38,7 +38,7 @@ const groundMaterial = new THREE.MeshStandardMaterial({
 });
 const groundMesh = new THREE.Mesh(groundGeometry, groundMaterial);
 groundMesh.castShadow = false;
-groundMesh.receiveShadow = true;
+groundMesh.receiveShadow = false;
 scene.add(groundMesh);
 
 const light = new THREE.AmbientLight( 0xffffff ); // soft white light
@@ -51,8 +51,8 @@ loader.load('scene.gltf', (gltf) => {
 
   mesh.traverse((child) => {
     if (child.isMesh) {
-      child.castShadow = true;
-      child.receiveShadow = true;
+      child.castShadow = false;
+      child.receiveShadow = false;
     }
   });
 
