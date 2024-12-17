@@ -11,11 +11,28 @@
     --c-accent: #658d65;
     --c-accent-rgb: 101, 141, 101;
     --c-bg: #efe1cb;
+    
+    /* Improved Typography */
     --font-base: "IM FELL English SC", sans-serif;
+    --font-secondary: "Merriweather", sans-serif;
+    
+    /* Enhanced Responsive Variables */
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --transition: all 0.5s ease;
+    --border-radius: 10px;
 }
 
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
 /* Desktop Specific Canvas Styling */
 @media (min-width: 768px) {
     canvas {
@@ -24,6 +41,9 @@
         box-shadow: var(--box-shadow);
         border: 2px solid var(--c-dark);
         border-radius: 10px;
+    }
+    html {
+        font-size: 14px;
     }
 }
 
@@ -39,38 +59,44 @@
 }
 
 body {
-    font-family: var(--font-base);
+    font-family: var(--font-secondary);
     line-height: 1.7;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(var(--c-body-rgb), 0.807), rgba(var(--c-body-rgb), 0.638)),url('../image/bg2.jpeg'); /* Ganti dengan URL gambar Anda */
-    background-size: cover; /* Gambar menyesuaikan ukuran */
-    background-position: center; /* Memposisikan gambar */
-    background-attachment: fixed; /* Membuat background tetap */
-    z-index: 0; /* Membuatnya berada di belakang konten */
-    opacity: 1; /* Transparansi jika dibutuhkan */
-    }
-h1,
-.h1{
+    font-size: 1rem;
+    position: relative;
+    background: linear-gradient(rgba(var(--c-body-rgb), 0.807), rgba(var(--c-body-rgb), 0.638)), url('../image/bg2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    opacity: 1;
+}
+
+h1, .h1 {
     z-index: 2;
     position: relative;
     color: var(--c-dark);
     font-weight: 400;
+    font-family: var(--font-base);
+    font-size: clamp(2rem, 5vw, 2.5rem);
 }
-h2, h3, 
-.h2, .h3 {
+
+h2, .h2 {
     z-index: 2;
     position: relative;
     color: var(--c-dark);
     font-weight: 600;
+    font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
-h7, h8, h9, h10,
-.h7, .h8, .h9, .h10 {
+h3, .h3 {
+    z-index: 2;
+    position: relative;
+    color: var(--c-dark);
+    font-weight: 600;
+    font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+}
+
+h7, h8, h9, h10, .h7, .h8, .h9, .h10 {
     z-index: 2;
     position: relative;
     font-family: 'Merriweather';
@@ -79,45 +105,40 @@ h7, h8, h9, h10,
     display: block;
 }
 
-h4, h5, h6, 
-.h4, .h5, .h6 {
+h4, h5, h6, .h4, .h5, .h6 {
     z-index: 2;
     position: relative;
     font-family: 'Merriweather';
-    color:rgb(192, 192, 192);
+    color: rgb(192, 192, 192);
     font-size: smaller;
 }
 
-h11,
-.h11{
+h11, .h11 {
     z-index: 2;
     position: relative;
     font-family: 'IM FELL English SC';
-    color:var(--c-brand-light);
+    color: var(--c-brand-light);
     -webkit-text-stroke: #3b2f2f;
     -webkit-text-stroke-width: 1px;
-    font-size:x-large;
-    font-style:oblique;
-    
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-style: oblique;
 }
-h12,
-.h12{
+
+h12, .h12 {
     z-index: 2;
     position: relative;
     font-family: 'IM FELL English SC';
-    color:var(--c-accent);
-    font-size: large;
-    display:block
+    color: var(--c-accent);
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    display: block;
 }
-h12,
-.h12{
-    z-index: 2;
-    position: relative;
-    font-family: 'IM FELL English SC';
-    color:var(--c-dark);
-    font-size: xx-large;
-    display:block
+
+h12.dark, .h12.dark {
+    color: var(--c-dark);
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    display: block;
 }
+
 a {
     text-decoration: none;
     color: var(--c-brand);
@@ -136,15 +157,16 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
 }
 
 .section-padding {
-    padding-top: 140px;
-
+    padding-top: clamp(80px, 10vw, 140px);
 }
 
 .text-justify {
@@ -152,32 +174,16 @@ img {
 }
 
 .section-padding-bottom {
-    padding-bottom: 140px;
+    padding-bottom: clamp(80px, 10vw, 140px);
 
 }
 
 .section-padding-double {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: clamp(80px, 10vw, 140px);
+    padding-bottom: clamp(80px, 10vw, 140px);
 
 }
-.section-bg-up {
-    background-image: url('../image/sect-up.png'); /* Ganti URL dengan gambar Anda */
-    background-size: cover; /* Menutupi seluruh area section */
-    background-position: center; /* Posisi tengah gambar */
-    background-attachment: fixed; /* Membuat efek parallax */
-    position: relative;
-    z-index: 1;
-  }
 
-  .section-bg-up {
-    background-image: url('../image/sect-down.png'); /* Ganti URL dengan gambar Anda */
-    background-size: cover; /* Menutupi seluruh area section */
-    background-position: center; /* Posisi tengah gambar */
-    background-attachment: fixed; /* Membuat efek parallax */
-    position: relative;
-    z-index: 1;
-  }
 .theme-shadow {
     box-shadow: var(--box-shadow);
 }
@@ -205,11 +211,10 @@ img {
     position: absolute;
     width: 800px;
     height: auto;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -39%);
     background-color: rgba(255, 255, 255, 0.7);
-    /*Warnaputihsemi-transparan*/padding: 20px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
     z-index: 1;
@@ -255,6 +260,11 @@ img {
     background-color: var(--c-dark);
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .navbar-nav .nav-link {
     font-weight: 500;
     color: var(--c-brand-light);
@@ -268,15 +278,20 @@ img {
 /* BTN */
 .btn {
     font-weight: 600;
-    font-size: 16px;
+    font-size: clamp(0.9rem, 2vw, 1rem);
     text-transform: uppercase;
     border-radius: 10px;
     border-width: 2px;
-    padding: 10px 24px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    padding: clamp(8px, 2vw, 10px) clamp(16px, 4vw, 24px);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
 }
 
 .btn-brand {
@@ -457,12 +472,12 @@ footer .line {
     color: white;
 }
 
-.home .carousel-item{
-	min-height: 90vh;
-	background-position: center;
-	background-size: cover;
-	position: relative;
-	z-index: 1;
+.home .carousel-item {
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
 }
 .home .carousel-item:before{
 	content: '';
@@ -487,14 +502,14 @@ footer .line {
 }
 .home .carousel-item h2{
 	font-family: 'IM FELL English SC', cursive;
-	font-size: 80px;
+    font-size: clamp(2.5rem, 8vw, 5rem);
 	color: #fff;
 	margin: 0 0 10px;
 	opacity: 0;
 }
 .home .carousel-item p{
 	font-family: "Merriweather", sans-serif;
-	font-size: 24px;
+    font-size: clamp(1rem, 3vw, 1.5rem);
 	margin: 0;
 	color: #eee;
 	opacity: 0;
@@ -588,16 +603,28 @@ footer .line {
 		font-size: 22px;
 	}
 }
-
+@media (max-width: 768px) {
+    .home .carousel-item {
+        min-height: 60vh;
+    }
+    
+    .home .carousel-item h2 {
+        font-size: clamp(2rem, 6vw, 3.5rem);
+    }
+    
+    .home .carousel-item p {
+        font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+    }
+}
 .gallery-section {
-    padding: 60px 0;
+    padding: clamp(40px, 6vw, 60px) 0;
     background-color: #f4f4f4;
-  }
-  .gallery-container {
+}
+.gallery-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-  }
+}
   .gallery-item {
     position: relative;
     overflow: hidden;
@@ -679,12 +706,13 @@ footer .line {
   /* Responsive Adjustments */
   @media (max-width: 992px) {
     .gallery-container {
-      grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
   }
   @media (max-width: 576px) {
     .gallery-container {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
   }
 
@@ -715,3 +743,8 @@ footer .line {
     max-width: 800px;
     margin-top: 10px;
   }
+  @media (max-width: 375px) {
+    body {
+        font-size: 0.9rem;
+    }
+}
