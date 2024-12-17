@@ -45,6 +45,9 @@ html {
     html {
         font-size: 14px;
     }
+    .text-box {
+        width: 50%;
+    }
 }
 
 /* Mobile Specific Canvas Styling */
@@ -55,6 +58,9 @@ html {
         box-shadow: var(--box-shadow);
         border: 1px solid var(--c-dark);
         border-radius: 5px;
+    }
+    .text-box {
+        width: 50%;
     }
 }
 
@@ -714,6 +720,9 @@ footer .line {
         grid-template-columns: 1fr;
         gap: 15px;
     }
+    .text-box {
+        width: 100%;
+    }
   }
 
 /* Image Label Styles */
@@ -746,5 +755,8 @@ footer .line {
   @media (max-width: 375px) {
     body {
         font-size: 0.9rem;
+    }
+    .text-box{
+        width: 100%;
     }
 }
