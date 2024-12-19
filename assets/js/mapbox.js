@@ -419,7 +419,7 @@ const chapters = [
     title: "28 November 1628",
     image: "/SER 1/28 November 1628.png",
     description:
-      "Penyerangan tahap dua dilakukan kembali oleh Pasukan Mataram Islam untuk merebut Benteng Holland. Penyerangan ini menyebabkan 100 - 300 prajurit tepergok serdadu VOC. Beberapa prajurit dapat melarikan diri, tetapi sisanya ditembak mati oleh VOC. ",
+      "Penyerangan tahap dua dilakukan kembali oleh Pasukan Mataram Islam untuk merebut Benteng Holland. Penyerangan ini menyebabkan 100 - 300 prajurit tepergok serdadu VOC. Beberapa prajurit dapat melarikan diri, tetapi sisanya ditembak mati oleh VOC. (Historia., 2020)",
     location: {
       center: [106.812778, -6.138611],
       zoom: 16,
@@ -519,7 +519,7 @@ const chapters = [
     title: "20 Juni 1629",
     image: "/SER 2/20 Juni 1629.png",
     description:
-      "Setelah 1 bulan gelombang pertama berangkat ke Batavia, gelombang kedua mulai menyusul ke Batavia. Gelombang kedua terdiri dari pasukan infanteri dengan jumlah 14.000 prajurit. Gelombang kedua dipimpin oleh Adipati Juminah.",
+      "Setelah 1 bulan gelombang pertama berangkat ke Batavia, gelombang kedua mulai menyusul ke Batavia. Gelombang kedua terdiri dari pasukan infanteri dengan jumlah 14.000 prajurit. Gelombang kedua dipimpin oleh Adipati Juminah. (Jatimtimes., 2024)",
     location: {
       center: [110.3978453, -7.829855287],
       zoom: 16,
