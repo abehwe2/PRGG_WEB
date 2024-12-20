@@ -30,7 +30,7 @@ controls.autoRotate = false;
 controls.target = new THREE.Vector3(0, 1, 0);
 controls.update();
 
-const groundGeometry = new THREE.PlaneGeometry(20, 20, 32, 32);
+const groundGeometry = new THREE.PlaneGeometry(200, 200, 32, 32);
 groundGeometry.rotateX(-Math.PI / 2);
 const groundMaterial = new THREE.MeshStandardMaterial({
   color: 0xffffff,
@@ -57,7 +57,7 @@ loader.load('ISTANA_MATARAMfix.glb', (glb) => {
     }
   });
 
-  mesh.position.set(0, 1.05, -1);
+  mesh.position.set(0, 0, 0);
   scene.add(mesh);
 
   document.getElementById('progress-container').style.display = 'none';
