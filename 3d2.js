@@ -45,14 +45,15 @@ const light = new THREE.AmbientLight( 0xffffff ); // soft white light
 scene.add( light );
 
 const loader = new GLTFLoader().setPath('model/ISTANA_MATARAM/');
-loader.load('scene.gltf', (gltf) => {
+loader.load('ISTANA_MATARAMfix.glb', (glb) => {
   console.log('loading model');
-  const mesh = gltf.scene;
+  const mesh = glb.scene;
 
   mesh.traverse((child) => {
     if (child.isMesh) {
-      child.castShadow = false;
-      child.receiveShadow = false;
+      child.castShadow = true;
+      child.receiveShadow = true;
+      console.log(child.material);
     }
   });
 
@@ -79,3 +80,4 @@ function animate() {
 }
 
 animate();
+
