@@ -30,16 +30,6 @@ controls.autoRotate = false;
 controls.target = new THREE.Vector3(0, 1, 0);
 controls.update();
 
-const groundGeometry = new THREE.PlaneGeometry(200, 200, 32, 32);
-groundGeometry.rotateX(-Math.PI / 2);
-const groundMaterial = new THREE.MeshStandardMaterial({
-  color: 0xffffff,
-  side: THREE.DoubleSide
-});
-const groundMesh = new THREE.Mesh(groundGeometry, groundMaterial);
-groundMesh.castShadow = false;
-groundMesh.receiveShadow = true;
-scene.add(groundMesh);
 
 const light = new THREE.AmbientLight( 0xffffff ); // soft white light
 scene.add( light );
@@ -57,7 +47,7 @@ loader.load('ISTANA_MATARAMfix.glb', (glb) => {
     }
   });
 
-  mesh.position.set(0, 0, 0.1);
+  mesh.position.set(0, 0, 0);
   scene.add(mesh);
 
   document.getElementById('progress-container').style.display = 'none';
