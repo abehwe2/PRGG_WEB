@@ -57,7 +57,7 @@ loader.load('ISTANA_MATARAMfix.glb', (glb) => {
     }
   });
 
-  mesh.position.set(0, 0, 0);
+  mesh.position.set(0, 0, 0.1);
   scene.add(mesh);
 
   document.getElementById('progress-container').style.display = 'none';
